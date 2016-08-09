@@ -1,0 +1,19 @@
+# Description: CDDA extraction tool with jitter correction
+# URL: http://xiph.org/paranoia/
+# Maintainer: Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+
+name=cdparanoia
+version=10.2
+release=2
+source=(http://downloads.xiph.org/releases/$name/$name-III-$version.src.tgz
+        $name-$version-gcc43.patch)
+
+build () {
+  cd $name-III-$version
+  patch -p0 -i $SRC/$name-$version-gcc43.patch
+  ./configure --prefix=/usr \
+              --build=aarch64-unknown-linux-gnueabi
+  make -j1
+  make prefix=$PKG/usr install
+}
