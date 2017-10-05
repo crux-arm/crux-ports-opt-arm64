@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/g-ir-annotation-tool
 -rwxr-xr-x	root/root	usr/bin/g-ir-compiler
 -rwxr-xr-x	root/root	usr/bin/g-ir-generate
+-rwxr-xr-x	root/root	usr/bin/g-ir-inspect
 -rwxr-xr-x	root/root	usr/bin/g-ir-scanner
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/gobject-introspection-1.0/
