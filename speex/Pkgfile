@@ -6,7 +6,7 @@
 # Depends on: libogg
 
 name=speex
-version=1.2rc2
+version=1.2.0
 release=1
 source=(http://downloads.us.xiph.org/releases/$name/$name-$version.tar.gz)
 
@@ -14,8 +14,8 @@ build() {
   cd $name-$version
 
   ./configure --prefix=/usr \
-              --mandir=$PKG/usr/man \
-              --disable-static \
+              --enable-epic-48k \
+              --enable-binaries \
               --build=aarch64-unknown-linux-gnueabi
 
   sed -i -e "/^SUBDIRS = /s/doc //" Makefile
