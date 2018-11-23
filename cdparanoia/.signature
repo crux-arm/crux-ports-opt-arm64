@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMTfN2MxBIzTZksH+Edej4IhC8r/K5ieAFBsNfX58lGijjTqKz5k5dnBk1jyLsmi9bC6nxYBo2hAHEgAiLrhURQQ=
+SHA256 (Pkgfile) = e0d6bae30deda36a8a8fc5d8dabf09cf479a78ef2ec8a42a4b20c9001ff7a22e
+SHA256 (.footprint) = d0384df55c18b4a52f88188381b380d04dceeb281ad8adcfee42458cfe911610
+SHA256 (cdparanoia-III-10.2.src.tgz) = 005db45ef4ee017f5c32ec124f913a0546e77014266c6a1c50df902a55fe64df
+SHA256 (cdparanoia-10.2-gcc43.patch) = d055d86056809dee6e861af77d766fb0f17084bb19e44d9d99be8a0c11892a18
