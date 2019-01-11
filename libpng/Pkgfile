@@ -5,7 +5,7 @@
 # Depends on: zlib
 
 name=libpng
-version=1.6.34
+version=1.6.36
 release=1
 source=(http://download.sourceforge.net/$name/$name-$version.tar.xz \
         $name-apng.patch)
