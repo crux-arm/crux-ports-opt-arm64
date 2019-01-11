@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMffoJrbGMMthwmjU/VxbmEUNWR7HyzeHpEsx3yoy/1kpevpUlyp0LO3a3iB+vzkhYsohQqtN0fVicJLOrZ9LkwM=
-SHA256 (Pkgfile) = 9f524d6c20b13d5e8f2e364eb28294d58aff29ca89f866945f8bdf678fccb11d
+RWRitF9a2DJqMRlj+pDsTmLOx+E+5OmDcSvmJTEr+nGnSETJX474XsZd/j90pFi6r2pkPmfk5v/87GEw6VL7XsJbpd/mqG2HEA4=
+SHA256 (Pkgfile) = cfed4c0970b1e64239a6f9c790953f1b43621e37cf031c58f93cb95563f6a4bd
 SHA256 (.footprint) = 8e636d56693b8e10b9082b4fec4726bc62f13dbdcc40fd018059ac95abeb1377
-SHA256 (xterm-337.tgz) = ccac77ded347e78d5ffb69b381adf8b2377ce66644b8bec6308aaf19b9aecfa7
+SHA256 (xterm-342.tgz) = 80222090bd349dabb472bbb92d0e22a30d9f14ff22eebbbb13070548e86f14f9
