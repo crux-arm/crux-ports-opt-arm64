@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMbdiI4b1pw1oFwl2b8pn5zSHesBxYdL2p6zr/3cnqOK8Rl1wLar61cRIYyoZCfjP8ENEsSWv44OpwvlICIhZ2gc=
+SHA256 (Pkgfile) = 7423fd6d9674972cd7b312b04569b71001999a83ad221d4f89ea6d95e1ad28bf
+SHA256 (.footprint) = ca061300ec5c3d41243c6e0670e672aa7a8d8dac0e5775f898802bd301eaae5e
+SHA256 (popt-1.16.tar.gz) = e728ed296fe9f069a0e005003c3d6b2dde3d9cad453422a10d6558616d304cc8
