@@ -2159,8 +2159,8 @@ drwxr-xr-x	root/root	usr/lib/python3.6/ensurepip/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.6/ensurepip/__pycache__/_uninstall.cpython-36.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/ensurepip/__pycache__/_uninstall.cpython-36.pyc
 drwxr-xr-x	root/root	usr/lib/python3.6/ensurepip/_bundled/
--rw-r--r--	root/root	usr/lib/python3.6/ensurepip/_bundled/pip-10.0.1-py2.py3-none-any.whl
--rw-r--r--	root/root	usr/lib/python3.6/ensurepip/_bundled/setuptools-39.0.1-py2.py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.6/ensurepip/_bundled/pip-18.1-py2.py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.6/ensurepip/_bundled/setuptools-40.6.2-py2.py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.6/ensurepip/_uninstall.py
 -rw-r--r--	root/root	usr/lib/python3.6/enum.py
 -rw-r--r--	root/root	usr/lib/python3.6/filecmp.py
@@ -2856,9 +2856,9 @@ drwxr-xr-x	root/root	usr/lib/python3.6/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.6/lib-dynload/zlib.cpython-36m-aarch64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.6/lib2to3/
 -rw-r--r--	root/root	usr/lib/python3.6/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python3.6/lib2to3/Grammar3.6.7.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.6/lib2to3/Grammar3.6.8.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.6/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python3.6/lib2to3/PatternGrammar3.6.7.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.6/lib2to3/PatternGrammar3.6.8.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.6/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.6/lib2to3/__main__.py
 drwxr-xr-x	root/root	usr/lib/python3.6/lib2to3/__pycache__/
@@ -5388,10 +5388,6 @@ drwxr-xr-x	root/root	usr/lib/python3.6/test/test_asyncio/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/echo.py
 -rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/echo2.py
 -rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/echo3.py
--rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/keycert3.pem
--rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/pycacert.pem
--rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/ssl_cert.pem
--rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/ssl_key.pem
 -rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/test_base_events.py
 -rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/test_events.py
 -rw-r--r--	root/root	usr/lib/python3.6/test/test_asyncio/test_futures.py
