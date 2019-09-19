@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMWdhy8C3kQY/3y7Qhl7TAvLuIQp9dFOfzcsw5crC8AD06KW8H6Ihy4bCH0gtrA/O7B0s8oCHELCfGravrIqCMAI=
+SHA256 (Pkgfile) = c0b4da051d03fdf0dfd79562019036e482f21f9ac0d4a776161abdfe141f75c6
+SHA256 (.footprint) = 7aefd40f40014fd9659348ec5506019e3e47eac5b784ad498780c1c6904df6de
+SHA256 (ldb-1.5.5.tar.gz) = 199f5861aa863f538ec66d5fa95ecc13254a2030c53daf0e47363fa9ba235c68
+SHA256 (ldb-man-pages.tar.xz) = 059e2b9992e82babe3a006fbd867e0d88887743aa6acecdf5afa3f26b0552b54
