@@ -9,7 +9,7 @@
 #include "llvm-config-32.h"
 #endif
 
-if defined(__aarch64__)
+#if defined(__aarch64__)
 #include "llvm-config-64.h"
 #else
 #include "llvm-config-32.h"
