@@ -6,10 +6,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/ldbmodify
 -rwxr-xr-x	root/root	usr/bin/ldbrename
 -rwxr-xr-x	root/root	usr/bin/ldbsearch
--rwxr-xr-x	root/root	usr/bin/tdbbackup
--rwxr-xr-x	root/root	usr/bin/tdbdump
--rwxr-xr-x	root/root	usr/bin/tdbrestore
--rwxr-xr-x	root/root	usr/bin/tdbtool
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/ldb.h
 -rw-r--r--	root/root	usr/include/ldb_errors.h
@@ -26,15 +22,6 @@ drwxr-xr-x	root/root	usr/lib/ldb/
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-key-value.so
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-tdb-err-map.so
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-tdb-int.so
--rwxr-xr-x	root/root	usr/lib/ldb/libpopt-ldb.so
-lrwxrwxrwx	root/root	usr/lib/ldb/libpytalloc-util.cpython-37m-aarch64-linux-gnu.so.2 -> libpytalloc-util.cpython-37m-aarch64-linux-gnu.so.2.2.0
--rwxr-xr-x	root/root	usr/lib/ldb/libpytalloc-util.cpython-37m-aarch64-linux-gnu.so.2.2.0
-lrwxrwxrwx	root/root	usr/lib/ldb/libtalloc.so.2 -> libtalloc.so.2.2.0
--rwxr-xr-x	root/root	usr/lib/ldb/libtalloc.so.2.2.0
-lrwxrwxrwx	root/root	usr/lib/ldb/libtdb.so.1 -> libtdb.so.1.4.2
--rwxr-xr-x	root/root	usr/lib/ldb/libtdb.so.1.4.2
-lrwxrwxrwx	root/root	usr/lib/ldb/libtevent.so.0 -> libtevent.so.0.10.0
--rwxr-xr-x	root/root	usr/lib/ldb/libtevent.so.0.10.0
 -rwxr-xr-x	root/root	usr/lib/ldb/paged_searches.so
 -rwxr-xr-x	root/root	usr/lib/ldb/rdn_name.so
 -rwxr-xr-x	root/root	usr/lib/ldb/sample.so
@@ -53,12 +40,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_ldb_text.py
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/_tdb_text.py
--rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_tevent.cpython-37m-aarch64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/ldb.cpython-37m-aarch64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/talloc.cpython-37m-aarch64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tdb.cpython-37m-aarch64-linux-gnu.so
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tevent.py
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
