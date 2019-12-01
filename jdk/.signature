@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMSCPEzwdZd+k1XM2r4PFBQbE5xBP6KbnXk0BwP7JF+58ni6fZlAAGnfiWI9lUsojEeIgw5mLYgYJM8J/kXL75Qw=
+SHA256 (Pkgfile) = c0c31fc4cab0f8df767a00dd2f32b089e6daca7e8e3665828f20a41e0390f124
+SHA256 (.footprint) = 6eba5ee06ddb3580f2bda9c67754717b17e1ea8810d918bdfc3bc69b5eecf978
+SHA256 (java-1.8.0-amazon-corretto-devel-1.8.0_232.b09-1.aarch64.rpm) = 8a68b4ccd33b76040cc15936ffef1bbb4e848f826b298d2ec2ddeeb37a613008
