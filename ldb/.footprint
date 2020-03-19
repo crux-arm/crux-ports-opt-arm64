@@ -28,12 +28,12 @@ drwxr-xr-x	root/root	usr/lib/ldb/
 -rwxr-xr-x	root/root	usr/lib/ldb/server_sort.so
 -rwxr-xr-x	root/root	usr/lib/ldb/skel.so
 -rwxr-xr-x	root/root	usr/lib/ldb/tdb.so
-lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.0.8
-lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.0.8
--rwxr-xr-x	root/root	usr/lib/libldb.so.2.0.8
-lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-37m-aarch64-linux-gnu.so -> libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2.0.8
-lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2 -> libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2.0.8
--rwxr-xr-x	root/root	usr/lib/libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2.0.8
+lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.0.9
+lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.0.9
+-rwxr-xr-x	root/root	usr/lib/libldb.so.2.0.9
+lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-37m-aarch64-linux-gnu.so -> libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2.0.9
+lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2 -> libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2.0.9
+-rwxr-xr-x	root/root	usr/lib/libpyldb-util.cpython-37m-aarch64-linux-gnu.so.2.0.9
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ldb.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/pyldb-util.cpython-37m-aarch64-linux-gnu.pc
