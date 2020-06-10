@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMcGQWw6SwFnPaGC8xbJcvmn6ozhNeWjAzAJy0TLJhVSgm4AUST+77dioLXaSe4gsTUqw8rYerWLb856cwWbdNgA=
-SHA256 (Pkgfile) = 1628357de53b46d5234e2b5ef3179b0d01715ec96f5c497d5a506d18623c89be
-SHA256 (.footprint) = 45f6aea32375cc9cd313a77c570abcd08cbb4a9612d868eedf1e52d06ee062b4
+RWRitF9a2DJqMY9tFKYn6HIUXGw1aDXXYHdfehqbSQHi/m3Xx30wOoyEqp5a30LTIfCgoe4Jw8hxEHn2JBGHcAh7kA4RzvR4rwk=
+SHA256 (Pkgfile) = 2ebc53957902fe0574eda3928ffe40ae80a2fcb9787fb374bec3d99682cc32fb
 SHA256 (Python-2.7.18.tar.xz) = b62c0e7937551d0cc02b8fd5cb0f544f9405bafc9a54d3808ed4594812edef43
 SHA256 (pyconfig.h) = c5ed4a0d3c2943f4ad0e47fa0b787fb83f3de5f12b798fe9f45283b37db28e2c

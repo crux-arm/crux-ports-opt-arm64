@@ -20,10 +20,6 @@ build () {
   rm -r Lib/{bsddb,ctypes,email,lib-tk,sqlite3,unittest}/test
   rm -r Lib/{{distutils,json}/tests,idlelib/idle_test,test}
 
-
-  # set OPT to the python default without -O3
-  # our CFLAGS are used as well
-#  OPT="-Wall -Wstrict-prototypes -fwrapv" \
   ./configure --prefix=/usr \
               --enable-shared \
               --with-threads \
