@@ -4,9 +4,9 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libpopt.a
 -rwxr-xr-x	root/root	usr/lib/libpopt.la
-lrwxrwxrwx	root/root	usr/lib/libpopt.so -> libpopt.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libpopt.so.0 -> libpopt.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libpopt.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libpopt.so -> libpopt.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libpopt.so.0 -> libpopt.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libpopt.so.0.0.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/popt.pc
 drwxr-xr-x	root/root	usr/share/
