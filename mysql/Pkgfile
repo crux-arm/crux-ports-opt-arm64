@@ -2,35 +2,40 @@
 # URL: http://www.mysql.com
 # Maintainer: Juergen Daubert, jue at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: ncurses zlib openssl cmake libaio
+# Depends on: ncurses zlib openssl cmake libaio rpcsvc-proto
 
 name=mysql
-version=5.7.32
+version=5.7.33
 release=1
 source=(https://ftp.gwdg.de/pub/misc/mysql/Downloads/MySQL-5.7/$name-boost-$version.tar.gz \
         my.cnf mysqld)
 
 build () {
-  cd $name-$version
+  export CXXFLAGS+=" -Wno-deprecated-declarations"
 
-  cmake . \
-        -DBUILD_CONFIG=mysql_release \
-        -DINSTALL_LAYOUT=RPM \
-        -DCMAKE_INSTALL_PREFIX=/usr \
-        -DSYSCONFDIR=/etc \
-        -DINSTALL_LIBDIR=lib \
-        -DINSTALL_PLUGINDIR=lib/mysql/plugin \
-        -DINSTALL_MANDIR=share/man \
-        -DINSTALL_SECURE_PRIVDIR=/var/lib/mysql-files \
-        -DWITH_BOOST=./boost \
-        -DWITH_LIBWRAP=0 \
-        -DWITH_SSL=system \
-        -DWITH_ZLIB=system \
-        -DCMAKE_C_FLAGS="-O2 -pipe" \
-        -DCMAKE_CXX_FLAGS="-O2 -pipe"
+  cmake -S $name-$version -B build \
+        -D CMAKE_BUILD_TYPE=Release \
+        -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+        -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -D CMAKE_INSTALL_PREFIX=/usr \
+        -D BUILD_CONFIG=mysql_release \
+        -D INSTALL_LAYOUT=RPM \
+        -D SYSCONFDIR=/etc \
+        -D INSTALL_LIBDIR=lib \
+        -D INSTALL_PLUGINDIR=lib/mysql/plugin \
+        -D INSTALL_MANDIR=share/man \
+        -D INSTALL_SECURE_PRIVDIR=/var/lib/mysql-files \
+        -D WITH_BOOST=$name-$version/boost \
+        -D WITH_LIBWRAP=0 \
+        -D WITH_SSL=system \
+        -D WITH_ZLIB=system \
+        -Wno-dev
 
-  make
-  make DESTDIR=$PKG install
+#        -DCMAKE_C_FLAGS="-O2 -pipe" \
+#        -DCMAKE_CXX_FLAGS="-O2 -pipe"
+
+  cmake --build build
+  DESTDIR=$PKG cmake --install build
 
   rm -r $PKG/usr/share/{mysql-test,info}
   rm $PKG/usr/share/mysql/charsets/README
