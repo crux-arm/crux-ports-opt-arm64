@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMcsmpi/w+H0sQqfAvREyBSDacXTPRm3yxHml7YncGpBxhZwyR6V6oMlA6a77ZNG2KNPSHponyBAzyHg62qwzawk=
-SHA256 (Pkgfile) = 6b76b4ec04a533d7b0299c3ad4db35460fd4def50d27477bceacc2569570d0f5
-SHA256 (.footprint) = 9e75fb49144892d24e65de88a123dcb354403a714aa99123d60d735c0207880c
-SHA256 (tiff-4.2.0.tar.gz) = eb0484e568ead8fa23b513e9b0041df7e327f4ee2d22db5a533929dfc19633cb
+RWRitF9a2DJqMcoiWU4iRiVbkpcV/iGPfHAWighIz79rRo44o3JsR42ZVEIgAJSGxDgWDsv4mv4UOqIg2KfKo9s8DxKTHLt17QY=
+SHA256 (Pkgfile) = 763f7b8c185ae4cdc7417026e8bd4aec1cbff9e4461a7fea48ed82e8b1d84b8b
+SHA256 (.footprint) = 749d4a139f574f27346a1774967b689d3621808186d2c44b6ffd5d5cabf0c499
+SHA256 (tiff-4.3.0.tar.gz) = 0e46e5acb087ce7d1ac53cf4f56a09b221537fc86dfc5daaad1c2e89e1b37ac8
