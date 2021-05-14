@@ -159,8 +159,8 @@ drwxr-xr-x	root/root	usr/include/mysql/mysql/psi/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libmysqlclient.a
 lrwxrwxrwx	root/root	usr/lib/libmysqlclient.so -> libmysqlclient.so.20
-lrwxrwxrwx	root/root	usr/lib/libmysqlclient.so.20 -> libmysqlclient.so.20.3.20
--rwxr-xr-x	root/root	usr/lib/libmysqlclient.so.20.3.20
+lrwxrwxrwx	root/root	usr/lib/libmysqlclient.so.20 -> libmysqlclient.so.20.3.21
+-rwxr-xr-x	root/root	usr/lib/libmysqlclient.so.20.3.21
 -rw-r--r--	root/root	usr/lib/libmysqld.a
 -rw-r--r--	root/root	usr/lib/libmysqlservices.a
 drwxr-xr-x	root/root	usr/lib/mysql/
@@ -169,7 +169,6 @@ drwxr-xr-x	root/root	usr/lib/mysql/plugin/
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_socket.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_test_plugin.so
--rwxr-xr-x	root/root	usr/lib/mysql/plugin/authentication_ldap_sasl_client.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/connection_control.so
 -rw-r--r--	root/root	usr/lib/mysql/plugin/daemon_example.ini
 drwxr-xr-x	root/root	usr/lib/mysql/plugin/debug/
