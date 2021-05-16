@@ -5,14 +5,12 @@
 # Depends on: python3-setuptools libxml2
 
 name=python3-libxml2
-version=2.9.10
-release=2
-source=(ftp://xmlsoft.org/libxml2/libxml2-$version.tar.gz
-        python3.9.patch)
+version=2.9.12
+release=1
+source=(ftp://xmlsoft.org/libxml2/libxml2-$version.tar.gz)
 
 build () {
   cd libxml2-$version/python
-  patch -p2 -i $SRC/python3.9.patch
   /usr/bin/python3 setup.py build
   /usr/bin/python3 setup.py install --root=$PKG
 }

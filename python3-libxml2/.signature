@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMRNzu037O4erccCYXkaWszTqWJfAqZs8/3vqYkPUIXGypxhZIB4P9kW4UMov+g9Lqmjy56Pw3p+sFcVUtisWCgc=
-SHA256 (Pkgfile) = 72a02d1f36aa8c6745af12ae99733a50b69a9b4cee71ea6f230679d9e1f710f2
-SHA256 (.footprint) = eff7c8dfdd55ef193f947baf8db8df2c7486b71a116ecf1fab7d69a669587bff
-SHA256 (libxml2-2.9.10.tar.gz) = aafee193ffb8fe0c82d4afef6ef91972cbaf5feea100edc2f262750611b4be1f
-SHA256 (python3.9.patch) = 8150a23d01966bff1dbf110294012756f5a3a29bf4f671f0e07b84d4307e4bce
+RWRitF9a2DJqMfyFRgkvXYKTuIdU3/JpWOPh/MXwBVmG3FUepmh+g7cOm1BkhmBWI94nWoXbAAb2wMV10vmJ7Vk/703P6Dv29Ac=
+SHA256 (Pkgfile) = 61f73aa2af09d0ef8c34099748c423d515142fa876122cdc449d57644f32d3e2
+SHA256 (.footprint) = 919c3411990842a208ae2117b59b6e5faf2885570596e91b9ee289e4d6dc8aa2
+SHA256 (libxml2-2.9.12.tar.gz) = c8d6681e38c56f172892c85ddc0852e1fd4b53b4209e7f4ebf17f7e2eae71d92
