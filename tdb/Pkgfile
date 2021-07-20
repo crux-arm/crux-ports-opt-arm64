@@ -5,8 +5,8 @@
 # Depends on: python3
 
 name=tdb
-version=1.4.3
-release=2
+version=1.4.4
+release=1
 source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz
         $name-man-pages.tar.xz)
 
