@@ -27,26 +27,22 @@ drwxr-xr-x	root/root	usr/lib/ldb/
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-tdb-err-map.so
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-tdb-int.so
 -rwxr-xr-x	root/root	usr/lib/ldb/libpopt-ldb.so
-lrwxrwxrwx	root/root	usr/lib/ldb/libpytalloc-util.cpython-39-aarch64-linux-gnu.so.2 -> libpytalloc-util.cpython-39-aarch64-linux-gnu.so.2.3.2
--rwxr-xr-x	root/root	usr/lib/ldb/libpytalloc-util.cpython-39-aarch64-linux-gnu.so.2.3.2
-lrwxrwxrwx	root/root	usr/lib/ldb/libtalloc.so.2 -> libtalloc.so.2.3.2
--rwxr-xr-x	root/root	usr/lib/ldb/libtalloc.so.2.3.2
-lrwxrwxrwx	root/root	usr/lib/ldb/libtdb.so.1 -> libtdb.so.1.4.3
--rwxr-xr-x	root/root	usr/lib/ldb/libtdb.so.1.4.3
-lrwxrwxrwx	root/root	usr/lib/ldb/libtevent.so.0 -> libtevent.so.0.10.2
--rwxr-xr-x	root/root	usr/lib/ldb/libtevent.so.0.10.2
+lrwxrwxrwx	root/root	usr/lib/ldb/libtdb.so.1 -> libtdb.so.1.4.4
+-rwxr-xr-x	root/root	usr/lib/ldb/libtdb.so.1.4.4
+lrwxrwxrwx	root/root	usr/lib/ldb/libtevent.so.0 -> libtevent.so.0.11.0
+-rwxr-xr-x	root/root	usr/lib/ldb/libtevent.so.0.11.0
 -rwxr-xr-x	root/root	usr/lib/ldb/paged_searches.so
 -rwxr-xr-x	root/root	usr/lib/ldb/rdn_name.so
 -rwxr-xr-x	root/root	usr/lib/ldb/sample.so
 -rwxr-xr-x	root/root	usr/lib/ldb/server_sort.so
 -rwxr-xr-x	root/root	usr/lib/ldb/skel.so
 -rwxr-xr-x	root/root	usr/lib/ldb/tdb.so
-lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.3.0
-lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.3.0
--rwxr-xr-x	root/root	usr/lib/libldb.so.2.3.0
-lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.3.0
-lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2 -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.3.0
--rwxr-xr-x	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.3.0
+lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.4.1
+lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.4.1
+-rwxr-xr-x	root/root	usr/lib/libldb.so.2.4.1
+lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.4.1
+lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2 -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.4.1
+-rwxr-xr-x	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.4.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ldb.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/pyldb-util.cpython-39-aarch64-linux-gnu.pc
@@ -56,7 +52,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/_tdb_text.py
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/_tevent.cpython-39-aarch64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/ldb.cpython-39-aarch64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/talloc.cpython-39-aarch64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/tdb.cpython-39-aarch64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/tevent.py
 drwxr-xr-x	root/root	usr/share/
