@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMSS3EagqHdxsgVOZzXG9kxVRDT2/tkQcv5hgAdOAQlX/btbf7DGR/Ix3/5DlIgoV0aD3FFJ468iPGwwLnyqSBAI=
-SHA256 (Pkgfile) = bd81052cacf10fcd17dbb9a5fb60944faf58d49fa7d13b78ebbefa761fbc830c
-SHA256 (.footprint) = 35f9bb8c408fef4f147a721b8ee31e3e38a0bda7f0b993682af4a2a32c7bf4f6
-SHA256 (mysql-boost-5.7.36.tar.gz) = 99efd49b9bfe44d0ecebedce3db075c5f0e9d4b6fc08cfe0a42b86418e5f06da
+RWRitF9a2DJqMRb7LBSxZHkWu0VjbqCsJOPvLwuVmrG/F+bbtEV4B96KAzxNIa+A+3FrOmpn20Mjz4GDayhTLW7bBJ0IsnV2AAI=
+SHA256 (Pkgfile) = 0e2ba07252c6713a207bd86986589f42a1001a72818ba32a14198468347dbdfd
+SHA256 (.footprint) = 74e06e61a449284a50d83a26883c7b9b37ec5201f9a724c4a299826ad0476ffe
+SHA256 (mysql-boost-5.7.37.tar.gz) = fed080e0b6200384315becb45a0a922f9a1c403bf8d0ab41d0d87f1d1507c8f0
 SHA256 (my.cnf) = 51d46fe239e1e18a608e64ea1242fda946c2ea5a9ecea4507d89734e263ab828
 SHA256 (mysqld) = 35c913fde78b6e51e35bd57a01419209258e80677fdd6a1eaa40388848167e33
