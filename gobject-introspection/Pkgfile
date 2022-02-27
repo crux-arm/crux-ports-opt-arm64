@@ -3,21 +3,32 @@
 # Maintainer: Danny Rawlins, crux at romster dot me
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Packager: Matt Housh, jaeger at morpheus dot net
-# Depends on: python glib
+# Depends on: glib libffi
+# Optional: cairo python3-mako python3-markdown
 
 name=gobject-introspection
 version=1.70.0
-release=1
-source=(http://ftp.gnome.org/pub/GNOME/sources/$name/${version::4}/$name-$version.tar.xz)
+release=2
+source=(http://ftp.gnome.org/pub/GNOME/sources/$name/${version::4}/$name-$version.tar.xz
+        gobject-introspection-1.70.0-meson-0.61.patch)
 
 build() {
-  cd $name-$version
+  prt-get isinst cairo || PKGMK_GOBJECTINTROSPECTION+=' -D cairo=disabled'
+  prt-get isinst python3-mako python3-markdown || PKGMK_GOBJECTINTROSPECTION+=' -D doctool=disabled'
 
-  meson build \
-        --prefix /usr \
-        -D cairo=disabled \
-        -D doctool=disabled
+  patch -d $name-$version -p1 -i $SRC/gobject-introspection-1.70.0-meson-0.61.patch
+
+  meson build $name-$version $PKGMK_GOBJECTINTROSPECTION \
+    --prefix /usr \
+    --buildtype plain \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true
 
   ninja -C build -j ${JOBS:-1}
-  DESTDIR="$PKG" ninja -C build install
+  DESTDIR=$PKG meson install -C build
+
+  /usr/bin/python3 -m compileall -d /usr/lib/$name $PKG
+  /usr/bin/python3 -O -m compileall -d /usr/lib/$name $PKG
+  /usr/bin/python3 -OO -m compileall -d /usr/lib/$name $PKG
 }
