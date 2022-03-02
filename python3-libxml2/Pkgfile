@@ -5,9 +5,9 @@
 # Depends on: python3-setuptools libxml2
 
 name=python3-libxml2
-version=2.9.12
+version=2.9.13
 release=1
-source=(ftp://xmlsoft.org/libxml2/libxml2-$version.tar.gz)
+source=(https://download.gnome.org/sources/libxml2/${version:0:3}/libxml2-$version.tar.xz)
 
 build () {
   cd libxml2-$version/python
