@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMQLIIHH1H20pwWnvQVdJps8Lr7oCmdfYdBWSeRObxtz1yJ9zaRZy1A1IvW2zfrFlyEDqUArSiAEwGGCUyzVM9wc=
-SHA256 (Pkgfile) = 8c52535e25ae0a8b7fc0b0c48b85547d18c2a902fa2e39c0d0b46f28b7b136d1
-SHA256 (.footprint) = 0be42b1f0627a7b790c524e22259e89e07d997b60fc7fe6b185004c1d953d699
-SHA256 (libxml2-2.9.13.tar.xz) = 276130602d12fe484ecc03447ee5e759d0465558fbc9d6bd144e3745306ebf0e
+RWRitF9a2DJqMRjqqbsM2wX3KLyUSHaa0Lplq/rM2v/8sE/9fedJtIziwNrCFM6P6WadufWG0WCDRLxEtVgzyhotVkFc5UWvmgo=
+SHA256 (Pkgfile) = 57e304c7c703efa54d3de363d9f4cb9a3c1963e0e295dea865b92c6c79e2f5a4
+SHA256 (.footprint) = 4766d19e9f3f0186207999601eb63d319f6cabada122ed2bb486ee587ec8f1d5
+SHA256 (libxml2-2.9.14.tar.xz) = 60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee
