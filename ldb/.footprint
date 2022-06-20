@@ -27,22 +27,20 @@ drwxr-xr-x	root/root	usr/lib/ldb/
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-tdb-err-map.so
 -rwxr-xr-x	root/root	usr/lib/ldb/libldb-tdb-int.so
 -rwxr-xr-x	root/root	usr/lib/ldb/libpopt-ldb.so
-lrwxrwxrwx	root/root	usr/lib/ldb/libtdb.so.1 -> libtdb.so.1.4.5
--rwxr-xr-x	root/root	usr/lib/ldb/libtdb.so.1.4.5
-lrwxrwxrwx	root/root	usr/lib/ldb/libtevent.so.0 -> libtevent.so.0.11.0
--rwxr-xr-x	root/root	usr/lib/ldb/libtevent.so.0.11.0
+-rwxr-xr-x	root/root	usr/lib/ldb/libtdb-ldb.so
+-rwxr-xr-x	root/root	usr/lib/ldb/libtevent-ldb.so
 -rwxr-xr-x	root/root	usr/lib/ldb/paged_searches.so
 -rwxr-xr-x	root/root	usr/lib/ldb/rdn_name.so
 -rwxr-xr-x	root/root	usr/lib/ldb/sample.so
 -rwxr-xr-x	root/root	usr/lib/ldb/server_sort.so
 -rwxr-xr-x	root/root	usr/lib/ldb/skel.so
 -rwxr-xr-x	root/root	usr/lib/ldb/tdb.so
-lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.5.0
-lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.5.0
--rwxr-xr-x	root/root	usr/lib/libldb.so.2.5.0
-lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.5.0
-lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2 -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.5.0
--rwxr-xr-x	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.5.0
+lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.5.1
+lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.5.1
+-rwxr-xr-x	root/root	usr/lib/libldb.so.2.5.1
+lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.5.1
+lrwxrwxrwx	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2 -> libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.5.1
+-rwxr-xr-x	root/root	usr/lib/libpyldb-util.cpython-39-aarch64-linux-gnu.so.2.5.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ldb.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/pyldb-util.cpython-39-aarch64-linux-gnu.pc
