@@ -2,10 +2,10 @@
 # URL: http://tevent.samba.org/
 # Maintainer: Juergen Daubert, jue at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: talloc
+# Depends on: cmocka talloc
 
 name=tevent
-version=0.12.0
+version=0.12.1
 release=1
 source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz)
 
