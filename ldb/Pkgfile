@@ -4,7 +4,7 @@
 # Depends on: tevent tdb popt python3
 
 name=ldb
-version=2.5.1
+version=2.5.2
 release=1
 
 source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz
