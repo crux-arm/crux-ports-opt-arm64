@@ -7,16 +7,14 @@
 # Optional: cairo python3-mako python3-markdown
 
 name=gobject-introspection
-version=1.70.0
-release=2
+version=1.72.0
+release=1
 source=(http://ftp.gnome.org/pub/GNOME/sources/$name/${version::4}/$name-$version.tar.xz
         gobject-introspection-1.70.0-meson-0.61.patch)
 
 build() {
   prt-get isinst cairo || PKGMK_GOBJECTINTROSPECTION+=' -D cairo=disabled'
   prt-get isinst python3-mako python3-markdown || PKGMK_GOBJECTINTROSPECTION+=' -D doctool=disabled'
-
-  patch -d $name-$version -p1 -i $SRC/gobject-introspection-1.70.0-meson-0.61.patch
 
   meson build $name-$version $PKGMK_GOBJECTINTROSPECTION \
     --prefix /usr \
