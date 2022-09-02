@@ -5,12 +5,14 @@
 # Depends on: python3-setuptools libxml2
 
 name=python3-libxml2
-version=2.9.14
-release=1
+version=2.10.2
+release=2
 source=(https://download.gnome.org/sources/libxml2/${version:0:3}/libxml2-$version.tar.xz)
 
 build () {
-  cd libxml2-$version/python
+  cd libxml2-$version
+  ./configure --prefix=/usr --sysconfdir=/etc
+  cd python
   /usr/bin/python3 setup.py build
   /usr/bin/python3 setup.py install --root=$PKG
 }
