@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMbNhfE68CIsR8bf4I5DMc5wo+HnxF3uVxg2cwj8++AlsGamTzc7CMPudsytu1f/h8K561Fk4ieIFgtu46Bd7Oww=
-SHA256 (Pkgfile) = adc2990054aee2eeabf6c78bf4e900f031824029e239ec1635c349d5c8f0f4b7
-SHA256 (.footprint) = 7ebd47c71d300d2105f35cd58851ba5fdcd3b2faff070a6fbcd81da651b8dd1b
-SHA256 (meson-0.63.0.tar.gz) = 3b51d451744c2bc71838524ec8d96cd4f8c4793d5b8d5d0d0a9c8a4f7c94cd6f
+untrusted comment: verify with /etc/ports/crux-ports-opt-arm64.pub
+RWRitF9a2DJqMZKqie3XrXABgf8Ve/+PZNJcCQVdC/zF+Hq0mzKeGn2SmFhn3v5kcYwGbLymoRjXIxSXoBPa8Zei0MuJa/purA0=
+SHA256 (Pkgfile) = db09fe48e4eb2aa08f416c5bf9cca0281d55339a23d677b8a220246dca265439
+SHA256 (.footprint) = 14887e8a21a89c8adf7f35bcbe219fc8803703cc9cb371064909a2f741b19e7d
+SHA256 (meson-0.63.1.tar.gz) = 06fe13297213d6ff0121c5d5aab25a56ef938ffec57414ed6086fda272cb65e9
