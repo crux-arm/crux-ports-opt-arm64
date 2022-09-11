@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-ports-opt-arm64.pub
+RWRitF9a2DJqMZKqie3XrXABgf8Ve/+PZNJcCQVdC/zF+Hq0mzKeGn2SmFhn3v5kcYwGbLymoRjXIxSXoBPa8Zei0MuJa/purA0=
+SHA256 (Pkgfile) = db09fe48e4eb2aa08f416c5bf9cca0281d55339a23d677b8a220246dca265439
+SHA256 (.footprint) = 14887e8a21a89c8adf7f35bcbe219fc8803703cc9cb371064909a2f741b19e7d
+SHA256 (meson-0.63.1.tar.gz) = 06fe13297213d6ff0121c5d5aab25a56ef938ffec57414ed6086fda272cb65e9

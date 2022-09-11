@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMbBDxT3lAyzNY85AzYMfgYsV6ShtpeSVh+v4WRQs+02qo+S9d7E0mHe3nPipdn4YBCR6jCPPkp3hmTpAtAm3iQQ=
+SHA256 (Pkgfile) = d82f4907a293ae91a0e45b41c51f51a5626ce12d2b5690d9166c932611232a8d
+SHA256 (.footprint) = cf6d989f95dd9dd8bf2d917195d3549fbcda2b58822d9035dbc1c6c1afb16975
+SHA256 (libpng-1.6.37.tar.xz) = 505e70834d35383537b6491e7ae8641f1a4bed1876dbfe361201fc80868d88ca
+SHA256 (libpng-apng.patch) = 2234b5138069824e30e84357a36bd725c2cb3fd589d5c2135ecbe60b0b4800d8

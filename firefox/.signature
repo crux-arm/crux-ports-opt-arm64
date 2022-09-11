@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMSjp+0DYGA95Pf48HyEDOLsEUMDSIFCKsxXoC/GcvXdgcIJ3JEtgTp4BwwkTl6uQTHzgZLj9kG19YpogQwnHdAQ=
+SHA256 (Pkgfile) = 5f9e3243665544e3806ee2667a28b78728aae3d12fee28a09d2309b0ec745e95
+SHA256 (.footprint) = af33f17df33158f4826fc82d8b57a9f7bbaffa384686766d8321f33ddb44a9ef
+SHA256 (firefox-52.2.0esr.source.tar.xz) = a2f180e4109b15d86d58444134996c1d49eb52e7702d89510508fbd7bddb9381
+SHA256 (firefox-install-dir.patch) = 32c0102521b7296627ba457575c742746400680c3aecd18be8b1b382dccdc0ce
+SHA256 (firefox.desktop) = 8ba3439f3dfc5cab883641969c93d8d15f8f20d7188d9568346b2edad52d6f91
