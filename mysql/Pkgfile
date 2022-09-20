@@ -5,9 +5,9 @@
 # Depends on: ncurses zlib openssl cmake libaio rpcsvc-proto
 
 name=mysql
-version=5.7.38
+version=5.7.39
 release=1
-source=(https://ftp.gwdg.de/pub/misc/mysql/Downloads/MySQL-5.7/$name-boost-$version.tar.gz \
+source=(https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.39.tar.gz \
         my.cnf mysqld)
 
 build () {
