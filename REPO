@@ -18,7 +18,6 @@ d:mysql
 d:tevent
 d:python
 d:libvisual
-d:popt
 d:tdb
 d:jdk
 f:9e32038e26e4009589136f8921338f87:meson/.signature
@@ -99,9 +98,6 @@ f:3f3233191eae233e0d84a011a695b442:python/.footprint
 f:04ff753cc4db8e09f849d417ccc0708c:libvisual/.signature
 f:13ae32f34df2ad5a4cee75c9e371a0c9:libvisual/Pkgfile
 f:fbb9da435ae9ff1dc6ddd3cab9c98bc1:libvisual/.footprint
-f:42a9e24ad5147a2d656121968d6f6883:popt/.signature
-f:39f0bcfe040fd3fabb8066b5ff2f2fce:popt/Pkgfile
-f:c8bdc67a14dcf452a9881e0697497150:popt/.footprint
 f:b3c348e1e43ac0f8089c6358a69c4ce3:tdb/.signature
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:03069196e5e6c5726d59f908e2294fea:tdb/Pkgfile
