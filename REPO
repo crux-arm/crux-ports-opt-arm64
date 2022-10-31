@@ -45,9 +45,9 @@ f:63d9da4956158e0b424768c85ea2902c:ldb/.signature
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:dd0468d4f2b2f2300724e9739e489422:ldb/Pkgfile
 f:492c9692763c0f7c54c86ef81c6bd2e4:ldb/.footprint
-f:cec4ae631477e54a979afab95179e6d9:gobject-introspection/.signature
+f:b9f40df7b89f09025c7788990df8b285:gobject-introspection/.signature
 f:fb25ed652c18d03b6ccfcfe930eecb2a:gobject-introspection/Pkgfile
-f:e19245d30e8aa51cf394176b6f187c40:gobject-introspection/.footprint
+f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:a87fef21fe4d7969f59d96f0ec3d1e6c:firefox/README
 f:e0d8c6ae48ddb1c2380ceacdfeccce20:firefox/.signature
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
