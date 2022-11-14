@@ -98,10 +98,10 @@ f:3f3233191eae233e0d84a011a695b442:python/.footprint
 f:04ff753cc4db8e09f849d417ccc0708c:libvisual/.signature
 f:13ae32f34df2ad5a4cee75c9e371a0c9:libvisual/Pkgfile
 f:fbb9da435ae9ff1dc6ddd3cab9c98bc1:libvisual/.footprint
-f:b3c348e1e43ac0f8089c6358a69c4ce3:tdb/.signature
+f:4d3d8ea0a5cea3725333b36f440f939a:tdb/.signature
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:03069196e5e6c5726d59f908e2294fea:tdb/Pkgfile
-f:5b055d08dda8405d339417f9d5f41677:tdb/.footprint
+f:0c8118fd20ee61fe3c11d5680c482d8a:tdb/.footprint
 f:09a98e6190d46b10f15b0f251782f217:jdk/.signature
 f:b088af8634061f60843916487e389912:jdk/Pkgfile
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
