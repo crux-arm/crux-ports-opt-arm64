@@ -8,7 +8,6 @@ d:gobject-introspection
 d:firefox
 d:python3-libxml2
 d:libtiff
-d:python-markupsafe
 d:libsdl
 d:talloc
 d:ruby
@@ -54,9 +53,6 @@ f:23f109d7cce872257431fce2f718d942:python3-libxml2/.footprint
 f:2c0dcf60523bbf73a30ee57a3491abfe:libtiff/.signature
 f:dc3453a3fd3b18e4232f5fefcd53d576:libtiff/Pkgfile
 f:43b029d53fbc8a2fc8b395c6545e271a:libtiff/.footprint
-f:8a3e18aab9bc745230680613e1b130ae:python-markupsafe/.signature
-f:3b99f0e83baaac1fcd31d49d820bb151:python-markupsafe/Pkgfile
-f:c70bd44791519d90e3d2e46b06f9f609:python-markupsafe/.footprint
 f:5e45f316383e5c218e68efd13a136e51:libsdl/README
 f:3b54f006d6fbfb4f73ecbb457d0b1dc0:libsdl/.signature
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
