@@ -9,7 +9,6 @@ d:gobject-introspection
 d:firefox
 d:python3-libxml2
 d:libtiff
-d:libpng
 d:python-markupsafe
 d:libsdl
 d:talloc
@@ -60,10 +59,6 @@ f:b84a673a0c1e7c0ce72f1ff3d0777ed3:python3-libxml2/.footprint
 f:2c0dcf60523bbf73a30ee57a3491abfe:libtiff/.signature
 f:dc3453a3fd3b18e4232f5fefcd53d576:libtiff/Pkgfile
 f:43b029d53fbc8a2fc8b395c6545e271a:libtiff/.footprint
-f:a024064e23413652493b59bfd2883a88:libpng/.signature
-f:3820297122960161657a9e7db4bfcd11:libpng/libpng-apng.patch
-f:9bb9a8cbed3633022d840c3604abc723:libpng/Pkgfile
-f:3ad32e7b1996d1273d49ecbcdc2d3515:libpng/.footprint
 f:8a3e18aab9bc745230680613e1b130ae:python-markupsafe/.signature
 f:3b99f0e83baaac1fcd31d49d820bb151:python-markupsafe/Pkgfile
 f:c70bd44791519d90e3d2e46b06f9f609:python-markupsafe/.footprint
