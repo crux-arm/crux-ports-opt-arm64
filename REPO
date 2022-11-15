@@ -13,7 +13,6 @@ d:python-markupsafe
 d:libsdl
 d:talloc
 d:ruby
-d:mysql
 d:tevent
 d:python
 d:libvisual
@@ -75,13 +74,6 @@ f:819425f7c2f0b8cf0dd07d89c5b3f97a:talloc/.footprint
 f:3dbe55eb382e8d8b85ff14a79fe148c6:ruby/.signature
 f:a6070ac7461af04044a7635b378fb6df:ruby/Pkgfile
 f:502c54ad96a05a4eb694ce0596c738ba:ruby/.footprint
-f:47512b2559c4f876a008230ab4d2740e:mysql/README
-f:992c6053d1565449e6f6f442ba8eb2e5:mysql/pre-install
-f:fa20c273b7d4669486af88b6f6bd1753:mysql/.signature
-f:573a72c81f8a00c0d909de7115c1f4b8:mysql/my.cnf
-f:64629b2cc9dc09973a68fa234be0a96a:mysql/Pkgfile
-f:b3d2c9f93c17b09483a021ffc6780f4e:mysql/mysqld
-f:b6c9c93473e72df9b230fa53f3b534b2:mysql/.footprint
 f:897fcb0f5be23c1fc3aa6571b760482e:tevent/.signature
 f:c30b5ef8c55853b1467dd6c8fda1605b:tevent/Pkgfile
 f:414c27bc9d21100bdfd64153d9cdeb39:tevent/.footprint
