@@ -1,10 +1,11 @@
 # Description: LDAP-like embedded database library
 # URL: http://ldb.samba.org/
 # Maintainer: Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: tevent tdb popt python3
 
 name=ldb
-version=2.5.2
+version=2.6.1
 release=1
 
 source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz
@@ -16,7 +17,7 @@ build() {
   ./configure \
     --prefix=/usr \
     --with-modulesdir=/usr/lib \
-    --bundled-libraries=cmocka \
+    --bundled-libraries=NONE \
     --without-ldb-lmdb
 
   make
