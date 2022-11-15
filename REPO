@@ -73,10 +73,10 @@ f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:9d94caa7f2eef5163f11339cf59e5ed2:libsdl/libsdl-1.2.15-bs.patch
 f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
 f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
-f:d3c330364a0fffd7e866109097e3957a:talloc/.signature
+f:0ea003fa9e06dce2c79550a88231e782:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:2c14ef836a342aeeb9532d691d43534a:talloc/Pkgfile
-f:47926daabda2e7a7faabfe25e928c9f8:talloc/.footprint
+f:819425f7c2f0b8cf0dd07d89c5b3f97a:talloc/.footprint
 f:3dbe55eb382e8d8b85ff14a79fe148c6:ruby/.signature
 f:a6070ac7461af04044a7635b378fb6df:ruby/Pkgfile
 f:502c54ad96a05a4eb694ce0596c738ba:ruby/.footprint
