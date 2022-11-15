@@ -1,4 +1,3 @@
-d:meson
 d:python3-markupsafe
 d:libidl
 d:cdparanoia
@@ -18,9 +17,6 @@ d:python
 d:libvisual
 d:tdb
 d:jdk
-f:9e32038e26e4009589136f8921338f87:meson/.signature
-f:582f01544cb73d914cb19e8db213b52d:meson/Pkgfile
-f:debbaac1b9572b19790c78fe94d459a6:meson/.footprint
 f:864b4750c8df585d849eafdfd212de01:python3-markupsafe/.signature
 f:a3fcf7b935ff9b09a9c3741bf9ab7f92:python3-markupsafe/Pkgfile
 f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
