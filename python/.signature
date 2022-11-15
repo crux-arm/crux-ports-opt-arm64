@@ -1,6 +1,9 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMUcRwUqzGlKBQcIyzwJMgv7WT1IGzDAcGTQiYJw9MbLfJVSgLnxXeo60KqiYWSMejsJXZVYVqp0Bbcux38v9+Qw=
-SHA256 (Pkgfile) = 2ebc53957902fe0574eda3928ffe40ae80a2fcb9787fb374bec3d99682cc32fb
-SHA256 (.footprint) = 45f6aea32375cc9cd313a77c570abcd08cbb4a9612d868eedf1e52d06ee062b4
+RWRitF9a2DJqMeEviMSgDJQM8tmBBUQekvN//Y93/6RqVkk9AocfD890Rhom5hXhNjgDBAyow/5kCu54xBiGgodcxhz/Ggxftwo=
+SHA256 (Pkgfile) = 8c493c4f3da5fff81e7d3f4386fbafe0b8dee4618f160e19525d67ca49a142d0
+SHA256 (.footprint) = b734f6cb2843212d2b1397b1409cb1b31b7fc772c0d2f1b3f74582e701badacc
 SHA256 (Python-2.7.18.tar.xz) = b62c0e7937551d0cc02b8fd5cb0f544f9405bafc9a54d3808ed4594812edef43
 SHA256 (pyconfig.h) = c5ed4a0d3c2943f4ad0e47fa0b787fb83f3de5f12b798fe9f45283b37db28e2c
+SHA256 (CVE-2019-20907.patch) = 59f8039b26f6a4613847fb4b30a1da612b4c0d5ed3c1cc92f498ebd71a734b04
+SHA256 (CVE-2020-26116.patch) = 290f34ab3e6cdd99fff00ab7b1e01d3e9c4acc36ecb87b7db76207c4cdaf692a
+SHA256 (CVE-2021-3177.patch) = db7835b3fa3a2897e531a219127a02bbc902e31f3363f27a456a45ddbb4eca31
