@@ -1,21 +1,23 @@
-# Maintainer:  Juergen Daubert, jue at crux dot nu
 # Description: Ruby interpreter
-# URL:         http://www.ruby-lang.org
-# Depends on:  gdbm libgmp openssl zlib libffi libyaml
+# URL: http://www.ruby-lang.org
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: gdbm libgmp openssl zlib libffi libyaml
 
 name=ruby
-version=3.0.4
+version=3.1.2
 release=1
 source=(http://cache.ruby-lang.org/pub/$name/${version%.*}/$name-$version.tar.xz)
 
 build () {
-    cd $name-$version
+  cd $name-$version
 
-    ./configure --prefix=/usr \
-                --enable-shared \
-                --disable-install-doc \
-                --with-ruby-version=minor
+  ./configure \
+    --prefix=/usr \
+    --enable-shared \
+    --disable-install-doc \
+    --with-ruby-version=minor
 
-    make
-    make DESTDIR=$PKG install
+  make
+  make DESTDIR=$PKG install
 }
