@@ -27,3 +27,14 @@ jobs:
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           bash -c "git commit -a -m '[auto] Update REPO file' && git push || exit 0" 
+
+      - name: irc push
+        uses: rectalogic/notify-irc@v1
+        if: github.event_name == 'push'
+        with:
+          channel: "#crux-arm"
+          server: "irc.libera.chat"
+          nickname: crux-arm-bot
+          message: |
+            ${{ github.actor }} pushed ${{ github.event.ref }} ${{ github.event.compare }}
+            ${{ join(github.event.commits.*.message) }}
