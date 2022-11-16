@@ -1,4 +1,5 @@
 d:python3-markupsafe
+d:docker
 d:libidl
 d:go
 d:cdparanoia
@@ -20,6 +21,14 @@ d:jdk
 f:864b4750c8df585d849eafdfd212de01:python3-markupsafe/.signature
 f:a3fcf7b935ff9b09a9c3741bf9ab7f92:python3-markupsafe/Pkgfile
 f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
+f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
+f:fc96322d8c8607a126d4e9bd30c7cf42:docker/pre-install
+f:6573199b893fb3384670f47b5ac1fa62:docker/.signature
+f:639d3af72199001bb612e545335a67a3:docker/docker.conf
+f:32cc77c771f4c76d0c469abd2050493a:docker/Pkgfile
+f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
+f:d83f39cc5876fed6daecfbd28cfed4c1:docker/docker.rc
+f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:6b5e127e72010a9216267668e237ea0d:libidl/Pkgfile
 f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
