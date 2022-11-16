@@ -27,7 +27,8 @@ jobs:
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           bash -c "git commit -a -m '[auto] Update REPO file' && git push || exit 0" 
-
+      
+      # Send IRC message by bot
       - name: irc push
         uses: rectalogic/notify-irc@v1
         if: github.event_name == 'push'
