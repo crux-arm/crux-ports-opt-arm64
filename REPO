@@ -1,5 +1,6 @@
 d:python3-markupsafe
 d:libidl
+d:go
 d:cdparanoia
 d:llvm
 d:libtheora
@@ -22,6 +23,11 @@ f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:6b5e127e72010a9216267668e237ea0d:libidl/Pkgfile
 f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
+f:ca0f43ecb46a24b473791e4ac627585d:go/.md5sum
+f:75854fdef83615072d90d445aed57014:go/.signature
+f:ef3c76b036515308b0f8040bd3edf6fa:go/Pkgfile
+f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
+f:4d125cb4029630dc1f7836d7ac2ccca2:go/.footprint
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
