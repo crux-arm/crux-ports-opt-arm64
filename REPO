@@ -4,6 +4,7 @@ d:libidl
 d:go
 d:cdparanoia
 d:llvm
+d:docker-compose
 d:libtheora
 d:ldb
 d:gobject-introspection
@@ -46,6 +47,9 @@ f:d5b2a4eac26a2caf5be9992dae930f37:llvm/.signature
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:6dbf86c8d3ed41737a335f2c26a3630d:llvm/Pkgfile
 f:ff4fa564f7d87997ca5ab965e3e81123:llvm/.footprint
+f:0aab031ac77b8ad70feed1163c25801d:docker-compose/.signature
+f:7d69bc68031760bc3ff858af52f27fbb:docker-compose/Pkgfile
+f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
