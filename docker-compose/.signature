@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMb27bD5VLl0RvxrU71kYSHhj8qTOjnDCYxB50YbNsb3WZ747z9fpcC8O68ZkbUlHf94Wo/Kndn87E1NaXGJFuAc=
+SHA256 (Pkgfile) = ddeae7304e0bb8f4daf7e7f94d4af4aa13981451bdf7dd2a22b1fc86989f2cc4
+SHA256 (.footprint) = 7154d1f66d9f29102103d3d93b9968c5c01ab4baa58ef7acec084fab6b6c2cb9
+SHA256 (docker-compose-2.12.2.tar.gz) = 311131c5d930fdb1f5e86de19ea2ad1705d23e5745b780c0b10b2eb3f964fc69
