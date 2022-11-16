@@ -37,4 +37,4 @@ jobs:
           server: "irc.libera.chat"
           nickname: crux-arm-bot
           message: |
-            bash -c "git log -1 --pretty=format:"%s" || exit 0"
+            [${{ github.repository }}]: ${{ github.event.commits[0].message }}
