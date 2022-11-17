@@ -37,7 +37,7 @@ jobs:
         uses: rectalogic/notify-irc@v1
         if: github.event_name == 'push'
         with:
-          channel: "#crux-arm2"
+          channel: "#crux-arm"
           server: "irc.libera.chat"
           nickname: crux-arm-bot
           message: ${{ env.MESSAGE }}
