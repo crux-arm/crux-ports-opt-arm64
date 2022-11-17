@@ -37,4 +37,5 @@ jobs:
           server: "irc.libera.chat"
           nickname: crux-arm-bot
           message: |
-            [${{ github.repository }}]: ${{ github.event.commits[0].message }}
+            [${{ github.repository }}]: ${{ github.event.head_commit.message }}
+            #[${{ github.repository }}]: ${{ github.event.commits[0].message }}
