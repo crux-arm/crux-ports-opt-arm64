@@ -29,7 +29,7 @@ jobs:
           bash -c "git commit -a -m '[auto] Update REPO file' && git push || exit 0" 
       
       - name: Set env message
-        run: echo "MESSAGE=$(git log -1 --pretty=format:"%s" || exit 0)" >> $GITHUB_ENV      
+        run: echo "MESSAGE=$(git log -1 --pretty=format:"%s")" >> $GITHUB_ENV      
       
       # Send IRC message by bot
       - name: irc push
@@ -40,4 +40,4 @@ jobs:
           server: "irc.libera.chat"
           nickname: crux-arm-bot
           message: |
-            echo ${{ env.MESSAGE }}
+            ${{ env.MESSAGE }}
