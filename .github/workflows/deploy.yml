@@ -29,7 +29,7 @@ jobs:
           bash -c "git commit -a -m '[auto] Update REPO file' && git push || exit 0" 
       
       - name: Set env message
-        run: echo "MESSAGE=$(git log -1 --pretty=format:"%s" | sed "s|\n||g" )" >> $GITHUB_ENV      
+        run: echo "MESSAGE=$(git log -1 --pretty=format:"%s" | sed "s|\\n||g" )" >> $GITHUB_ENV      
       
       # Send IRC message by bot
       - name: irc push
