@@ -30,7 +30,7 @@ jobs:
       
       # Prepare git log message to avoid extra blank lines
       - name: Set env message
-        run: echo "MESSAGE=$(git log -1 --pretty=format:"%s")" >> $GITHUB_ENV      
+        run: echo "MESSAGE=$(git log -2 --pretty=format:"%s")" >> $GITHUB_ENV      
       
       # Send IRC message by bot
       - name: irc push
