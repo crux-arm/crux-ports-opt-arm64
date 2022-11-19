@@ -6,17 +6,21 @@
 # Optional: lld
 
 name=llvm
-version=14.0.6
+version=15.0.4
 release=1
-source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/$name-$version.src.tar.xz
-  llvm-config.h)
+source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/$name-$version.src.tar.xz \
+    https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz \
+    llvm-config.h)
 
 build() {
+  cp -r $SRC/cmake-$version.src/Modules/* $name-$version.src/cmake/modules/.
+
   cmake -S $name-$version.src -B build -G Ninja \
     -D CMAKE_INSTALL_PREFIX=/usr \
     -D CMAKE_BUILD_TYPE=Release \
     -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
     -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+    -D LLVM_BINUTILS_INCDIR=/usr/include \
     -D LLVM_TARGETS_TO_BUILD='AArch64' \
     -D LLVM_BUILD_LLVM_DYLIB=ON \
     -D LLVM_LINK_LLVM_DYLIB=ON \
