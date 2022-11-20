@@ -66,9 +66,9 @@ f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:afe61c7760e835bd12d5dfd40af4ec84:firefox/firefox-install-dir.patch
 f:3456d4d24bbec371c1b7ba9997d77683:firefox/Pkgfile
 f:5479a73f6bf62d73359a9bef5e0a2967:firefox/.footprint
-f:b0f38201003c4b9e34f5669ea65a2149:python3-libxml2/.signature
-f:6bddbf30e95e322188e1d32119c4faa2:python3-libxml2/Pkgfile
-f:23f109d7cce872257431fce2f718d942:python3-libxml2/.footprint
+f:839624200727938b8556d579b1648c92:python3-libxml2/.signature
+f:f0e040335062dca3cd20e4cd58941a9d:python3-libxml2/Pkgfile
+f:fc84647bc1e83c60dfe021c068b444f4:python3-libxml2/.footprint
 f:2c0dcf60523bbf73a30ee57a3491abfe:libtiff/.signature
 f:dc3453a3fd3b18e4232f5fefcd53d576:libtiff/Pkgfile
 f:43b029d53fbc8a2fc8b395c6545e271a:libtiff/.footprint
