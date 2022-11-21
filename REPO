@@ -19,6 +19,7 @@ d:python
 d:libvisual
 d:tdb
 d:jdk
+d:pango
 f:864b4750c8df585d849eafdfd212de01:python3-markupsafe/.signature
 f:a3fcf7b935ff9b09a9c3741bf9ab7f92:python3-markupsafe/Pkgfile
 f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
@@ -105,3 +106,6 @@ f:0c8118fd20ee61fe3c11d5680c482d8a:tdb/.footprint
 f:09a98e6190d46b10f15b0f251782f217:jdk/.signature
 f:b088af8634061f60843916487e389912:jdk/Pkgfile
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
+f:c7e4be185d13e5e582fed2f231c8465a:pango/.signature
+f:b6116158b6dd4895c92341ddcf219a6d:pango/Pkgfile
+f:97961a4d8f57bcf24ff511f9d54398aa:pango/.footprint
