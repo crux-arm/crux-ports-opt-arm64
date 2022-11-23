@@ -44,10 +44,10 @@ f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
-f:30e09aedaf4059fb4182a14f8c5d55ba:llvm/.signature
+f:d0f9ba4fa058e046ac774bc685eda89d:llvm/.signature
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
-f:2cc6931b5cac873a37d3fef14587ab65:llvm/Pkgfile
-f:11d9407b1134f4e0519f056abfc43fdc:llvm/.footprint
+f:440722b9509a341541559970d1a5884f:llvm/Pkgfile
+f:3b4cb5fa8a54e133cef09d7c4d1aa28c:llvm/.footprint
 f:0aab031ac77b8ad70feed1163c25801d:docker-compose/.signature
 f:7d69bc68031760bc3ff858af52f27fbb:docker-compose/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
