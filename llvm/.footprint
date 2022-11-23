@@ -2029,7 +2029,7 @@ drwxr-xr-x	root/root	usr/lib/cmake/llvm/
 -rw-r--r--	root/root	usr/lib/cmake/llvm/UseLibtool.cmake
 -rw-r--r--	root/root	usr/lib/cmake/llvm/VersionFromVCS.cmake
 -rw-r--r--	root/root	usr/lib/cmake/llvm/llvm-driver-template.cpp.in
-lrwxrwxrwx	root/root	usr/lib/libLLVM-15.0.4.so -> libLLVM-15.so
+lrwxrwxrwx	root/root	usr/lib/libLLVM-15.0.5.so -> libLLVM-15.so
 -rwxr-xr-x	root/root	usr/lib/libLLVM-15.so
 lrwxrwxrwx	root/root	usr/lib/libLLVM.so -> libLLVM-15.so
 -rw-r--r--	root/root	usr/lib/libLLVMAArch64AsmParser.a
@@ -2121,13 +2121,13 @@ lrwxrwxrwx	root/root	usr/lib/libRemarks.so -> libRemarks.so.15
 -rwxr-xr-x	root/root	usr/lib/libRemarks.so.15
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.4.dev0-py3.10.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit-15.0.5.dev0-py3.10.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/lit/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit/BooleanExpression.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/lit/LitConfig.py
