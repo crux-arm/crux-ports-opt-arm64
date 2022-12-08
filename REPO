@@ -79,10 +79,9 @@ f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
-f:ef3c76b036515308b0f8040bd3edf6fa:go/Pkgfile
-f:ca0f43ecb46a24b473791e4ac627585d:go/.md5sum
-f:4d125cb4029630dc1f7836d7ac2ccca2:go/.footprint
-f:75854fdef83615072d90d445aed57014:go/.signature
+f:981931b108a60a9923945cc627e13cce:go/Pkgfile
+f:1f0b05a87646f9d40f154325f6732af8:go/.footprint
+f:98f623c29b2dc6239457ffc658df1583:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
 f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
