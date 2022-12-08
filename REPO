@@ -92,9 +92,9 @@ f:3b54f006d6fbfb4f73ecbb457d0b1dc0:libsdl/.signature
 f:13ae32f34df2ad5a4cee75c9e371a0c9:libvisual/Pkgfile
 f:fbb9da435ae9ff1dc6ddd3cab9c98bc1:libvisual/.footprint
 f:04ff753cc4db8e09f849d417ccc0708c:libvisual/.signature
-f:7d69bc68031760bc3ff858af52f27fbb:docker-compose/Pkgfile
+f:52d0bdb4bf9f4a830f838b2293cc772a:docker-compose/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
-f:0aab031ac77b8ad70feed1163c25801d:docker-compose/.signature
+f:fd84b2f13d241c1ad8a20cc0b7ddf995:docker-compose/.signature
 f:c30b5ef8c55853b1467dd6c8fda1605b:tevent/Pkgfile
 f:414c27bc9d21100bdfd64153d9cdeb39:tevent/.footprint
 f:897fcb0f5be23c1fc3aa6571b760482e:tevent/.signature
