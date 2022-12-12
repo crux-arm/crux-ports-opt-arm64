@@ -14,7 +14,6 @@ d:python
 d:libtheora
 d:go
 d:libsdl
-d:libvisual
 d:docker-compose
 d:tevent
 d:ldb
@@ -89,9 +88,6 @@ f:5e45f316383e5c218e68efd13a136e51:libsdl/README
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:9d94caa7f2eef5163f11339cf59e5ed2:libsdl/libsdl-1.2.15-bs.patch
 f:3b54f006d6fbfb4f73ecbb457d0b1dc0:libsdl/.signature
-f:13ae32f34df2ad5a4cee75c9e371a0c9:libvisual/Pkgfile
-f:fbb9da435ae9ff1dc6ddd3cab9c98bc1:libvisual/.footprint
-f:04ff753cc4db8e09f849d417ccc0708c:libvisual/.signature
 f:52d0bdb4bf9f4a830f838b2293cc772a:docker-compose/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
 f:fd84b2f13d241c1ad8a20cc0b7ddf995:docker-compose/.signature
