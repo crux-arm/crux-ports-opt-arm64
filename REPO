@@ -82,13 +82,13 @@ f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:5b7e8a119e09a1cbe747695617f6bc97:python/.footprint
 f:57fef288abe4b000725952d460004301:python/Pkgfile
 f:fc96322d8c8607a126d4e9bd30c7cf42:docker/pre-install
-f:6573199b893fb3384670f47b5ac1fa62:docker/.signature
+f:a4963bd69547bb9f339709197ff86885:docker/.signature
 f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
 f:d83f39cc5876fed6daecfbd28cfed4c1:docker/docker.rc
 f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:639d3af72199001bb612e545335a67a3:docker/docker.conf
-f:32cc77c771f4c76d0c469abd2050493a:docker/Pkgfile
+f:dd749bc1e8fd7b057cd8f8b0c9ec4021:docker/Pkgfile
 f:98f623c29b2dc6239457ffc658df1583:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:1f0b05a87646f9d40f154325f6732af8:go/.footprint
