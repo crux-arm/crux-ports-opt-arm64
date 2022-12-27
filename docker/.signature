@@ -1,10 +1,10 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMX4LCLRL1TKkYMyY4KAQe7bzYNHdPXfXPG1CJgp+pNFqWHOgwRgLD0L7fY4f3y64sbP2jHPMcXu2oG9kwHCSGQc=
-SHA256 (Pkgfile) = 16fd5f64f2fede2ebd4e3629b3e3bd1c7f64bec25e4039b758bdebc7a695bf2a
+RWRitF9a2DJqMRmLXPtfxdw7MR6lxGZ1g561OoaPCDHgbVuFUP8gUqUhENQcZX6gla0I3Cc5Kn9WR6JBtbOcnLdDMuD1lPj6lQM=
+SHA256 (Pkgfile) = 91206a3a26542da58378825b82cff51cf9fa2e5d549447b94592e3befca67fe9
 SHA256 (.footprint) = ef891bf504df63f9b4413ecccd3a0ce6e4a71b1a42f22e9bb9c36a6a87a2c3fe
-SHA256 (moby-20.10.21.tar.gz) = 61f4c3a2d0426e1bbbda1b0e5dd33ec203776f7d99d1a61522c77c04c4ed09fe
-SHA256 (cli-20.10.21.tar.gz) = f0f62ca1c80e8fd5b9e140ca64ef3e75dc7cf7a28040b3d10b260307128946e8
-SHA256 (docker-man-pages-20.10.21.tar.xz) = ed6a6ed235277c190c0f6c338e28d97fa0127b5c0addd637c8c56b920c81542d
-SHA256 (libnetwork-0dde5c8.tar.xz) = afd4aa7ad75aad83c42b706ad825ad5afe6fe6c694a4ce81c1bc6a75c32d0d29
+SHA256 (moby-20.10.22.tar.gz) = ee0e2168e27ec87f1b0650e86af5d3e167a07fd2ff8c1ce3bb588f0b4f9a4658
+SHA256 (cli-20.10.22.tar.gz) = 84d71ac2b508b54e8df9f3ea425aa33e254fd3645fe9bad5619b98eaffb33408
+SHA256 (docker-man-pages-20.10.22.tar.xz) = 7b4ca06c18e06f33dc25e00ad5b52f7aba551aef99abe1403cf79d23e8558a0b
+SHA256 (libnetwork-dcdf8f1.tar.xz) = c31606b3ab192208cf284b68ea978ca303e8d30afef5af91d227c1bb8aaaa96a
 SHA256 (docker.rc) = 258ff4d10d199b2b847df07d22eac04bb8bd749a10af29d67111e53a8b81a46c
 SHA256 (docker.conf) = 51f264d548d6d3871d07670e7e5ba6414c3b4317dcc6d59cd7cc45dc1045659e
