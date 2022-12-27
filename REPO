@@ -14,7 +14,6 @@ d:libsdl
 d:python3-markupsafe
 d:jdk
 d:ldb
-d:firefox
 d:python
 d:docker
 d:go
@@ -75,12 +74,6 @@ f:4b332fa63db55b3a78dc48b3af64a731:ldb/.signature
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:62b95af46997374dc32f19612dfbc8ba:ldb/.footprint
 f:b784aee27487e740ade3dfc9a4a9545d:ldb/Pkgfile
-f:afe61c7760e835bd12d5dfd40af4ec84:firefox/firefox-install-dir.patch
-f:e0d8c6ae48ddb1c2380ceacdfeccce20:firefox/.signature
-f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
-f:a87fef21fe4d7969f59d96f0ec3d1e6c:firefox/README
-f:5479a73f6bf62d73359a9bef5e0a2967:firefox/.footprint
-f:3456d4d24bbec371c1b7ba9997d77683:firefox/Pkgfile
 f:08323c8fe8a3c55d4609ebd6cd0b41ee:python/CVE-2021-3177.patch
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
