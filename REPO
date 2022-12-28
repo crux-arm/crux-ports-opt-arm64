@@ -55,9 +55,9 @@ f:0ea003fa9e06dce2c79550a88231e782:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:819425f7c2f0b8cf0dd07d89c5b3f97a:talloc/.footprint
 f:2c14ef836a342aeeb9532d691d43534a:talloc/Pkgfile
-f:709028f932af8cba3125e614f426c053:ruby/.signature
-f:a2976e7e0d34906f8c4be0f8aa1347db:ruby/.footprint
-f:ebaeef80a8b363e0feb28fc4c9d0015b:ruby/Pkgfile
+f:2caf74a910dd49d8d56aa76a8ce6f15d:ruby/.signature
+f:9a0d26d30061458065788ba600434d47:ruby/.footprint
+f:2e18a1e306613ae3e4dfb8517dd6f05c:ruby/Pkgfile
 f:3b54f006d6fbfb4f73ecbb457d0b1dc0:libsdl/.signature
 f:5e45f316383e5c218e68efd13a136e51:libsdl/README
 f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
