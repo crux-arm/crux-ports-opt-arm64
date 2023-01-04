@@ -1,6 +1,7 @@
 # Description: The Rust language with Cargo included.
 # URL: https://www.rust-lang.org/
 # Maintainer: Danny Rawlins, crux at romster dot me
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: compiler-rt
 # Optional: ccache libgit2 lld polly sccache
 
