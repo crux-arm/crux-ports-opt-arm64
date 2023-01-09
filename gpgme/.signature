@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMTORTf17wvUXTBS5qUggXlD5qaSTZxcs1FcPaYQ8J/YVCXWXwRKmb5mCfn28duKRhAtTE6f6suCw97zod8iNpQA=
+SHA256 (Pkgfile) = 34fd17816e45102260b5b54516e4e2a4f9033fcdf298e21108c727add160f7fc
+SHA256 (.footprint) = b473318a9eef2faaea121b20bf711ab45ff36cae2dc4fedff10421c816a96fa8
+SHA256 (gpgme-1.18.0.tar.bz2) = 361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e
+SHA256 (python310.patch) = 5de2f6bcb6b30642d0cbc3fbd86803c9460d732f44a526f44cedee8bb78d291a
