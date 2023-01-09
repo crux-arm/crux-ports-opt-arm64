@@ -1,0 +1,36 @@
+# Description: A C wrapper and Python bindings library for GnuPG
+# URL: https://www.gnupg.org/related_software/gpgme/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: gnupg swig python3-setuptools
+
+name=gpgme
+version=1.18.0
+release=1
+source=(https://www.gnupg.org/ftp/gcrypt/$name/$name-$version.tar.bz2
+	python310.patch)
+
+build() {
+	cd $name-$version
+
+	patch -Np1 -i $SRC/python310.patch
+
+	export PYTHON='/usr/bin/python3'
+	./configure \
+		--prefix=/usr \
+		--disable-fd-passing \
+		--disable-gpgsm-test \
+		--enable-languages='cl cpp python'
+
+	make
+	make DESTDIR=$PKG install
+
+	cd lang/python
+	make DESTDIR=$PKG install
+
+	install -d $PKG/usr/etc/gpgme
+	echo 'c cl cpp' > $PKG/usr/etc/gpgme/base
+	echo 'python3' > $PKG/usr/etc/gpgme/python
+
+	rm -r $PKG/usr/share/info
+	rm -rf $PKG/usr/lib/python2.7
+}
