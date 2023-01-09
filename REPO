@@ -85,6 +85,7 @@ f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:62b95af46997374dc32f19612dfbc8ba:ldb/.footprint
 f:b784aee27487e740ade3dfc9a4a9545d:ldb/Pkgfile
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
+f:27ab03a0231c870f591bbbe7f8e2eef8:rust/.signature
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:bae6e6763b13a8741067489f62ce986c:rust/0001-bootstrap-Change-libexec-dir.patch
