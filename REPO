@@ -75,6 +75,7 @@ f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
 f:9d94caa7f2eef5163f11339cf59e5ed2:libsdl/libsdl-1.2.15-bs.patch
+f:815c717d5151f649749ec35bdfbb4122:gcc-fortran/.signature
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:568368c30bd81e2d7b4f8dba115e1387:gcc-fortran/.footprint
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
