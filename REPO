@@ -17,6 +17,7 @@ d:jdk
 d:ldb
 d:python
 d:docker
+d:brotli
 d:go
 f:fd84b2f13d241c1ad8a20cc0b7ddf995:docker-compose/.signature
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
@@ -93,6 +94,9 @@ f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:639d3af72199001bb612e545335a67a3:docker/docker.conf
 f:dd749bc1e8fd7b057cd8f8b0c9ec4021:docker/Pkgfile
+f:462d7d441ac0a557cadd144b52eb92a0:brotli/.footprint
+f:a468e8688469fd5f0cfcb09d6baf2adf:brotli/runtime-linker-path.patch
+f:6b49e15474d57eb6692ba4c8b5398dd6:brotli/Pkgfile
 f:98f623c29b2dc6239457ffc658df1583:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:1f0b05a87646f9d40f154325f6732af8:go/.footprint
