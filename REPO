@@ -4,6 +4,7 @@ d:llvm
 d:cdparanoia
 d:tdb
 d:libidl
+d:cbindgen
 d:tevent
 d:python3-libxml2
 d:libtheora
@@ -39,6 +40,8 @@ f:03069196e5e6c5726d59f908e2294fea:tdb/Pkgfile
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
 f:6b5e127e72010a9216267668e237ea0d:libidl/Pkgfile
+f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
+f:51f772585595a3df0579485a706ec962:cbindgen/Pkgfile
 f:897fcb0f5be23c1fc3aa6571b760482e:tevent/.signature
 f:414c27bc9d21100bdfd64153d9cdeb39:tevent/.footprint
 f:c30b5ef8c55853b1467dd6c8fda1605b:tevent/Pkgfile
