@@ -16,6 +16,7 @@ d:libsdl
 d:python3-markupsafe
 d:jdk
 d:ldb
+d:rust
 d:python
 d:docker
 d:brotli
@@ -83,6 +84,12 @@ f:4b332fa63db55b3a78dc48b3af64a731:ldb/.signature
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:62b95af46997374dc32f19612dfbc8ba:ldb/.footprint
 f:b784aee27487e740ade3dfc9a4a9545d:ldb/Pkgfile
+f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
+f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
+f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
+f:bae6e6763b13a8741067489f62ce986c:rust/0001-bootstrap-Change-libexec-dir.patch
+f:7a58684306016c90c3790418ecfe70b2:rust/.footprint
+f:2d76d14ed809a243c95b561c4f0f9e9c:rust/Pkgfile
 f:08323c8fe8a3c55d4609ebd6cd0b41ee:python/CVE-2021-3177.patch
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
