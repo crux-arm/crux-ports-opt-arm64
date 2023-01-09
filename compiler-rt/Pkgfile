@@ -1,0 +1,27 @@
+# Description: Compiler runtime libraries for clang
+# URL: https://compiler-rt.llvm.org/
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: llvm
+
+name=compiler-rt
+version=15.0.6
+release=1
+source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/compiler-rt-$version.src.tar.xz
+	https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
+	https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz)
+
+build() {
+	mv llvm-$version.src llvm
+	cp -r $SRC/cmake-$version.src/Modules/* $name-$version.src/cmake/Modules/.
+
+	cmake -S $name-$version.src -B build -G Ninja \
+		-D CMAKE_INSTALL_PREFIX=/usr \
+		-D COMPILER_RT_INSTALL_PATH=/usr/lib/clang/$version \
+		-D CMAKE_BUILD_TYPE=Release \
+		-D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+		-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+		-Wno-dev
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

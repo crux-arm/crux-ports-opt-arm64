@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/X6lYQDzwE6TjPCIDBu3oavXE+WdtePYUsxejSu9Ak9GogHk0B95/sfodJCpgtN/AH4zn27w4VRyoTF0D9jGAAQ=
+SHA256 (Pkgfile) = cfb075e461a1621f45d82fb6bb32b9f68c18032ea35664007860c8322938d446
+SHA256 (.footprint) = a3282a4707bfd2b5849291526183952ef136d2e6eff6376748b9cd82b51043e1
+SHA256 (compiler-rt-15.0.6.src.tar.xz) = b46f5b5b02402ef3acd92e7adf2d551e0b2a8ed19fce66800472dc0ad2a81fbc
+SHA256 (llvm-15.0.6.src.tar.xz) = 0b32199401f27e2e0353846a8c5fbadd77beca2570654fb9ef7ac9b7f26967e3
+SHA256 (cmake-15.0.6.src.tar.xz) = 7613aeeaba9b8b12b35224044bc349b5fa45525919625057fa54dc882dcb4c86
