@@ -23,6 +23,7 @@ f:52d0bdb4bf9f4a830f838b2293cc772a:docker-compose/Pkgfile
 f:c7e4be185d13e5e582fed2f231c8465a:pango/.signature
 f:97961a4d8f57bcf24ff511f9d54398aa:pango/.footprint
 f:b6116158b6dd4895c92341ddcf219a6d:pango/Pkgfile
+f:5a27000d6da6020bd4fd8ce4d3094aad:llvm/.signature
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:380f242c4fc983ae0531d3b7c9b0a7ca:llvm/.footprint
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
