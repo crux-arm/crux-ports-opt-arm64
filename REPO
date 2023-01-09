@@ -1,5 +1,6 @@
 d:docker-compose
 d:pango
+d:gpgme
 d:llvm
 d:cdparanoia
 d:tdb
@@ -28,6 +29,10 @@ f:52d0bdb4bf9f4a830f838b2293cc772a:docker-compose/Pkgfile
 f:c7e4be185d13e5e582fed2f231c8465a:pango/.signature
 f:97961a4d8f57bcf24ff511f9d54398aa:pango/.footprint
 f:b6116158b6dd4895c92341ddcf219a6d:pango/Pkgfile
+f:6604bf5063bf36bae402a61abb2731a0:gpgme/.footprint
+f:c3539963f225d60a035cce8b85d9eb33:gpgme/python310.patch
+f:4a341abc9d32201a7f6e4e62d04a4d25:gpgme/closefrom.patch
+f:dfbe0ad6ea1ee13870772db652086ac4:gpgme/Pkgfile
 f:5a27000d6da6020bd4fd8ce4d3094aad:llvm/.signature
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:380f242c4fc983ae0531d3b7c9b0a7ca:llvm/.footprint
