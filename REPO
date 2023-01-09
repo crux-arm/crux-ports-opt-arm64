@@ -94,6 +94,7 @@ f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:639d3af72199001bb612e545335a67a3:docker/docker.conf
 f:dd749bc1e8fd7b057cd8f8b0c9ec4021:docker/Pkgfile
+f:ba1cd688470f2fd7219c4337db624495:brotli/.signature
 f:462d7d441ac0a557cadd144b52eb92a0:brotli/.footprint
 f:a468e8688469fd5f0cfcb09d6baf2adf:brotli/runtime-linker-path.patch
 f:6b49e15474d57eb6692ba4c8b5398dd6:brotli/Pkgfile
