@@ -1,0 +1,27 @@
+# Description: Interface for userspace filesystems
+# URL:         https://github.com/libfuse/
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+
+name=fuse
+version=2.9.9
+release=1
+source=(https://github.com/libfuse/libfuse/releases/download/$name-$version/$name-$version.tar.gz
+    fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
+    914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch)
+
+build() {
+    cd $name-$version
+    patch -Np1 -i $SRC/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
+    patch -Np1 -i $SRC/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
+    autoreconf -vfi
+    UDEV_RULES_PATH=/usr/lib/udev/rules.d ./configure \
+        --prefix=/usr \
+        --libdir=/usr/lib \
+        --enable-lib \
+        --enable-util \
+        --disable-example
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/{dev,etc}
+}
