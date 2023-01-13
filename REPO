@@ -3,6 +3,7 @@ d:tevent
 d:libsdl
 d:brotli
 d:go
+d:libb2
 d:compiler-rt
 d:talloc
 d:python3-markupsafe
@@ -49,6 +50,8 @@ f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:1f0b05a87646f9d40f154325f6732af8:go/.footprint
 f:98f623c29b2dc6239457ffc658df1583:go/.signature
 f:981931b108a60a9923945cc627e13cce:go/Pkgfile
+f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
+f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
 f:44eb7c12e6ff9006087ebed15e659e5b:compiler-rt/.footprint
 f:6bca4d360a62c1f46e56609aba71dbc2:compiler-rt/.signature
 f:52df07b4a6826315943aca25a1fb0279:compiler-rt/Pkgfile
