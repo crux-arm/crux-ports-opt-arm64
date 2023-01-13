@@ -6,6 +6,7 @@ d:go
 d:libb2
 d:compiler-rt
 d:talloc
+d:python3-packaging
 d:python3-markupsafe
 d:cdparanoia
 d:docker
@@ -61,6 +62,8 @@ f:819425f7c2f0b8cf0dd07d89c5b3f97a:talloc/.footprint
 f:0ea003fa9e06dce2c79550a88231e782:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:2c14ef836a342aeeb9532d691d43534a:talloc/Pkgfile
+f:e3394583222be72f3d11edf7638e8f62:python3-packaging/.footprint
+f:18ea866c4a61bb9d07be15cd4a695b9f:python3-packaging/Pkgfile
 f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
 f:864b4750c8df585d849eafdfd212de01:python3-markupsafe/.signature
 f:a3fcf7b935ff9b09a9c3741bf9ab7f92:python3-markupsafe/Pkgfile
