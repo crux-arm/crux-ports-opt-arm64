@@ -63,6 +63,7 @@ f:0ea003fa9e06dce2c79550a88231e782:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:2c14ef836a342aeeb9532d691d43534a:talloc/Pkgfile
 f:e3394583222be72f3d11edf7638e8f62:python3-packaging/.footprint
+f:79b08c084458afa33839f6e221afd88b:python3-packaging/.signature
 f:18ea866c4a61bb9d07be15cd4a695b9f:python3-packaging/Pkgfile
 f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
 f:864b4750c8df585d849eafdfd212de01:python3-markupsafe/.signature
