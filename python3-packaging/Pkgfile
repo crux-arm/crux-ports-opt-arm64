@@ -1,0 +1,23 @@
+# Description: Core utilities for Python packages.
+# URL: https://pypi.python.org/pypi/packaging/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: python3-pyparsing python3-six python3-pip
+# Optional: python3-flit-core
+
+name=python3-packaging
+version=23.0
+release=1
+source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${name#*-}/${name#*-}-$version.tar.gz)
+
+build() {
+  cd packaging-$version
+
+  if prt-get isinst python3-flit-core; then
+    /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+    /usr/bin/python3 -m installer --compile-bytecode 0 --destdir=$PKG dist/*.whl
+  else
+    /usr/bin/pip3 install --isolate --root=$PKG --ignore-installed --no-deps packaging
+    rm -rf $PKG/usr/lib/python*/site-packages/packaging-$version.dist-info/{INSTALLER,REQUESTED}
+  fi
+}
