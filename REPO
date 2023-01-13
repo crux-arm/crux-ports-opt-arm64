@@ -18,6 +18,7 @@ d:fftw
 d:ldb
 d:gpgme
 d:pango
+d:libdaemon
 d:docker-compose
 d:gcc-fortran
 d:libtheora
@@ -109,6 +110,8 @@ f:dfbe0ad6ea1ee13870772db652086ac4:gpgme/Pkgfile
 f:97961a4d8f57bcf24ff511f9d54398aa:pango/.footprint
 f:c7e4be185d13e5e582fed2f231c8465a:pango/.signature
 f:b6116158b6dd4895c92341ddcf219a6d:pango/Pkgfile
+f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
+f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
 f:fd84b2f13d241c1ad8a20cc0b7ddf995:docker-compose/.signature
 f:52d0bdb4bf9f4a830f838b2293cc772a:docker-compose/Pkgfile
