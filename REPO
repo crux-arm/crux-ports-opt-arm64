@@ -134,4 +134,5 @@ f:e6e62a28ba2db452a2849701a77ddf4d:gobject-introspection/Pkgfile
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
+f:5a4532a593277deaffb1e63b36c136b5:fuse/.signature
 f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
