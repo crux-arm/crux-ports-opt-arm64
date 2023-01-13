@@ -27,7 +27,7 @@ f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:bae6e6763b13a8741067489f62ce986c:rust/0001-bootstrap-Change-libexec-dir.patch
 f:7a58684306016c90c3790418ecfe70b2:rust/.footprint
-f:27ab03a0231c870f591bbbe7f8e2eef8:rust/.signature
+f:4488df8cb7b924118be11f3b43e7f07f:rust/.signature
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:87db0670eeebb5107934463079047d2f:rust/Pkgfile
 f:414c27bc9d21100bdfd64153d9cdeb39:tevent/.footprint
