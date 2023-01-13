@@ -24,6 +24,7 @@ d:cbindgen
 d:llvm
 d:tdb
 d:gobject-introspection
+d:fuse
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:bae6e6763b13a8741067489f62ce986c:rust/0001-bootstrap-Change-libexec-dir.patch
@@ -130,3 +131,7 @@ f:03069196e5e6c5726d59f908e2294fea:tdb/Pkgfile
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:cb21809dae13ad9c30f5514b127c75e5:gobject-introspection/.signature
 f:e6e62a28ba2db452a2849701a77ddf4d:gobject-introspection/Pkgfile
+f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
+f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
+f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
+f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
