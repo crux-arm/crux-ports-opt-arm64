@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMUDCaErDh8E+kppEkqarY6tvtgC48xgm3W6QQqa9NBcazzg1h0OC1bZvj7Xcp9clbRWzS58u3K8nGG4FUIjE5Ak=
+SHA256 (Pkgfile) = 21ad33547bc76d2862df30ee5e25625833c0107bd095ede743ca17b8b01a927c
+SHA256 (.footprint) = ab65997d1f2d0ad08e15460f99a72d00811b1b1e3760bf3a028ec19a6ffe9853
+SHA256 (fuse-2.9.9.tar.gz) = d0e69d5d608cc22ff4843791ad097f554dd32540ddc9bed7638cc6fea7c1b4b5
+SHA256 (fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch) = af2e8c783bca37bb9e34ff6f9f93c190922f8b9e83334496fbceaa4a8d27690d
+SHA256 (914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch) = 52c2c4d783f9d04965d31a373c44a4e6d2071f61cb6a5b1a5a212e6cef4a74f1
