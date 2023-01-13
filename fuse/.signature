@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/opt.pub
-RWSE3ohX2g5d/bBbAkIVUetOhw6o+QEPpSLhFJvUiBCEh3kSJuSSZ9gOXItaKkGOKsZzqeWtcxaJ4yVpRrAYUi1apFkN3IopuAw=
-SHA256 (Pkgfile) = 91e93054fbfba3fef08c2412a5856118b78f87ad2fc2ab54a1a4962b02b3ea19
-SHA256 (.footprint) = 596414448e63223d87bffe74553cae70f96ebbc677042a10a7d5896e9fef530a
-SHA256 (fuse-2.9.9.tar.gz) = d0e69d5d608cc22ff4843791ad097f554dd32540ddc9bed7638cc6fea7c1b4b5
-SHA256 (fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch) = af2e8c783bca37bb9e34ff6f9f93c190922f8b9e83334496fbceaa4a8d27690d

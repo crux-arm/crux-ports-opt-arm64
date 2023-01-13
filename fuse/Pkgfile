@@ -1,6 +1,7 @@
 # Description: Interface for userspace filesystems
 # URL:         https://github.com/libfuse/
 # Maintainer:  Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 
 name=fuse
 version=2.9.9
