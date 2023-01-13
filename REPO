@@ -13,6 +13,7 @@ d:libidl
 d:jdk
 d:python
 d:python3-libxml2
+d:fftw
 d:ldb
 d:gpgme
 d:pango
@@ -88,6 +89,8 @@ f:57fef288abe4b000725952d460004301:python/Pkgfile
 f:fc84647bc1e83c60dfe021c068b444f4:python3-libxml2/.footprint
 f:839624200727938b8556d579b1648c92:python3-libxml2/.signature
 f:f0e040335062dca3cd20e4cd58941a9d:python3-libxml2/Pkgfile
+f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
+f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:62b95af46997374dc32f19612dfbc8ba:ldb/.footprint
 f:4b332fa63db55b3a78dc48b3af64a731:ldb/.signature
