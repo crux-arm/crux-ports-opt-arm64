@@ -111,6 +111,7 @@ f:97961a4d8f57bcf24ff511f9d54398aa:pango/.footprint
 f:c7e4be185d13e5e582fed2f231c8465a:pango/.signature
 f:b6116158b6dd4895c92341ddcf219a6d:pango/Pkgfile
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
+f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
 f:fd84b2f13d241c1ad8a20cc0b7ddf995:docker-compose/.signature
