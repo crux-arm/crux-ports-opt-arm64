@@ -118,8 +118,8 @@ f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
-f:fd84b2f13d241c1ad8a20cc0b7ddf995:docker-compose/.signature
-f:52d0bdb4bf9f4a830f838b2293cc772a:docker-compose/Pkgfile
+f:94644c85f4f21d550bcf856b5838afbd:docker-compose/.signature
+f:769425de55e9bf46c385b520450380f3:docker-compose/Pkgfile
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:568368c30bd81e2d7b4f8dba115e1387:gcc-fortran/.footprint
 f:815c717d5151f649749ec35bdfbb4122:gcc-fortran/.signature
