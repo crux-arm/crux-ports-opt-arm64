@@ -145,6 +145,6 @@ f:87db0670eeebb5107934463079047d2f:rust/Pkgfile
 f:7a58684306016c90c3790418ecfe70b2:rust/.footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
-f:897fcb0f5be23c1fc3aa6571b760482e:tevent/.signature
-f:c30b5ef8c55853b1467dd6c8fda1605b:tevent/Pkgfile
+f:73e2f5811f9d08d94daf92f4865bc041:tevent/.signature
+f:b95b8bc840e88ea04ccb5fcd474aa1db:tevent/Pkgfile
 f:414c27bc9d21100bdfd64153d9cdeb39:tevent/.footprint
