@@ -97,9 +97,9 @@ f:4a341abc9d32201a7f6e4e62d04a4d25:gpgme/closefrom.patch
 f:dfbe0ad6ea1ee13870772db652086ac4:gpgme/Pkgfile
 f:6604bf5063bf36bae402a61abb2731a0:gpgme/.footprint
 f:c3539963f225d60a035cce8b85d9eb33:gpgme/python310.patch
-f:864b4750c8df585d849eafdfd212de01:python3-markupsafe/.signature
-f:a3fcf7b935ff9b09a9c3741bf9ab7f92:python3-markupsafe/Pkgfile
-f:323c2bf6f061c68cdd893f20046a58f2:python3-markupsafe/.footprint
+f:34372798dcb0aa435091a6287a9d518d:python3-markupsafe/.signature
+f:8f614c647496b89f50f2e9bfa37fcc4c:python3-markupsafe/Pkgfile
+f:196095af7540db123590101baf30d874:python3-markupsafe/.footprint
 f:79b08c084458afa33839f6e221afd88b:python3-packaging/.signature
 f:18ea866c4a61bb9d07be15cd4a695b9f:python3-packaging/Pkgfile
 f:e3394583222be72f3d11edf7638e8f62:python3-packaging/.footprint
