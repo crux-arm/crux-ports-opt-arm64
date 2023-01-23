@@ -67,7 +67,7 @@ f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
 f:e235cc369b8795be7061c0e9405d047d:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:fcf94e5f691ac2d635f16510bc160a5c:talloc/Pkgfile
-f:819425f7c2f0b8cf0dd07d89c5b3f97a:talloc/.footprint
+f:bd4d262c8a69f5a2335be4eeaa335ed5:talloc/.footprint
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
