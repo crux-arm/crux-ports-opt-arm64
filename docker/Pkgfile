@@ -4,21 +4,21 @@
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: containerd runc btrfs-progs cgroupfs-mount
 
-# LIBNETWORK_COMMIT:=0dde5c895075df6e3630e76f750a447cf63f4789
+# LIBNETWORK_COMMIT:=05b93e0d3a95952f70c113b0bc5bdb538d7afdd7
 
 name=docker
-version=20.10.22
+version=20.10.23
 release=1
 source=(https://github.com/moby/moby/archive/v${version}/moby-${version}.tar.gz \
     https://github.com/docker/cli/archive/v${version}/cli-${version}.tar.gz \
     http://jaeger.morpheus.net/linux/crux/files/$name-man-pages-$version.tar.xz \
-    http://jaeger.morpheus.net/linux/crux/files/libnetwork-dcdf8f1.tar.xz \
+    http://jaeger.morpheus.net/linux/crux/files/libnetwork-05b93e0.tar.xz \
     $name.rc $name.conf)
 
 build() {
   export GO111MODULE=auto
   export GOPATH=$SRC
-  export DOCKER_GITCOMMIT=42c8b31
+  export DOCKER_GITCOMMIT=6051f14
   export DOCKER_BUILDTAGS='seccomp'
   export DISABLE_WARN_OUTSIDE_CONTAINER=1
 
@@ -44,7 +44,7 @@ build() {
 
   (cd ..; \
     GOROOT=/usr/lib/go GOPATH=${PKGMK_WORK_DIR} go build -o $PKG/usr/bin/$name-proxy \
-    libnetwork-dcdf8f1/cmd/proxy)
+    libnetwork-05b93e0/cmd/proxy)
 
   for M in 1 5 8; do
     install -d -m 0755 $PKG/usr/share/man/man${M}
