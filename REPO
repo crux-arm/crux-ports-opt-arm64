@@ -123,11 +123,11 @@ f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:b28cfa9c8dbd3eeb51deaed3da6cf0e3:cbindgen/.signature
 f:51f772585595a3df0579485a706ec962:cbindgen/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
-f:a4963bd69547bb9f339709197ff86885:docker/.signature
+f:d7c4986ebb46dcea74b966ca51cff241:docker/.signature
 f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
 f:639d3af72199001bb612e545335a67a3:docker/docker.conf
 f:fc96322d8c8607a126d4e9bd30c7cf42:docker/pre-install
-f:dd749bc1e8fd7b057cd8f8b0c9ec4021:docker/Pkgfile
+f:650c1ee9d3d8071daae52651f05b0630:docker/Pkgfile
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:d83f39cc5876fed6daecfbd28cfed4c1:docker/docker.rc
 f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
