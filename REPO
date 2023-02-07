@@ -131,7 +131,7 @@ f:650c1ee9d3d8071daae52651f05b0630:docker/Pkgfile
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:d83f39cc5876fed6daecfbd28cfed4c1:docker/docker.rc
 f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
-f:b89229fb893f6304f4b76ee95810cfda:tdb/.signature
+f:e6b2c5d9300f0907946b0d7b3a911a75:tdb/.signature
 f:b35678cbda25c2e56677cb2ec4892e33:tdb/Pkgfile
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:0c8118fd20ee61fe3c11d5680c482d8a:tdb/.footprint
