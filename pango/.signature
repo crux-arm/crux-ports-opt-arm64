@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMfx1DbihKR06FK0z1mn9Plx//cGuoQJOwwnKqH+526k73aEariJxtdkL6EOUWrI7GUv3X0xZSP1XoPzKsJ8mAQU=
-SHA256 (Pkgfile) = fee13bb08528517784edb6e1fe7ed01908c34e824fae3607d51371f088f93e01
-SHA256 (.footprint) = ba16ec276d65b7c03fac2ee32d1ead05db5c6850f8e098998642871287936e5b
-SHA256 (pango-1.50.12.tar.xz) = caef96d27bbe792a6be92727c73468d832b13da57c8071ef79b9df69ee058fe3
+RWRitF9a2DJqMaLj04l4TFS2CJ0Y532ZPIu9q2MWthTl2+ZZvGsD9OTyf/tEmgjRnFyxOGT6YpbX3oZkng/bm1G0kr5RqWY6Ugo=
+SHA256 (Pkgfile) = 10dfab3a3c5ea7f92096abd2aad37f6505cd680e7a4afeaa0e3189f5421a35f7
+SHA256 (.footprint) = aa55f28e640d4ae559cf624fd5a549dc0f4c1de4ea5acfcb9f0075e2d76eac52
+SHA256 (pango-1.50.13.tar.xz) = 5cdcf6d761d26a3eb9412b6cb069b32bd1d9b07abf116321167d94c2189299fd
