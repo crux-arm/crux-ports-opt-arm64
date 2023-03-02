@@ -88,13 +88,13 @@ f:639d3af72199001bb612e545335a67a3:docker/docker.conf
 f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
 f:d7c4986ebb46dcea74b966ca51cff241:docker/.signature
 f:650c1ee9d3d8071daae52651f05b0630:docker/Pkgfile
+f:033192fdd4df991a8601b6c0a1345d9a:rust/0001-cargo-Change-libexec-dir.patch
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
-f:7a58684306016c90c3790418ecfe70b2:rust/.footprint
+f:c271c38580497dd61ec30d91de8deae9:rust/.footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:bae6e6763b13a8741067489f62ce986c:rust/0001-bootstrap-Change-libexec-dir.patch
+f:8d1539cae16cd9bb598479a1aa059432:rust/0001-bootstrap-Change-libexec-dir.patch
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
-f:4488df8cb7b924118be11f3b43e7f07f:rust/.signature
-f:87db0670eeebb5107934463079047d2f:rust/Pkgfile
+f:fc82ad4d82a02dc150a2f89d0a4c3ba8:rust/Pkgfile
 f:e3394583222be72f3d11edf7638e8f62:python3-packaging/.footprint
 f:79b08c084458afa33839f6e221afd88b:python3-packaging/.signature
 f:18ea866c4a61bb9d07be15cd4a695b9f:python3-packaging/Pkgfile
