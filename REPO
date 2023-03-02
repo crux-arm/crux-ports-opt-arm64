@@ -94,6 +94,7 @@ f:c271c38580497dd61ec30d91de8deae9:rust/.footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:8d1539cae16cd9bb598479a1aa059432:rust/0001-bootstrap-Change-libexec-dir.patch
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
+f:3d88e97037f80b573fd0fa8c92f6ce3b:rust/.signature
 f:fc82ad4d82a02dc150a2f89d0a4c3ba8:rust/Pkgfile
 f:e3394583222be72f3d11edf7638e8f62:python3-packaging/.footprint
 f:79b08c084458afa33839f6e221afd88b:python3-packaging/.signature
