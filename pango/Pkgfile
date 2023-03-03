@@ -4,7 +4,7 @@
 # Depends on: fribidi gobject-introspection harfbuzz xorg-libsm xorg-libxft
 
 name=pango
-version=1.50.13
+version=1.50.14
 release=1
 source=(https://download-fallback.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
