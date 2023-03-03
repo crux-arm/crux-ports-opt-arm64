@@ -77,9 +77,9 @@ f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-condit
 f:fc84647bc1e83c60dfe021c068b444f4:python3-libxml2/.footprint
 f:839624200727938b8556d579b1648c92:python3-libxml2/.signature
 f:f0e040335062dca3cd20e4cd58941a9d:python3-libxml2/Pkgfile
-f:4c4893854eef75db4857e54894fece33:pango/.footprint
-f:c411748568e29347eaa25ee3d2da42e0:pango/.signature
-f:882597e16c08c73a3d9dba163884c589:pango/Pkgfile
+f:9eefaa8e966ffa0c760872451d0fadc8:pango/.footprint
+f:a86c2e426f960911beecd0e48285f9e7:pango/.signature
+f:9d72597d3714275e30344bfafb6cf909:pango/Pkgfile
 f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
 f:fc96322d8c8607a126d4e9bd30c7cf42:docker/pre-install
 f:d83f39cc5876fed6daecfbd28cfed4c1:docker/docker.rc
