@@ -1,11 +1,11 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMZ0xjSxUd9JbPZ3isr9JqxCIQOelVguNFVS5pgdlRrTd008t/ryLct/YeyJpLq3yQmy7w85nBd1BqCdGzNuyfgk=
-SHA256 (Pkgfile) = 0dadc308800a5214cdf4c363702741babb3e6dbbc711fb6f079f443e8b20d74d
-SHA256 (.footprint) = 05babb1876581e4d531d5471a3a4650d35925098425dc58b227b997f70684dde
-SHA256 (rustc-1.67.1-src.tar.xz) = 77e0615011f887d9533d5374bf9c15c590c3caf32bbb035b392d1c2ae502a682
-SHA256 (rust-std-1.66.1-aarch64-unknown-linux-gnu.tar.xz) = 9d96ba6a5a255339cd04af079d906753d56c85503c727279c227d24bd4987e24
-SHA256 (rustc-1.66.1-aarch64-unknown-linux-gnu.tar.xz) = b4d842594ba11a84712c2d1bbf7f7945cfcc2485c72861a23b488fefba5c6a45
-SHA256 (cargo-1.66.1-aarch64-unknown-linux-gnu.tar.xz) = 61736a6ec61a4eaa9a7b3f219d9f8166ae97c1acd54b5e904c15fb8caff06250
+RWRitF9a2DJqMWXw5GuINyHnR82ICVhi5TbvLdAaG6k6E00jvGQ2sGdDfejftS7PDgITK/o0pmi7YxWQgAfJ29IoNuHQBheKwws=
+SHA256 (Pkgfile) = 0a3c8440af3f8472b8ea561391fc70058f2d66d0e5336d941183faabf0e88b69
+SHA256 (.footprint) = e1dccdb3489b872b4e997ae39b5f0f393212dd2bf939907b1646a63b7dd054da
+SHA256 (rustc-1.68.0-src.tar.xz) = 8651245e8708f11d0f65ba9fdb394c4b9300d603d318045664b371729da9eac4
+SHA256 (rust-std-1.67.1-aarch64-unknown-linux-gnu.tar.xz) = 35027409400faaaa38ea2855b92dea6b553b2e656dff735da730f67ac02e57e6
+SHA256 (rustc-1.67.1-aarch64-unknown-linux-gnu.tar.xz) = 053ccc4ab81ea9c16906205c2b653a93b5b44fe4f67f9e45153a2687b7efb65a
+SHA256 (cargo-1.67.1-aarch64-unknown-linux-gnu.tar.xz) = b04e33d9beb3cd97501399c17ca297f0adc12a7c0ea16351b8821fc9228de477
 SHA256 (0001-bootstrap-Change-libexec-dir.patch) = 8f1487823c2358d19984c5674a4a41f941449ac2ed22568fa069646163891812
 SHA256 (0001-cargo-Change-libexec-dir.patch) = b2ef8c3bca5d72ed58ff8930e69947602f875a639c2b01de5943b1ecb1b5c3c3
 SHA256 (0002-compiler-Change-LLVM-targets.patch) = 4a4ff5c294acc0b1ca800856218770f6330a878acee72193aa456d82846a8a28
