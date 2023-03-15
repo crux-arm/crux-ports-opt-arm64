@@ -126,9 +126,9 @@ f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:cb21809dae13ad9c30f5514b127c75e5:gobject-introspection/.signature
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:e6e62a28ba2db452a2849701a77ddf4d:gobject-introspection/Pkgfile
-f:4b332fa63db55b3a78dc48b3af64a731:ldb/.signature
-f:62b95af46997374dc32f19612dfbc8ba:ldb/.footprint
-f:b784aee27487e740ade3dfc9a4a9545d:ldb/Pkgfile
+f:872a0d5d5709a4fa392451281ee3f83e:ldb/.signature
+f:e40f1d50cb7f7a3f8c4776f12adc1e61:ldb/.footprint
+f:f7f9e8e40a47b7fdfd630ca82cbac548:ldb/Pkgfile
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:79b08c084458afa33839f6e221afd88b:python3-packaging/.signature
 f:e3394583222be72f3d11edf7638e8f62:python3-packaging/.footprint
