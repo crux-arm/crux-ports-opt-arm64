@@ -114,9 +114,9 @@ f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:51f772585595a3df0579485a706ec962:cbindgen/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:b28cfa9c8dbd3eeb51deaed3da6cf0e3:cbindgen/.signature
-f:5b9138c91c664d74549a014fe94e3375:gobject-introspection/Pkgfile
+f:2f160e29ad141bab1b56d432947f0640:gobject-introspection/Pkgfile
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
-f:26cf0ac921f63c13ed43dac24f1b0b04:gobject-introspection/.signature
+f:339e3293273d0985bf7257a5d38a1fb0:gobject-introspection/.signature
 f:6b49e15474d57eb6692ba4c8b5398dd6:brotli/Pkgfile
 f:462d7d441ac0a557cadd144b52eb92a0:brotli/.footprint
 f:ba1cd688470f2fd7219c4337db624495:brotli/.signature
