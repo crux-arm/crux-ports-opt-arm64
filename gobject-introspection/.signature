@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMcFJjqKSwPhHBvAWHsj9JGEzXO3U70fAXRZcHD7svd7iEH9Q/+4uirJUT31QsIsBHqPQWis0EK961wYsBMU4Qgo=
-SHA256 (Pkgfile) = ea0df785e8ae5d01c2f6e5f48265dd0ec9326eaf8d664af5e2010d0fdf5e9a66
+RWRitF9a2DJqMcG0u/cEy5DwzV0zURMdtCRn7MA+YseCCi8HX3nZlfgdPUBATV43vYAwsBIXCKIa6n4v73L5p6jfBhMoQcoaXwQ=
+SHA256 (Pkgfile) = ae94e690bc55c21be7b9add0e35b3ad036fbde9df6a0cf282e7ae4eb0997e9d6
 SHA256 (.footprint) = e1ac5ad50b9d817d311e266e0ccc729e26b1b896ad4d1a6409f8717139134890
-SHA256 (gobject-introspection-1.76.0.tar.xz) = 8552ff3a56758b8dba21d421795a52b9a9fbf984565907b83f1c64f4deb8380c
+SHA256 (gobject-introspection-1.76.1.tar.xz) = 196178bf64345501dcdc4d8469b36aa6fe80489354efe71cb7cb8ab82a3738bf
