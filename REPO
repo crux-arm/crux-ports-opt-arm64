@@ -55,10 +55,10 @@ f:57f69ea8012717ffc0fb9f7a017f0bc6:llvm/.signature
 f:ee9b34c1472f4130bfb6b149be2ad003:ruby/Pkgfile
 f:381837a5d86d221f80633cbed8e114f6:ruby/.footprint
 f:32986b2e420f6f7640209fa5e136564c:ruby/.signature
-f:f7f9e8e40a47b7fdfd630ca82cbac548:ldb/Pkgfile
+f:f9003b5788f8ad1cca13db8b601cb581:ldb/Pkgfile
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
-f:e40f1d50cb7f7a3f8c4776f12adc1e61:ldb/.footprint
-f:872a0d5d5709a4fa392451281ee3f83e:ldb/.signature
+f:1ea72126d00376b6a39a13178b61fa3b:ldb/.footprint
+f:5008bf4cb72c723e0da28bc475547bef:ldb/.signature
 f:981931b108a60a9923945cc627e13cce:go/Pkgfile
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:1f0b05a87646f9d40f154325f6732af8:go/.footprint
