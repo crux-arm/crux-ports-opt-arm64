@@ -52,9 +52,9 @@ f:148e32a427d7cf705ee515b0c7df077b:llvm/.footprint
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:57f69ea8012717ffc0fb9f7a017f0bc6:llvm/.signature
-f:ee9b34c1472f4130bfb6b149be2ad003:ruby/Pkgfile
-f:381837a5d86d221f80633cbed8e114f6:ruby/.footprint
-f:32986b2e420f6f7640209fa5e136564c:ruby/.signature
+f:ada0980b4e8f4229ea82118702419a18:ruby/Pkgfile
+f:a16a12114d44fd7654c9a98c2fe99245:ruby/.footprint
+f:0644c20dfb14f7678e1029668a0290cf:ruby/.signature
 f:f9003b5788f8ad1cca13db8b601cb581:ldb/Pkgfile
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:1ea72126d00376b6a39a13178b61fa3b:ldb/.footprint
