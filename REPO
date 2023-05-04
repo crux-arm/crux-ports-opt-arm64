@@ -5,7 +5,6 @@ d:ldb
 d:fuse
 d:gpgme
 d:docker-compose
-d:python3-libxml2
 d:tevent
 d:python3-markupsafe
 d:gobject-introspection
@@ -62,9 +61,6 @@ f:6604bf5063bf36bae402a61abb2731a0:gpgme/.footprint
 f:94644c85f4f21d550bcf856b5838afbd:docker-compose/.signature
 f:769425de55e9bf46c385b520450380f3:docker-compose/Pkgfile
 f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
-f:0ddaf53e87a7e6fc75c2ad4cfa2b5237:python3-libxml2/.signature
-f:065509ed2bd4fc62a29ba64144e26004:python3-libxml2/Pkgfile
-f:757c1b35230625a3e4736dac1893eeee:python3-libxml2/.footprint
 f:c31f28c0e531107cf83c70419b344698:tevent/.signature
 f:9e748d242d41aaee1327db886be06fd9:tevent/Pkgfile
 f:88260b2a62ed0153b23df0500f556c13:tevent/.footprint
