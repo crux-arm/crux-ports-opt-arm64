@@ -6,9 +6,9 @@
 # Optional: ccache libgit2 lld polly sccache
 
 name=rust
-version=1.68.0
-_date=2023-02-09
-_rustc=1.67.1
+version=1.69.0
+_date=2023-03-28
+_rustc=1.68.2
 _cargo=$_rustc
 release=1
 
@@ -100,10 +100,10 @@ cat <<- EOF > $SRC/config.toml
 
 	[build]
 	target = ["aarch64-unknown-linux-gnu"]
-	tools = ["cargo", "clippy", "rustfmt", "analysis", "src", "rust-demangler", "rust-analyzer"]
+	tools = ["cargo", "clippy", "rustfmt", "analysis", "src", "rust-demangler", "rust-analyzer", "rustdoc"]
 	docs = false
 	extended = true
-	sanitizers = true
+	sanitizers = false
 	profiler = true
 	vendor = true
 	locked-deps = true
@@ -118,6 +118,7 @@ cat <<- EOF > $SRC/config.toml
 	ar = "/usr/bin/gcc-ar"
 	ranlib = "/usr/bin/gcc-ranlib"
 	llvm-config = "/usr/bin/llvm-config"
+	llvm-filecheck = "/usr/bin/FileCheck"
 EOF
 
 	if [ -e '/usr/bin/rustc' ]; then
