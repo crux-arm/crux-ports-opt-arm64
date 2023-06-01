@@ -74,13 +74,13 @@ f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
-f:28cef1320648f52110cf077d633700b5:rust/Pkgfile
-f:8d1539cae16cd9bb598479a1aa059432:rust/0001-bootstrap-Change-libexec-dir.patch
+f:2f3113f894234fb2ac2550ffa652d14d:rust/Pkgfile
+f:16fdeae0db76dbcf525d4e1c5982c2fa:rust/0001-bootstrap-Change-libexec-dir.patch
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
 f:033192fdd4df991a8601b6c0a1345d9a:rust/0001-cargo-Change-libexec-dir.patch
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:85f25bdc6c7fdcea544acf77564980a2:rust/.footprint
+f:8dbaabb88f9c19cc97c03231b677626c:rust/.footprint
 f:7fe9967fa98774c366343781a4dcaf64:rust/.signature
 f:fcf94e5f691ac2d635f16510bc160a5c:talloc/Pkgfile
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
