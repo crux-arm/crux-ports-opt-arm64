@@ -81,7 +81,7 @@ f:033192fdd4df991a8601b6c0a1345d9a:rust/0001-cargo-Change-libexec-dir.patch
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:3ad626d74deeba2c841efa0b082b6380:rust/.footprint
-f:af3391e4e9695d295216417e5e729715:rust/.signature
+f:2eb86a63f06aa7ed9af42ea88db0b34c:rust/.signature
 f:fcf94e5f691ac2d635f16510bc160a5c:talloc/Pkgfile
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:bd4d262c8a69f5a2335be4eeaa335ed5:talloc/.footprint
