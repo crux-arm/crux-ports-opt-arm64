@@ -8,7 +8,6 @@ d:jdk
 d:ldb
 d:ruby
 d:talloc
-d:python3-cairo
 d:python3-markupsafe
 d:python3-libxml2
 d:python
@@ -59,9 +58,6 @@ f:d3c330364a0fffd7e866109097e3957a:talloc/.signature
 f:47926daabda2e7a7faabfe25e928c9f8:talloc/.footprint
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:2c14ef836a342aeeb9532d691d43534a:talloc/Pkgfile
-f:a8bf859c397347327f4e7e9147e52851:python3-cairo/.signature
-f:a987ea87bb2b5f212675335af23f16c6:python3-cairo/.footprint
-f:5ee872ffe626207ea5aaac4bd469c1b4:python3-cairo/Pkgfile
 f:a461133cea829ab42662e2f2cedeada4:python3-markupsafe/.signature
 f:04a5bbe5378ac623dd692e269fa1355b:python3-markupsafe/.footprint
 f:a3fcf7b935ff9b09a9c3741bf9ab7f92:python3-markupsafe/Pkgfile
