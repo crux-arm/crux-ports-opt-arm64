@@ -9,6 +9,7 @@ d:ldb
 d:ruby
 d:talloc
 d:fuse
+d:python3-cairo
 d:libdaemon
 d:python3-markupsafe
 d:docker-compose
@@ -67,6 +68,9 @@ f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
+f:a8bf859c397347327f4e7e9147e52851:python3-cairo/.signature
+f:a987ea87bb2b5f212675335af23f16c6:python3-cairo/.footprint
+f:5ee872ffe626207ea5aaac4bd469c1b4:python3-cairo/Pkgfile
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
