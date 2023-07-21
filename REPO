@@ -143,7 +143,7 @@ f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
 f:5e45f316383e5c218e68efd13a136e51:libsdl/README
 f:9d94caa7f2eef5163f11339cf59e5ed2:libsdl/libsdl-1.2.15-bs.patch
 f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
-f:e6b2c5d9300f0907946b0d7b3a911a75:tdb/.signature
-f:0c8118fd20ee61fe3c11d5680c482d8a:tdb/.footprint
+f:cd9df374e517d6e9bbd5d92842227ffd:tdb/.signature
+f:21792edb8ec44b3919050e676bf962e3:tdb/.footprint
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
-f:b35678cbda25c2e56677cb2ec4892e33:tdb/Pkgfile
+f:ad915701ade42211deb6f9122c31e91c:tdb/Pkgfile
