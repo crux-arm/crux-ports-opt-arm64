@@ -1,0 +1,26 @@
+# Description: a totally open, royalty-free, highly versatile audio codec
+# URL: https://www.opus-codec.org
+# Maintainer: Tim Biermann, tbier at posteo dot de
+
+name=opus
+version=1.4
+release=2
+source=(https://downloads.xiph.org/releases/opus/opus-$version.tar.gz
+	267.patch)
+
+build() {
+  patch -p0 -i $SRC/267.patch
+  meson setup $name-$version build \
+    --prefix=/usr \
+    --buildtype=plain \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true \
+    -D custom-modes=true \
+    -D extra-programs=disabled \
+    -D docs=disabled \
+    -D tests=disabled
+
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
+}
