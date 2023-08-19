@@ -8,6 +8,7 @@ d:gpgme
 d:libdaemon
 d:ruby
 d:gcc-fortran
+d:python3-gobject
 d:rust
 d:cdparanoia
 d:llvm
@@ -25,6 +26,7 @@ d:cbindgen
 d:libidl
 d:libtheora
 d:libsdl
+d:opus
 d:ldb
 d:libb2
 f:a3a10da314ba963e54cf9ceb7f18ec3b:talloc/.signature
@@ -63,6 +65,8 @@ f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:568368c30bd81e2d7b4f8dba115e1387:gcc-fortran/.footprint
 f:aa806e2a2b9a3b807b541e554805b1aa:gcc-fortran/Pkgfile
+f:1e0e719de1cf2548255a2dc2f79130dc:python3-gobject/.footprint
+f:70201c483cbabaff72a3f9c0fc8ea2e0:python3-gobject/Pkgfile
 f:033192fdd4df991a8601b6c0a1345d9a:rust/0001-cargo-Change-libexec-dir.patch
 f:2eb86a63f06aa7ed9af42ea88db0b34c:rust/.signature
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
@@ -140,6 +144,9 @@ f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:5e45f316383e5c218e68efd13a136e51:libsdl/README
 f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
 f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
+f:401487a9250d0bdb07c073d68c955794:opus/267.patch
+f:374070b50c8244a68857f578120ebd5d:opus/.footprint
+f:764695d770f6ee11efd4e08c7ba2391b:opus/Pkgfile
 f:5008bf4cb72c723e0da28bc475547bef:ldb/.signature
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:1ea72126d00376b6a39a13178b61fa3b:ldb/.footprint
