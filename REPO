@@ -1,4 +1,5 @@
 d:talloc
+d:grub2-efi
 d:gobject-introspection
 d:tdb
 d:jdk
@@ -6,6 +7,7 @@ d:docker-compose
 d:fftw
 d:gpgme
 d:libdaemon
+d:grub2
 d:ruby
 d:gcc-fortran
 d:python3-gobject
@@ -33,6 +35,9 @@ f:a3a10da314ba963e54cf9ceb7f18ec3b:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:b6c83759bbd9232786914a0849cc60c5:talloc/.footprint
 f:1f2a8c8a250148fc44bba732a7aafcd5:talloc/Pkgfile
+f:0b62fb66842e13355c22312f3d9d73ba:grub2-efi/.footprint
+f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2-efi/csum_seed.diff
+f:ae33878c6b41fdaebb01c227aa35794b:grub2-efi/Pkgfile
 f:339e3293273d0985bf7257a5d38a1fb0:gobject-introspection/.signature
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:2f160e29ad141bab1b56d432947f0640:gobject-introspection/Pkgfile
@@ -57,6 +62,12 @@ f:dfbe0ad6ea1ee13870772db652086ac4:gpgme/Pkgfile
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
+f:8459e7425bf9eea9d482e53c5b5c91c9:grub2/grub.cfg.sample
+f:2d0a24dc5ce4b8641aa90e04e2a27898:grub2/README
+f:1591dae3685f6f0b6da9f463a9d38560:grub2/grub2-tweaks.diff
+f:f0f15f74cea45cb4086eb9b7025e5725:grub2/.footprint
+f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2/csum_seed.diff
+f:7c2a259cceff4a1a3128f0b755aed797:grub2/Pkgfile
 f:0644c20dfb14f7678e1029668a0290cf:ruby/.signature
 f:a16a12114d44fd7654c9a98c2fe99245:ruby/.footprint
 f:ada0980b4e8f4229ea82118702419a18:ruby/Pkgfile
