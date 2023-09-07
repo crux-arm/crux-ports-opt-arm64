@@ -126,6 +126,7 @@ f:1f0b05a87646f9d40f154325f6732af8:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:401487a9250d0bdb07c073d68c955794:opus/267.patch
 f:764695d770f6ee11efd4e08c7ba2391b:opus/Pkgfile
+f:fa5b569045d5f41c3d237e6311c529f5:opus/.signature
 f:374070b50c8244a68857f578120ebd5d:opus/.footprint
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:aa806e2a2b9a3b807b541e554805b1aa:gcc-fortran/Pkgfile
