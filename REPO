@@ -75,6 +75,7 @@ f:b088af8634061f60843916487e389912:jdk/Pkgfile
 f:09a98e6190d46b10f15b0f251782f217:jdk/.signature
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
+f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:7950279d92965951440091a5610a90cb:rust/Pkgfile
