@@ -59,6 +59,7 @@ f:f280b6390a193890e967c6875313a7e6:python3-markupsafe/Pkgfile
 f:65cfd2ddc87194ec73e3ab4a69ce0df3:python3-markupsafe/.signature
 f:2a44c2024c22a63213a836fe964fe494:python3-markupsafe/.footprint
 f:ae33878c6b41fdaebb01c227aa35794b:grub2-efi/Pkgfile
+f:8d6915977d7cb266244853f731a5eb63:grub2-efi/.signature
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2-efi/csum_seed.diff
 f:0b62fb66842e13355c22312f3d9d73ba:grub2-efi/.footprint
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
