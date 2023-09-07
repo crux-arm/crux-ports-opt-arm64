@@ -103,6 +103,7 @@ f:848a3b114d8c8961a3bcf07186309717:tevent/.footprint
 f:1591dae3685f6f0b6da9f463a9d38560:grub2/grub2-tweaks.diff
 f:75113bdc79e2f22eda779f3ce5f6e041:grub2/Pkgfile
 f:8459e7425bf9eea9d482e53c5b5c91c9:grub2/grub.cfg.sample
+f:51461420a412815787d4c2ba6b6bce37:grub2/.signature
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2/csum_seed.diff
 f:1c515c0d2a0bf7c3d01992c6de204c4b:grub2/.footprint
 f:2d0a24dc5ce4b8641aa90e04e2a27898:grub2/README
