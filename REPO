@@ -166,6 +166,7 @@ f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
 f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
 f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
+f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:ada0980b4e8f4229ea82118702419a18:ruby/Pkgfile
 f:0644c20dfb14f7678e1029668a0290cf:ruby/.signature
