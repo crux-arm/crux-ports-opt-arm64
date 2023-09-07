@@ -5,7 +5,7 @@
 
 name=grub2
 version=2.06
-release=4
+release=5
 source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz \
 	http://jaeger.morpheus.net/linux/crux/files/unifont-9.0.06.pcf.gz \
 	$name-tweaks.diff grub.cfg.sample csum_seed.diff)
@@ -29,4 +29,6 @@ build() {
 	install -d $PKG/usr/lib/grub/fonts
 	./grub-mkfont -o $PKG/usr/lib/grub/fonts/unifont.pf2 \
 		$SRC/unifont-9.0.06.pcf
+	ln -s /usr/lib/grub/fonts/unifont.pf2 \
+		$PKG/usr/share/grub/unicode.pf2
 }

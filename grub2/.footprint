@@ -496,3 +496,4 @@ drwxr-xr-x	root/root	usr/sbin/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/grub/
 -rw-r--r--	root/root	usr/share/grub/grub-mkconfig_lib
+lrwxrwxrwx	root/root	usr/share/grub/unicode.pf2 -> /usr/lib/grub/fonts/unifont.pf2
