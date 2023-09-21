@@ -57,8 +57,8 @@ f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:2eb86a63f06aa7ed9af42ea88db0b34c:rust/.signature
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
 f:3ad626d74deeba2c841efa0b082b6380:rust/.footprint
-f:2f160e29ad141bab1b56d432947f0640:gobject-introspection/Pkgfile
-f:339e3293273d0985bf7257a5d38a1fb0:gobject-introspection/.signature
+f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
+f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:a922c14c19678dbf04ce8b07e9dc6b11:compiler-rt/Pkgfile
 f:fbe4b132f43d30107e0d37f952f2a185:compiler-rt/.signature
