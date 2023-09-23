@@ -6,9 +6,9 @@
 # Optional: ccache libgit2 lld polly sccache
 
 name=rust
-version=1.70.0
-_date=2023-04-20
-_rustc=1.69.0
+version=1.72.1
+_date=2023-07-13
+_rustc=1.71.0
 _cargo=$_rustc
 release=1
 
@@ -70,6 +70,12 @@ build() {
 	# Use our *-pc-linux-gnu targets, making LTO with clang simpler
 	patch -p1 -i $SRC/0002-compiler-Change-LLVM-targets.patch
 
+	# temp fixes for LLVM 17
+	# https://www.linuxfromscratch.org/blfs/view/svn/general/rust.html
+	sed 's/FS,/"", &/' -i ./compiler/rustc_llvm/llvm-wrapper/PassWrapper.cpp
+	sed '/LLVMContext.h/i#include "llvm/ADT/SmallString.h"' \
+		-i compiler/rustc_llvm/llvm-wrapper/SymbolWrapper.cpp
+
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
 
@@ -100,7 +106,15 @@ cat <<- EOF > $SRC/config.toml
 
 	[build]
 	target = ["aarch64-unknown-linux-gnu"]
-	tools = ["cargo", "clippy", "rustfmt", "analysis", "src", "rust-demangler", "rust-analyzer", "rustdoc"]
+	tools = ["cargo",
+		"clippy",
+		"rustfmt",
+		"analysis",
+		"src",
+		"rust-demangler",
+		"rust-analyzer",
+		"rust-analyzer-proc-macro-srv",
+		"rustdoc"]
 	docs = false
 	extended = true
 	sanitizers = true
@@ -144,7 +158,7 @@ EOF
 		sed -e 's|@CCACHE@||' -i $SRC/config.toml
 	fi
 
-	prt-get isinst lld && sed -e 's|@LLD@|use-lld = true|' -i $SRC/config.toml || sed -e 's|@LLD@||' -i $SRC/config.toml
+	prt-get isinst lld && sed -e 's|@LLD@|use-lld = true\nlld = true|' -i $SRC/config.toml || sed -e 's|@LLD@||' -i $SRC/config.toml
 	prt-get isinst polly && sed -e 's|@POLLY@|polly = true|' -i $SRC/config.toml || sed -e 's|@POLLY@||' -i $SRC/config.toml
 
 	cat $SRC/config.toml
@@ -162,16 +176,20 @@ EOF
 	#   = note: `-D dead-code` implied by `-D warnings`
 	export RUSTFLAGS+=' -A dead_code'
 
-	export LIBGIT2_NO_PKG_CONFIG=1
+	{ [ ! -e /usr/include/libssh2.h ] ||
+		export LIBSSH2_SYS_USE_PKG_CONFIG=1; }
 	export RUST_BACKTRACE=full
 	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml -j ${JOBS-1}
 	DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/config.toml install
 
-	[ -e '/usr/bin/zsh' ] || rm -r $PKG/usr/share/zsh
+	prt-get isinst bash-completion || rm -r $PKG/etc/bash_completion.d/
+	prt-get isinst zsh || rm -r $PKG/usr/share/zsh
+
+	install -d $PKG/etc/revdep.d
+	echo "/usr/lib/rustlib/i686-unknown-linux-gnu/lib" > $PKG/etc/revdep.d/$name
 
 	# cleanup
 	rm -r $PKG/usr/share/doc
-	rm -r $PKG/etc
 	rm $PKG/usr/lib/rustlib/{components,manifest-rustc,rust-installer-version,uninstall.sh}
 
 	# Remove analysis data for libs that weren't installed
@@ -184,4 +202,7 @@ EOF
 			rm -v "$file"
 		fi
 	done < <(find "$PKG/usr/lib/rustlib"  -path '*/analysis/*.json' -print0)
+
+	find $PKG/usr -name "*.old" -delete
+	rm $PKG/usr/lib/rustlib/{install.log,manifest-*}
 }
