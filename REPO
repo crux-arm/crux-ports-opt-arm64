@@ -71,13 +71,12 @@ f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:815c717d5151f649749ec35bdfbb4122:gcc-fortran/.signature
 f:568368c30bd81e2d7b4f8dba115e1387:gcc-fortran/.footprint
-f:d96b1921314532094bfedfbe516fc6bc:llvm/Pkgfile
+f:c26b030cf5fd0281d2da51a0bcf6c894:llvm/Pkgfile
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
-f:60c4a11c3195353050d8d1248bd87f01:llvm/.signature
-f:b9fe31c8e29d943423123d028f509245:llvm/.footprint
+f:6d0abbce075a48270449ec1ac59d9331:llvm/.footprint
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
