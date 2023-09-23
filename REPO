@@ -75,6 +75,7 @@ f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
+f:70cadd1ccb2a9d51ca6cd757203427dd:llvm/.signature
 f:6d0abbce075a48270449ec1ac59d9331:llvm/.footprint
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
