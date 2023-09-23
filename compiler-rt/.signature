@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMRl5Z7kB5NQYlQiWD3yj4T1SDCAhdHHX6khxPNVF6TxUG5HL/5+A57tHvCPLsfXZxOclyjzy+Sk2kzxP/Tezkgc=
-SHA256 (Pkgfile) = 28cda1e311670b42ac55237cdea09e323028b11a9bfa55c0dd70f1a0cbd9beea
-SHA256 (.footprint) = ec2a6f90e492bdc2e53504975fe66f5c5dc62ec83c4afa5a0a4ead0d411785cf
-SHA256 (compiler-rt-16.0.5.src.tar.xz) = 2a5c212e7eb2de78b8c54d1f3d474bfc6330447c3a40944899f3607d0cc91995
-SHA256 (llvm-16.0.5.src.tar.xz) = 701b764a182d8ea8fb017b6b5f7f5f1272a29f17c339b838f48de894ffdd4f91
-SHA256 (cmake-16.0.5.src.tar.xz) = 9400d49acd53a4b8f310de60554a891436db5a19f6f227f99f0de13e4afaaaff
