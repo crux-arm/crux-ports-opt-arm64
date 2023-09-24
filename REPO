@@ -54,6 +54,7 @@ f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch
 f:6be69fea68273aad5da7f5e9138a8933:rust/0001-bootstrap-Change-libexec-dir.patch
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
+f:3a3fca94b507ed1252d131078376ca75:rust/.signature
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
 f:175990ec5e4c822fe862264b834b7df2:rust/.footprint
 f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
