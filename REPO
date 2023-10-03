@@ -44,7 +44,7 @@ f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:5d48903f40d61a057d49f28a3275edb1:gcc-fortran/.footprint
-f:815c717d5151f649749ec35bdfbb4122:gcc-fortran/.signature
+f:ba02aa5ae70327027111361fa2d8443a:gcc-fortran/.signature
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
