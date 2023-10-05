@@ -49,10 +49,10 @@ f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
-f:6d0abbce075a48270449ec1ac59d9331:llvm/.footprint
+f:9ebf33727a3173234a85d750a77250d8:llvm/.footprint
 f:70cadd1ccb2a9d51ca6cd757203427dd:llvm/.signature
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
-f:c26b030cf5fd0281d2da51a0bcf6c894:llvm/Pkgfile
+f:f9790814a58e70533c573a88effbd6f8:llvm/Pkgfile
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:b28cfa9c8dbd3eeb51deaed3da6cf0e3:cbindgen/.signature
@@ -107,7 +107,7 @@ f:8d6915977d7cb266244853f731a5eb63:grub2-efi/.signature
 f:ae33878c6b41fdaebb01c227aa35794b:grub2-efi/Pkgfile
 f:2561623d5585bfe10d15d7c6c1cd89eb:compiler-rt/.footprint
 f:63b06002b1105df98aaf032d6f512041:compiler-rt/.signature
-f:1da3d3bafaddc7ff654e775d44132893:compiler-rt/Pkgfile
+f:f67ff1e76deb2b967bbd37c0053ec17e:compiler-rt/Pkgfile
 f:4a341abc9d32201a7f6e4e62d04a4d25:gpgme/closefrom.patch
 f:6604bf5063bf36bae402a61abb2731a0:gpgme/.footprint
 f:32643b2612a0f85ceb6d7b3547a0ecbb:gpgme/.signature
