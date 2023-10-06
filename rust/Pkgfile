@@ -6,9 +6,9 @@
 # Optional: ccache libgit2 lld polly sccache
 
 name=rust
-version=1.72.1
-_date=2023-07-13
-_rustc=1.71.0
+version=1.73.0
+_date=2023-08-24
+_rustc=1.72.0
 _cargo=$_rustc
 release=1
 
@@ -17,7 +17,6 @@ source=(https://static.rust-lang.org/dist/${name}c-$version-src.tar.xz
 	https://static.rust-lang.org/dist/$_date/rustc-$_rustc-aarch64-unknown-linux-gnu.tar.xz
 	https://static.rust-lang.org/dist/$_date/cargo-$_cargo-aarch64-unknown-linux-gnu.tar.xz
 	0001-bootstrap-Change-libexec-dir.patch
-	0001-cargo-Change-libexec-dir.patch
 	0002-compiler-Change-LLVM-targets.patch)
 
 unpack_source() {
@@ -63,18 +62,10 @@ build() {
 
 	cd "${name}c-$version-src"
 
-	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/0001-bootstrap-Change-libexec-dir.patch
-	patch -d src/tools/cargo -Np1 -i $SRC/0001-cargo-Change-libexec-dir.patch
 
 	# Use our *-pc-linux-gnu targets, making LTO with clang simpler
 	patch -p1 -i $SRC/0002-compiler-Change-LLVM-targets.patch
-
-	# temp fixes for LLVM 17
-	# https://www.linuxfromscratch.org/blfs/view/svn/general/rust.html
-	sed 's/FS,/"", &/' -i ./compiler/rustc_llvm/llvm-wrapper/PassWrapper.cpp
-	sed '/LLVMContext.h/i#include "llvm/ADT/SmallString.h"' \
-		-i compiler/rustc_llvm/llvm-wrapper/SymbolWrapper.cpp
 
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
@@ -184,9 +175,6 @@ EOF
 
 	prt-get isinst bash-completion || rm -r $PKG/etc/bash_completion.d/
 	prt-get isinst zsh || rm -r $PKG/usr/share/zsh
-
-	install -d $PKG/etc/revdep.d
-	echo "/usr/lib/rustlib/i686-unknown-linux-gnu/lib" > $PKG/etc/revdep.d/$name
 
 	# cleanup
 	rm -r $PKG/usr/share/doc
