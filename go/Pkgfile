@@ -4,10 +4,10 @@
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 
 name=go
-version=1.19.4
+version=1.21.1
 release=1
-source=(https://golang.org/dl/go${version}.src.tar.gz \
-    https://golang.org/dl/go${version}.linux-arm64.tar.gz)
+source=(https://golang.org/dl/go${version}.src.tar.gz
+  https://golang.org/dl/go${version}.linux-arm64.tar.gz)
 
 unpack_source() {
   install -d $SRC/go${version}
