@@ -115,7 +115,7 @@ f:dfbe0ad6ea1ee13870772db652086ac4:gpgme/Pkgfile
 f:c3539963f225d60a035cce8b85d9eb33:gpgme/python310.patch
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:741f815feddcc7697f941b4f861642fc:go/.footprint
-f:98f623c29b2dc6239457ffc658df1583:go/.signature
+f:0bbef401f3f048848ac332ecea5b7d02:go/.signature
 f:6f590ff7880cf2aa659f92e6eaf806d3:go/Pkgfile
 f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
