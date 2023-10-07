@@ -136,12 +136,12 @@ f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
 f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:08206d905b0749e1750a9a91f0f5ea6d:rust/maintainer_clean_footprint
-f:175990ec5e4c822fe862264b834b7df2:rust/.footprint
+f:042af5af130c8b21999a3e1cb399c7d2:rust/.footprint
 f:035ed9138488ff51b88f628d88284d89:rust/0002-compiler-Change-LLVM-targets.patch
 f:3a3fca94b507ed1252d131078376ca75:rust/.signature
-f:6be69fea68273aad5da7f5e9138a8933:rust/0001-bootstrap-Change-libexec-dir.patch
+f:be0cb1f8f06b2461c67857f7d6225253:rust/0001-bootstrap-Change-libexec-dir.patch
 f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch
-f:89a55d43db83ae317ff4da7b21c95d9a:rust/Pkgfile
+f:cb79beccadc867639b4fc08648cf2136:rust/Pkgfile
 f:6748a810b1f7a111ea1fd862b4c6b7c4:python3-gobject/.footprint
 f:b93fcd7b39cba9500ccc5598322b2818:python3-gobject/.signature
 f:e011c1168f239ef3a4f33776556eb6d4:python3-gobject/Pkgfile
