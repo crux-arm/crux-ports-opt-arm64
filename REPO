@@ -50,6 +50,7 @@ f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:ffd0160f322e2e008d402646652d736e:llvm/.footprint
+f:8e75760cb27787f2dcca9d96ee4d1866:llvm/.signature
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:1dbfad9d5f104a94ca0cce79ae6cc9c3:llvm/Pkgfile
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
