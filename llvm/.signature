@@ -1,0 +1,10 @@
+untrusted comment: verify with /etc/ports/raspberrypi3-arm.pub
+RWROOThsoDo5hDoRvoQ24ncEhrrMA/RFla3alzzB6NuF7kdTI5+0mpIusahn4dvpfOJcvDnew2vMoPx+6vx4m1q8V29Vb59Y1AM=
+SHA256 (Pkgfile) = 93bce796b8ca1b0200fbea9bdf0fb1d2e22baa2c2bf8f25b794e7dba1dec2770
+SHA256 (.footprint) = 72940e844772ce3754a0264e3dc4f9afc1d7c7abf5b1cc745e5c0c96edbebc15
+SHA256 (llvm-17.0.3.src.tar.xz) = 18fa6b5f172ddf5af9b3aedfdb58ba070fd07fc45e7e589c46c350b3cc066bc1
+SHA256 (cmake-17.0.3.src.tar.xz) = 54fc534f0da09088adbaa6c3bfc9899a500153b96e60c2fb9322a7aa37b1027a
+SHA256 (third-party-17.0.3.src.tar.xz) = 6e84ff16044d698ff0f24e7445f9f47818e6523913a006a5e1ea79625b429b7b
+SHA256 (install-prefix.patch) = 2649b61a459eb6d8a9aca38ab411aec27eeae57fe82e32d135db4ccb353c9dda
+SHA256 (rust-feature-tables.patch) = 88470afc557650112af05e9055d0010f07a888c34fcc61ed8b7cc165d8ecd9af
+SHA256 (llvm-config.h) = cd292314d46c1ae02d10735244eb0a16e11adec4bed6d017132886d0b62f63dd
