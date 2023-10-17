@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/raspberrypi3-arm.pub
+RWROOThsoDo5hEYSjUYZvGNut6pSaNE7duOY9yRs3wW4w2wnLvnegQhKAJIga0GNV+CSQm4p8x4BRe9blJxmmd0MxUR+im46KQs=
+SHA256 (Pkgfile) = f611a7a54e909dbea461547e0992b352683bdc09728af373557decceab100b3f
+SHA256 (.footprint) = 2dad8aaec2da00055126796a3a224ba92f46dcbe3e8d169441ebdb2faf6924ad
+SHA256 (compiler-rt-17.0.3.src.tar.xz) = 6a65d8897a872c68d4a22fceb912d4f77021c17a1494e242992660d8eb149aaf
+SHA256 (llvm-17.0.3.src.tar.xz) = 18fa6b5f172ddf5af9b3aedfdb58ba070fd07fc45e7e589c46c350b3cc066bc1
+SHA256 (cmake-17.0.3.src.tar.xz) = 54fc534f0da09088adbaa6c3bfc9899a500153b96e60c2fb9322a7aa37b1027a
