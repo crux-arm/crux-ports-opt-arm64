@@ -59,7 +59,7 @@ f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b
 f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
 f:0cbe4b6b310cac3e01dc9977b0c62f60:qt6-base/.footprint
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:401276aaa7f2f12c996e097891a694f2:qt6-base/.signature
+f:3d260d45527edaeb7042c5bfff144640:qt6-base/.signature
 f:037cf5956b4a57f32703187b06ad4422:qt6-base/Pkgfile
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
