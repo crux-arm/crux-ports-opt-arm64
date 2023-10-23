@@ -76,9 +76,9 @@ f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:21792edb8ec44b3919050e676bf962e3:tdb/.footprint
 f:cd9df374e517d6e9bbd5d92842227ffd:tdb/.signature
 f:ad915701ade42211deb6f9122c31e91c:tdb/Pkgfile
-f:848a3b114d8c8961a3bcf07186309717:tevent/.footprint
-f:4a8d4b95d871e62457aefb36e21d99af:tevent/.signature
-f:bed57e5ec6e478012aaeb4d0d820edfe:tevent/Pkgfile
+f:b7b1c84b887fcaff3a6a37c69a076e05:tevent/.footprint
+f:eec739892c054c53b3baf92d05d24356:tevent/.signature
+f:ff6566d5ae09aefb067330f8b8fa1eca:tevent/Pkgfile
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
