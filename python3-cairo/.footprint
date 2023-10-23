@@ -16,9 +16,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/cairo/__pycache__/
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/cairo/_cairo.cpython-310-aarch64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/cairo/include/
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/cairo/include/py3cairo.h
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/cairo/py.typed (EMPTY)
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pycairo-1.24.0-py3.10.egg-info/
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.24.0-py3.10.egg-info/PKG-INFO
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.24.0-py3.10.egg-info/SOURCES.txt
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.24.0-py3.10.egg-info/dependency_links.txt
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.24.0-py3.10.egg-info/top_level.txt
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/cairo/py.typed (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pycairo-1.25.1-py3.10.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.25.1-py3.10.egg-info/PKG-INFO
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.25.1-py3.10.egg-info/SOURCES.txt
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.25.1-py3.10.egg-info/dependency_links.txt
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pycairo-1.25.1-py3.10.egg-info/top_level.txt

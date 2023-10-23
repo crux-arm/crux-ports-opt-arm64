@@ -1,16 +1,17 @@
 # Description: A set of python bindings for cairo.
 # URL: https://pypi.org/project/pycairo/
 # Maintainer: Danny Rawlins, crux at romster dot me
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: cairo
 
 name=python3-cairo
-version=1.24.0
+version=1.25.1
 release=1
 source=(https://github.com/pygobject/pycairo/releases/download/v$version/pycairo-$version.tar.gz)
 
 build() {
-	cd pycairo-$version
+  cd pycairo-$version
 
-	/usr/bin/python3 setup.py build
-	/usr/bin/python3 setup.py install --skip-build --root=$PKG --optimize=1
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install --skip-build --root=$PKG --optimize=1
 }
