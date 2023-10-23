@@ -1,5 +1,4 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMXem6HCL66UrJ72+fETS69ijhsjLIlTEaB8/rlxVz6n5rU06OrPVPntw1NfnZlgShX+RrylfDyqxryLtiWb7jwY=
-SHA256 (Pkgfile) = be9099f64a342844411d9cd91486013461bbbad62443ac24138e972eee5ae260
-SHA256 (.footprint) = c9843a2159d9e187c0e3d89913f00691505c6fdcdd118fc768e18b38d96e709b
-SHA256 (tevent-0.15.0.tar.gz) = 662a9f277281bcf506b6bc0a0baa03e44a62229516ee34bcc703a0b82aa46905
+RWRitF9a2DJqMaRwt7XqOcLfv+9Iq6Uj5Wq9MMuPxVW/ap3UbeyljKXEDCMMzQcsl+CUCTT9eHyfg81sY+ax1JQQE7hj0G5O/Ao=
+SHA256 (Pkgfile) = f6c5ecfbc78deee6f052d0035e1431219dcc8b3d07900381750434dde7bde42d
+SHA256 (tevent-0.16.0.tar.gz) = 1aa58f21017ed8c2f606ae84aa7e795b5439edd4dd5f68f1a388a7d6fb40f682
