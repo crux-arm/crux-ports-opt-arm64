@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/raspberrypi3-arm.pub
-RWROOThsoDo5hDoRvoQ24ncEhrrMA/RFla3alzzB6NuF7kdTI5+0mpIusahn4dvpfOJcvDnew2vMoPx+6vx4m1q8V29Vb59Y1AM=
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMf25XXq3V1jxLtuYQPofp3ELJu0egvB4my0ibR0ILaq/GborYMfS9MW6zBiqhKFgsHDDs+myyLsDO810tDKsbgo=
 SHA256 (Pkgfile) = 93bce796b8ca1b0200fbea9bdf0fb1d2e22baa2c2bf8f25b794e7dba1dec2770
 SHA256 (.footprint) = 72940e844772ce3754a0264e3dc4f9afc1d7c7abf5b1cc745e5c0c96edbebc15
 SHA256 (llvm-17.0.3.src.tar.xz) = 18fa6b5f172ddf5af9b3aedfdb58ba070fd07fc45e7e589c46c350b3cc066bc1
