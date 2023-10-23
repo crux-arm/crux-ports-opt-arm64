@@ -111,9 +111,9 @@ f:9d72597d3714275e30344bfafb6cf909:pango/Pkgfile
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
-f:ab82053c00433d75b5acd45bf7b722ed:python3-cairo/.footprint
-f:9052fb7b9ff5bc5a0bc150f0492163b2:python3-cairo/.signature
-f:407cae820c8a67b77881a147ad86ee61:python3-cairo/Pkgfile
+f:d75b25f731dafbab1c4f3eca408a04a3:python3-cairo/.footprint
+f:bd5bcb6441676ac59e0ea3e550023cf3:python3-cairo/.signature
+f:8874d34b1b4d9664532e1b0eec5a54fd:python3-cairo/Pkgfile
 f:639d3af72199001bb612e545335a67a3:docker/docker.conf
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
