@@ -85,6 +85,7 @@ f:650c1ee9d3d8071daae52651f05b0630:docker/Pkgfile
 f:d7c4986ebb46dcea74b966ca51cff241:docker/.signature
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
 f:266958a5030890cda10f5f00930d8f5b:compiler-rt/Pkgfile
+f:0f9b00dd5b54f50831b7233d32d9285b:compiler-rt/.signature
 f:2561623d5585bfe10d15d7c6c1cd89eb:compiler-rt/.footprint
 f:769425de55e9bf46c385b520450380f3:docker-compose/Pkgfile
 f:94644c85f4f21d550bcf856b5838afbd:docker-compose/.signature
