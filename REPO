@@ -176,4 +176,5 @@ f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:ec251f050580cbe698164fa46de24c92:llvm/Pkgfile
+f:09da60565a3e526bcc71659718a30064:llvm/.signature
 f:0f0f6cc67001015ac064bb81996f1604:llvm/.footprint
