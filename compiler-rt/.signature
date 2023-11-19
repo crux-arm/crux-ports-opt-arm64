@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMY8cQI2GI4GUh06juoSCiMWn7FZ40b1JQux3/O8gHKi95kX39CAhK4lvoez9gCYSfkddNNG3LJlsPbFuFUJVNwY=
+SHA256 (Pkgfile) = 1e028a228f1d7e239e899bdd6dbfb04abe867ba2fb17b398c65076e3c66c224b
+SHA256 (.footprint) = 2dad8aaec2da00055126796a3a224ba92f46dcbe3e8d169441ebdb2faf6924ad
+SHA256 (compiler-rt-17.0.5.src.tar.xz) = 4e3b4a05780baf04a11e80efbe5039ff3ef17af617233f326f073e7af2cdab89
+SHA256 (llvm-17.0.5.src.tar.xz) = 569526fd017478eee51518a79c064442c0499269c6a6de586e409d91282afd04
+SHA256 (cmake-17.0.5.src.tar.xz) = 734ea7767ebda642d22c878024c9fb14ae0521d048bdba54e463bb73260adaef
