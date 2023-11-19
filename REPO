@@ -56,6 +56,7 @@ f:cd9df374e517d6e9bbd5d92842227ffd:tdb/.signature
 f:21792edb8ec44b3919050e676bf962e3:tdb/.footprint
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:ad915701ade42211deb6f9122c31e91c:tdb/Pkgfile
+f:f3488b40bd1028feb2e299585fc056bd:llvm/.signature
 f:d54a82a1ba48ee0aa2f6c300bec91a46:llvm/.footprint
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
