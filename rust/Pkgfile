@@ -160,10 +160,11 @@ EOF
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
-	if [ -e '/usr/bin/sccache' ]; then
-		export RUSTC_WRAPPER='/usr/bin/sccache'
-		export SCCACHE_IDLE_TIMEOUT='1500'
-	fi
+	## sccache currently leads to errors
+	#if [ -e '/usr/bin/sccache' ]; then
+	#	export RUSTC_WRAPPER='/usr/bin/sccache'
+	#	export SCCACHE_IDLE_TIMEOUT='1500'
+	#fi
 
 	#error: field is never read: `id`
 	#   --> src/bootstrap/lib.rs:280:5
