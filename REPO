@@ -84,8 +84,7 @@ f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
 f:650c1ee9d3d8071daae52651f05b0630:docker/Pkgfile
 f:d7c4986ebb46dcea74b966ca51cff241:docker/.signature
 f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
-f:266958a5030890cda10f5f00930d8f5b:compiler-rt/Pkgfile
-f:0f9b00dd5b54f50831b7233d32d9285b:compiler-rt/.signature
+f:54fa49d00f73ab028624aed65a2401bd:compiler-rt/Pkgfile
 f:2561623d5585bfe10d15d7c6c1cd89eb:compiler-rt/.footprint
 f:769425de55e9bf46c385b520450380f3:docker-compose/Pkgfile
 f:94644c85f4f21d550bcf856b5838afbd:docker-compose/.signature
@@ -175,6 +174,5 @@ f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
-f:ec251f050580cbe698164fa46de24c92:llvm/Pkgfile
-f:09da60565a3e526bcc71659718a30064:llvm/.signature
-f:0f0f6cc67001015ac064bb81996f1604:llvm/.footprint
+f:1bc7e5b8d0205e820a2c2b8bf5e607d1:llvm/Pkgfile
+f:d54a82a1ba48ee0aa2f6c300bec91a46:llvm/.footprint
