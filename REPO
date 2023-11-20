@@ -164,6 +164,7 @@ f:be0cb1f8f06b2461c67857f7d6225253:rust/0001-bootstrap-Change-libexec-dir.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:c89f69d7e97e7507e3f8d475f228ee9e:rust/Pkgfile
+f:130de7ecff209e6324e8e9d3d7fa080d:rust/.signature
 f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch
 f:52f34bf848f0d4cff8cb4d710631529e:rust/.footprint
 f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
