@@ -175,5 +175,6 @@ f:75113bdc79e2f22eda779f3ce5f6e041:grub2/Pkgfile
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
+f:2000b8f8a57cdf75de4732636280ef09:compiler-rt/.signature
 f:2561623d5585bfe10d15d7c6c1cd89eb:compiler-rt/.footprint
 f:f01633845d9535081721a257cc14046d:compiler-rt/Pkgfile
