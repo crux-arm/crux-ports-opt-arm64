@@ -156,12 +156,11 @@ f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-condit
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
-f:3d260d45527edaeb7042c5bfff144640:qt6-base/.signature
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:0cbe4b6b310cac3e01dc9977b0c62f60:qt6-base/.footprint
+f:6449383f5ffb5ca28a9a4aebd28aa91b:qt6-base/.footprint
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
-f:037cf5956b4a57f32703187b06ad4422:qt6-base/Pkgfile
+f:f24c456bdfe965baf44911a5e72ce813:qt6-base/Pkgfile
 f:8d6915977d7cb266244853f731a5eb63:grub2-efi/.signature
 f:0b62fb66842e13355c22312f3d9d73ba:grub2-efi/.footprint
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2-efi/csum_seed.diff
