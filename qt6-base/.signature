@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMWAERwEx8QTlRxSlB10ChQP4XennqQyuXeV2h8BRSH9SSyqZ3bt73VJ/KZyb4W9+Jb8uCcHaT53h6e+E3kR3YQU=
-SHA256 (Pkgfile) = 406dc72487689fdafd4c16ee3c8c601fa7dcbe88d674930aa73c98ba51e9e258
-SHA256 (.footprint) = 596a899629c1eb75cebe7c2cb527be660070275847ec407521aac52bcf6000d2
-SHA256 (qtbase-everywhere-src-6.6.0.tar.xz) = 039d53312acb5897a9054bd38c9ccbdab72500b71fdccdb3f4f0844b0dd39e0e
-SHA256 (qt6-base-cflags.patch) = cf707cd970650f8b60f8897692b36708ded9ba116723ec8fcd885576783fe85c
-SHA256 (qt6-base-nostrip.patch) = 4b93f6a79039e676a56f9d6990a324a64a36f143916065973ded89adc621e094
-SHA256 (qtbase-6.5.3-xkbcommon160.patch) = ee9411953ebdeae8e0a9b782df7db65d7228363c4873e7a8ebd902ee3a44c8c8
