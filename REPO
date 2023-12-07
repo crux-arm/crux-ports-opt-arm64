@@ -156,6 +156,7 @@ f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-condit
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
+f:ce0e8fcf7e314b4c08bcce6c8124bf9c:qt6-base/.signature
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:6449383f5ffb5ca28a9a4aebd28aa91b:qt6-base/.footprint
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
