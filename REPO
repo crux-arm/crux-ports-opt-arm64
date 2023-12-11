@@ -127,6 +127,7 @@ f:a3a10da314ba963e54cf9ceb7f18ec3b:talloc/.signature
 f:1f2a8c8a250148fc44bba732a7aafcd5:talloc/Pkgfile
 f:52f34bf848f0d4cff8cb4d710631529e:rust/.footprint
 f:ddbc0b79f535ccf85f2492900fe8597e:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
+f:2d0a038a849b9e4d94966bcf8accfbe8:rust/.signature
 f:be0cb1f8f06b2461c67857f7d6225253:rust/0001-bootstrap-Change-libexec-dir.patch
 f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
