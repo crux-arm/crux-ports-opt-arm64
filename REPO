@@ -90,6 +90,7 @@ f:ba02aa5ae70327027111361fa2d8443a:gcc-fortran/.signature
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
 f:741f815feddcc7697f941b4f861642fc:go/.footprint
+f:05cb81f36d3be473737ce51a095ea783:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
