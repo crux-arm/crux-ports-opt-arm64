@@ -38,7 +38,7 @@ f:a9cbb39afc69bfb3287cb4eeaa8048bf:grub2/Pkgfile
 f:623e441b611e7ecad88d37694c46c602:grub2/.footprint
 f:8459e7425bf9eea9d482e53c5b5c91c9:grub2/grub.cfg.sample
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2/csum_seed.diff
-f:51461420a412815787d4c2ba6b6bce37:grub2/.signature
+f:5a3844b636f4626f8334cf8b4ff3c34d:grub2/.signature
 f:8945d02b41013f91b44652ba5c6caee9:grub2/grub2-tweaks.diff
 f:2d0a24dc5ce4b8641aa90e04e2a27898:grub2/README
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
