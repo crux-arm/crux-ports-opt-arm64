@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	etc/grub.d/
 -rwxr-xr-x	root/root	etc/grub.d/00_header
 -rwxr-xr-x	root/root	etc/grub.d/10_linux
 -rwxr-xr-x	root/root	etc/grub.d/20_linux_xen
+-rwxr-xr-x	root/root	etc/grub.d/25_bli
 -rwxr-xr-x	root/root	etc/grub.d/30_os-prober
 -rwxr-xr-x	root/root	etc/grub.d/30_uefi-firmware
 -rwxr-xr-x	root/root	etc/grub.d/40_custom
@@ -52,6 +53,8 @@ drwxr-xr-x	root/root	usr/lib/grub/arm64-efi/
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/bitmap.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/bitmap_scale.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/bitmap_scale.module
+-rw-r--r--	root/root	usr/lib/grub/arm64-efi/bli.mod
+-rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/bli.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/blocklist.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/blocklist.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/boot.mod
@@ -115,6 +118,8 @@ drwxr-xr-x	root/root	usr/lib/grub/arm64-efi/
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/efifwsetup.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/efinet.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/efinet.module
+-rw-r--r--	root/root	usr/lib/grub/arm64-efi/efitextmode.mod
+-rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/efitextmode.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/elf.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/elf.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/eval.mod
@@ -188,6 +193,7 @@ drwxr-xr-x	root/root	usr/lib/grub/arm64-efi/
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/gcry_whirlpool.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/gcry_whirlpool.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/gdb_grub
+-rw-r--r--	root/root	usr/lib/grub/arm64-efi/gdb_helper.py
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/geli.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/geli.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/gettext.mod
@@ -200,7 +206,6 @@ drwxr-xr-x	root/root	usr/lib/grub/arm64-efi/
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/gfxterm_background.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/gfxterm_menu.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/gfxterm_menu.module
--rw-r--r--	root/root	usr/lib/grub/arm64-efi/gmodule.pl
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/gptsync.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/gptsync.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/gzio.mod
@@ -355,6 +360,8 @@ drwxr-xr-x	root/root	usr/lib/grub/arm64-efi/
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/pbkdf2_test.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/pgp.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/pgp.module
+-rw-r--r--	root/root	usr/lib/grub/arm64-efi/plainmount.mod
+-rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/plainmount.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/png.mod
 -rwxr-xr-x	root/root	usr/lib/grub/arm64-efi/png.module
 -rw-r--r--	root/root	usr/lib/grub/arm64-efi/priority_queue.mod

@@ -4,9 +4,9 @@
 # Depends on: grub2 efibootmgr
 
 name=grub2-efi
-version=2.06
-release=2
-source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz csum_seed.diff)
+version=2.12
+release=1
+source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz csum_seed.diff extra_deps.lst)
 
 build() {
     export CFLAGS="${CFLAGS} -Wno-error"
@@ -14,7 +14,9 @@ build() {
 
     MODLIST="boot chain configfile fat ext2 linux normal ntfs part_gpt part_msdos"
 
-    patch -d grub-$version -p1 -i $SRC/csum_seed.diff
+    #patch -d grub-$version -p1 -i $SRC/csum_seed.diff
+
+    cp $SRC/extra_deps.lst grub-$version/grub-core/
 
     for ARCH in aarch64
     do
