@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMdq7H3IvXw9IpZHka7Mxvwnv1G7bRmE2o+Y5EZXtwxaAcwa+NFukfPDLrLbBt+ajQN15+XQxEzHHUlL025LcPAM=
-SHA256 (Pkgfile) = 3c5644c972a5d3c030505bb11d8637ca292ae80a0e2a049d4dd61ee2d7c5df89
-SHA256 (.footprint) = 1073d108e27ca18c916dad9104a905160e7bf52282dfdff5715e887f76b24103
-SHA256 (grub-2.06.tar.xz) = b79ea44af91b93d17cd3fe80bdae6ed43770678a9a5ae192ccea803ebb657ee1
+RWRitF9a2DJqMd7ekW9E9CG7pAszhf0acjvYAoBAQ8id6PpxQRM08d6/3RNfcpsAwB2iC44vykNkCEwAu3X6o6Bq/BoIYVCrywY=
+SHA256 (Pkgfile) = b9c38e73c90960f44cbb5020dcda352e1b21029c3c9c7929f045fb1da1c6d569
+SHA256 (.footprint) = 22cc89d1bd79aaaecdf624ef3f757fb6b2efe604a7eff7908b058dd75cc3c901
+SHA256 (grub-2.12.tar.xz) = f3c97391f7c4eaa677a78e090c7e97e6dc47b16f655f04683ebd37bef7fe0faa
 SHA256 (csum_seed.diff) = ec7b142af05f0bdf3b923e0f3c365592760fc9c10896e9a23899f96e59ad5bfb
+SHA256 (extra_deps.lst) = 78d83a1c8ed69220853ac90114e0c7ea13fda00fbe6c81b1fedb1296479e62b4
