@@ -77,7 +77,7 @@ f:43e08eb0137bd7ffafda6bf4c7a9b327:grub2-efi/extra_deps.lst
 f:e011520a02670ba6b22dcf3b28b9c971:grub2-efi/Pkgfile
 f:694933a1be5600c4d1d5e37c30c0e7bb:grub2-efi/.footprint
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2-efi/csum_seed.diff
-f:8d6915977d7cb266244853f731a5eb63:grub2-efi/.signature
+f:fa8903cc0abce2983123c81d2782b13f:grub2-efi/.signature
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
 f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
