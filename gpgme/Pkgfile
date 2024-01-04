@@ -1,36 +1,35 @@
 # Description: A C wrapper and Python bindings library for GnuPG
 # URL: https://www.gnupg.org/related_software/gpgme/
-# Maintainer: Danny Rawlins, crux at romster dot me
-# Depends on: gnupg swig python3-setuptools
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: gnupg python3-build python3-installer python3-wheel swig
+# Optional: qt5 qt6-base
 
 name=gpgme
-version=1.18.0
+version=1.23.2
 release=1
-source=(https://www.gnupg.org/ftp/gcrypt/$name/$name-$version.tar.bz2
-	python310.patch)
+source=(https://www.gnupg.org/ftp/gcrypt/$name/$name-$version.tar.bz2)
 
 build() {
-	cd $name-$version
+  cd $name-$version
 
-	patch -Np1 -i $SRC/python310.patch
+  prt-get isinst qt5 && PKGMK_GPGME_LANG+=' qt'
+  ## fails to build as well
+  #prt-get isinst qt6-base && PKGMK_GPGME_LANG+=' qt6'
 
-	export PYTHON='/usr/bin/python3'
-	./configure \
-		--prefix=/usr \
-		--disable-fd-passing \
-		--disable-gpgsm-test \
-		--enable-languages='cl cpp python'
+  export PYTHON='/usr/bin/python3'
+  ./configure \
+    --prefix=/usr \
+    --disable-fd-passing \
+    --disable-gpgsm-test \
+    --enable-languages="cl cpp python $PKGMK_GPGME_LANG" \
+    --enable-static
 
-	make
-	make DESTDIR=$PKG install
+  make
+  make DESTDIR=$PKG install
 
-	cd lang/python
-	make DESTDIR=$PKG install
+  cd lang/python
+  top_builddir=$SRC/$name-$version /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+  top_builddir=$SRC/$name-$version /usr/bin/python3 -m installer --compile-bytecode 2 --destdir=$PKG dist/*.whl
 
-	install -d $PKG/usr/etc/gpgme
-	echo 'c cl cpp' > $PKG/usr/etc/gpgme/base
-	echo 'python3' > $PKG/usr/etc/gpgme/python
-
-	rm -r $PKG/usr/share/info
-	rm -rf $PKG/usr/lib/python2.7
+  rm -rf $PKG/usr/share/{common-lisp,info}
 }
