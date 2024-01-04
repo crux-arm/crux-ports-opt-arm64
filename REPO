@@ -143,10 +143,8 @@ f:d1d8065e88159ec930cd5720e88e7adb:ldb/Pkgfile
 f:f77f81380bd062a963824b9e4f11802b:ldb/.footprint
 f:46f1bc843981f095089aec050b95f473:ldb/.signature
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
-f:dfbe0ad6ea1ee13870772db652086ac4:gpgme/Pkgfile
-f:6604bf5063bf36bae402a61abb2731a0:gpgme/.footprint
-f:c3539963f225d60a035cce8b85d9eb33:gpgme/python310.patch
-f:4a341abc9d32201a7f6e4e62d04a4d25:gpgme/closefrom.patch
+f:27314c9b174e33819e95ee53a6dff1ae:gpgme/Pkgfile
+f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
 f:32643b2612a0f85ceb6d7b3547a0ecbb:gpgme/.signature
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
