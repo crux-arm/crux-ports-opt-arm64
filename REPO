@@ -1,7 +1,6 @@
 d:grub2
 d:brotli
 d:libdaemon
-d:docker
 d:tevent
 d:rust
 d:python3-cairo
@@ -47,14 +46,6 @@ f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
-f:650c1ee9d3d8071daae52651f05b0630:docker/Pkgfile
-f:ff0d4359e26bbd2ce1002a652c16ff30:docker/.footprint
-f:fc96322d8c8607a126d4e9bd30c7cf42:docker/pre-install
-f:a89245058732b01796d0ce1e2279fb00:docker/.nostrip
-f:d7c4986ebb46dcea74b966ca51cff241:docker/.signature
-f:639d3af72199001bb612e545335a67a3:docker/docker.conf
-f:d83f39cc5876fed6daecfbd28cfed4c1:docker/docker.rc
-f:ccc18a1054e32d3d7f08d331a6cc12d8:docker/README
 f:ff6566d5ae09aefb067330f8b8fa1eca:tevent/Pkgfile
 f:b7b1c84b887fcaff3a6a37c69a076e05:tevent/.footprint
 f:eec739892c054c53b3baf92d05d24356:tevent/.signature
