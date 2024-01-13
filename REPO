@@ -94,9 +94,9 @@ f:1f2a8c8a250148fc44bba732a7aafcd5:talloc/Pkgfile
 f:b6c83759bbd9232786914a0849cc60c5:talloc/.footprint
 f:a3a10da314ba963e54cf9ceb7f18ec3b:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
-f:ada0980b4e8f4229ea82118702419a18:ruby/Pkgfile
-f:a16a12114d44fd7654c9a98c2fe99245:ruby/.footprint
-f:0644c20dfb14f7678e1029668a0290cf:ruby/.signature
+f:df59833063255b6ab2d69f31792bfe59:ruby/Pkgfile
+f:af47c2179124e604d75f41309cc0b637:ruby/.footprint
+f:f8972dbcff8e917fca25bae3078355fb:ruby/.signature
 f:273d113738c206bafa9a4423396b48df:llvm/Pkgfile
 f:79730f045614129f9aaf8efe4272b076:llvm/.footprint
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
