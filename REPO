@@ -110,9 +110,9 @@ f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
-f:f280b6390a193890e967c6875313a7e6:python3-markupsafe/Pkgfile
-f:2a44c2024c22a63213a836fe964fe494:python3-markupsafe/.footprint
-f:65cfd2ddc87194ec73e3ab4a69ce0df3:python3-markupsafe/.signature
+f:5a97c0e8eca1bd5df1070db1854714ef:python3-markupsafe/Pkgfile
+f:7cdd1acdc298a17173c21d6e8c1770d1:python3-markupsafe/.footprint
+f:6ec35d2656f5a2911e43d69cd34e4fee:python3-markupsafe/.signature
 f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
 f:741f815feddcc7697f941b4f861642fc:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
