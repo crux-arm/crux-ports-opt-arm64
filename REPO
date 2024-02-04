@@ -156,10 +156,10 @@ f:08a825a4fe42807c9f7aa26b7eb49632:cbindgen/Pkgfile
 f:6748a810b1f7a111ea1fd862b4c6b7c4:python3-gobject/.footprint
 f:b93fcd7b39cba9500ccc5598322b2818:python3-gobject/.signature
 f:e011c1168f239ef3a4f33776556eb6d4:python3-gobject/Pkgfile
-f:21792edb8ec44b3919050e676bf962e3:tdb/.footprint
-f:cd9df374e517d6e9bbd5d92842227ffd:tdb/.signature
+f:82299d8ee3ddb85d9a20b21b662519c9:tdb/.footprint
+f:4807f080ff21e1a62a2c4e8f24610baf:tdb/.signature
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
-f:ad915701ade42211deb6f9122c31e91c:tdb/Pkgfile
+f:ab1c6cef412fa013816d9b3f27108b29:tdb/Pkgfile
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:5a4532a593277deaffb1e63b36c136b5:fuse/.signature
