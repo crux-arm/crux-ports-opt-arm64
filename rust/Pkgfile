@@ -71,7 +71,7 @@ build() {
 	patch -p1 -i $SRC/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 
 cat <<- EOF > $SRC/config.toml
-	changelog-seen = 2
+	change-id = 118703
 
 	[llvm]
 	ninja = true
