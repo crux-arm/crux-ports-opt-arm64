@@ -120,7 +120,7 @@ f:b45486401ddaae6b28ac88d2faaeeabf:qt6-base/.footprint
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:34b68be262734546359e4282e0bb4730:qt6-base/Pkgfile
-f:ce0e8fcf7e314b4c08bcce6c8124bf9c:qt6-base/.signature
+f:335f62c60558207ddd573db58208f5a9:qt6-base/.signature
 f:f77f81380bd062a963824b9e4f11802b:ldb/.footprint
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:d1d8065e88159ec930cd5720e88e7adb:ldb/Pkgfile
