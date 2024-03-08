@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMe1BDgGwoe7lWgiCAO36qiNjgK6waM5/Kz2Sbnd5ClxG2afBfGkcdQVbTM7xa6TTSWli1XcLqvRfbThfXIYIOA4=
-SHA256 (Pkgfile) = 61485faa2914540d8458272dbbf5ba160f706b0abd83aca213f60c9b0b37798d
-SHA256 (pycairo-1.25.1.tar.gz) = 7e2be4fbc3b4536f16db7a11982cbf713e75069a4d73d44fe5a49b68423f5c0c
+RWRitF9a2DJqMfR3LMt2+6E8fUpfR8OLWQxvm4PnYXhFOYr4sN59RoeGpEaGdGActTI47LCAl1YfXKib8EFt695cKcbTp4EqAAQ=
+SHA256 (Pkgfile) = bab713bd6bc31ddbd1b27cc1a70b1bb41538312450edc4c09c159a5681504dc7
+SHA256 (.footprint) = 9f13b7e297cd75bcb3f75d0a198ab9c0128dc9b97e710778636d13c015581c81
+SHA256 (pycairo-1.26.0.tar.gz) = 2dddd0a874fbddb21e14acd9b955881ee1dc6e63b9c549a192d613a907f9cbeb
