@@ -46,9 +46,9 @@ f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:e3582b4f524b824fe965777f6a725beb:cbindgen/.signature
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:08a825a4fe42807c9f7aa26b7eb49632:cbindgen/Pkgfile
-f:bd5bcb6441676ac59e0ea3e550023cf3:python3-cairo/.signature
-f:d75b25f731dafbab1c4f3eca408a04a3:python3-cairo/.footprint
-f:8874d34b1b4d9664532e1b0eec5a54fd:python3-cairo/Pkgfile
+f:ccb72225d7fb78d26c8ddc3b429aba3b:python3-cairo/.signature
+f:f67cf1dc11166ef08fc2cfe6c11451e4:python3-cairo/.footprint
+f:77da50c3e4edf9fa958848d8b918c5bb:python3-cairo/Pkgfile
 f:46f1bc843981f095089aec050b95f473:ldb/.signature
 f:f77f81380bd062a963824b9e4f11802b:ldb/.footprint
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
