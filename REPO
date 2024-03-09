@@ -57,8 +57,8 @@ f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:1ae1e29147cb3175684ee276eb6426c9:llvm/.signature
-f:79730f045614129f9aaf8efe4272b076:llvm/.footprint
-f:273d113738c206bafa9a4423396b48df:llvm/Pkgfile
+f:759778af60b533b249f4bb6bd0044f7e:llvm/.footprint
+f:87b12127ee4817a6dac75334df52575b:llvm/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
