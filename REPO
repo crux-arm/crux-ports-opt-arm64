@@ -124,9 +124,10 @@ f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:968d7afec16f7693b5e00daaf3871d5b:rust/0002-compiler-Change-LLVM-targets.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch
+f:31d1e95c67fbcf60d69d297046d9ccda:rust/llvm18.patch
 f:93874b842fc24432bf87ddb446e3dea4:rust/.signature
 f:afb80616ad14ae7e68c89e58b10fa28b:rust/.footprint
-f:1db7e055de6bed567c76da6a4a037a33:rust/Pkgfile
+f:79afdba2adb75273e937799897ae68e3:rust/Pkgfile
 f:d625886fd507b8b69686819d9a4684f4:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:8945d02b41013f91b44652ba5c6caee9:grub2/grub2-tweaks.diff
 f:8459e7425bf9eea9d482e53c5b5c91c9:grub2/grub.cfg.sample
