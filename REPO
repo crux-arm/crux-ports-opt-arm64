@@ -94,10 +94,10 @@ f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
-f:b45486401ddaae6b28ac88d2faaeeabf:qt6-base/.footprint
+f:5a1fb649b0af2e6c3aa79ae9a461b999:qt6-base/.footprint
 f:335f62c60558207ddd573db58208f5a9:qt6-base/.signature
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:34b68be262734546359e4282e0bb4730:qt6-base/Pkgfile
+f:0619a6e616630280a64508a2c547307e:qt6-base/Pkgfile
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
