@@ -143,7 +143,7 @@ f:e028f5b308e55c10d0bd022ae8c257ae:rust/.footprint
 f:7bdf4a4abd582478ce47b17cae53bb0c:rust/0003-compiler-Change-LLVM-targets.patch
 f:e417cb0840a885906bcfca9f3dbbd1fc:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:4aa9ab59ace302e174fee42232480ecc:rust/.signature
-f:de4575d48307107e79c999f5b1a1f44a:rust/Pkgfile
+f:2da498c79f2f813697b8e58a2540867f:rust/Pkgfile
 f:968d7afec16f7693b5e00daaf3871d5b:rust/0002-compiler-Change-LLVM-targets.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:43e08eb0137bd7ffafda6bf4c7a9b327:grub2/extra_deps.lst
