@@ -131,9 +131,9 @@ f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:6957917e38a16ae131035f3e27576f5d:compiler-rt/.signature
 f:40cd99ffb62fcbbe8e8cd8fd5c5a931d:compiler-rt/Pkgfile
-f:5d1b892a0ac966716edd2c4456bb0b30:pango/.footprint
-f:9de08e903d24feca924198bdb949a989:pango/.signature
-f:c3cb90279436d195362aa71f0a5d0185:pango/Pkgfile
+f:d5cc675fb8076ece545bf1d9467f345a:pango/.footprint
+f:1875540ea2b2710019bcfa0a07f8a370:pango/.signature
+f:d4d6f570f210ed632e587f8e5476734e:pango/Pkgfile
 f:31d1e95c67fbcf60d69d297046d9ccda:rust/llvm18.patch
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch
