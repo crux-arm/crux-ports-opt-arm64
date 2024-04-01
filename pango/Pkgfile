@@ -1,10 +1,11 @@
 # Description: A library for layout and rendering of text
 # URL: https://www.gtk.org/
 # Maintainer: CRUX System Team, core-ports at crux dot nu
-# Depends on: fribidi gobject-introspection harfbuzz xorg-libsm xorg-libxft
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: fribidi xorg-libsm xorg-libxft
 
 name=pango
-version=1.52.1
+version=1.52.2
 release=1
 source=(https://download-fallback.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
