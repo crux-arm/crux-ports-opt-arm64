@@ -157,9 +157,9 @@ f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2/csum_seed.diff
 f:0a304fdddec96adb7c8641d4eebdffad:python3-markupsafe/.footprint
 f:43733934e6452f801a4864d13cefaeee:python3-markupsafe/.signature
 f:bcad9e386a53dda35a1009cf226e8183:python3-markupsafe/Pkgfile
-f:6748a810b1f7a111ea1fd862b4c6b7c4:python3-gobject/.footprint
-f:b93fcd7b39cba9500ccc5598322b2818:python3-gobject/.signature
-f:e011c1168f239ef3a4f33776556eb6d4:python3-gobject/Pkgfile
+f:409a594f663af013dad16587fe9f3648:python3-gobject/.footprint
+f:e7fdebbd2a4937ee0187a8f57ea77276:python3-gobject/.signature
+f:85e3bf3a31ad2132173119ae408ca18a:python3-gobject/Pkgfile
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:82299d8ee3ddb85d9a20b21b662519c9:tdb/.footprint
 f:4807f080ff21e1a62a2c4e8f24610baf:tdb/.signature
