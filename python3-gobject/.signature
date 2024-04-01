@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMVyjveWhEJ9kZ1ujLG3v25ax/Nm9OIFatXA1ATqwAALdlCxUlI6JWIjqm9n9BixQFOTvaEJpJm+Rm+QgumerbwA=
-SHA256 (Pkgfile) = f3dbe3a6f8967d37c28ab7fbd2998995eefc08fed38f041155d2555125bd809e
-SHA256 (.footprint) = 690e619ec41cc5a0089916c93d76ef98f825bca7b9ae13c63a35c9f2dee1f1c5
-SHA256 (pygobject-3.46.0.tar.xz) = 426008b2dad548c9af1c7b03b59df0440fde5c33f38fb5406b103a43d653cafc
+RWRitF9a2DJqMdo5qhdyBdkdHyLxHcPYRnpgc3AxkwGYZOEkB8f5CHiC31gsMZLf3xbVQw21H0J+Yq1Il9HkSPuuK0/5IQ7l0gM=
+SHA256 (Pkgfile) = 90c607e6de320f23eb208c8cb2929b17dad3e5bcc8ee4b4db8756ec6ace5145b
+SHA256 (.footprint) = ebeed0e3ed8aacd1cbd8d28c84387fee752b4ec4897d4ff7f00efb7e2456c3ee
+SHA256 (pygobject-3.48.1.tar.xz) = 3a0a2c0c0f25931b5840649c54834b9e58a63148d37fa9f6308887b7027e15c2
