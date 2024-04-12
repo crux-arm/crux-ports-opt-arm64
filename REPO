@@ -136,10 +136,10 @@ f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:dcfd680eda613a2ed3b17ead14ba54ad:rust/0001-bootstrap-Change-libexec-dir.patch
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:2da498c79f2f813697b8e58a2540867f:rust/Pkgfile
-f:46f1bc843981f095089aec050b95f473:ldb/.signature
-f:f77f81380bd062a963824b9e4f11802b:ldb/.footprint
+f:eda0b77149ec4bcecfbcb66225e5e095:ldb/.signature
+f:f432859a04a694d85da559c087db4fb8:ldb/.footprint
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
-f:d1d8065e88159ec930cd5720e88e7adb:ldb/Pkgfile
+f:ad49639e4506c8b5644827c296ccad72:ldb/Pkgfile
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
