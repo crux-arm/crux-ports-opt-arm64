@@ -1,6 +1,7 @@
 d:libtheora
 d:llvm
 d:go
+d:samba
 d:libb2
 d:gobject-introspection
 d:gcc-fortran
@@ -46,6 +47,11 @@ f:05cb81f36d3be473737ce51a095ea783:go/.signature
 f:741f815feddcc7697f941b4f861642fc:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
+f:ed048251cfbcead01d2bca49f62d4423:samba/.signature
+f:9a49ca6dd6d1cc93629d53e05a95280e:samba/.footprint
+f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
+f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
+f:1014fd071f0db0877f61238d88bdced1:samba/Pkgfile
 f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
