@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMTDFv0oIhpGZ0nmT7JykJqLQg1EkWbKakbAHC8wfPlPkWLkGvhn1q3z7GU5tbXTX1r8R8o4Gg0v77qc9Mx9YLQ0=
+SHA256 (Pkgfile) = 6c09d1edff0be7e8c4cfa53a204b262c61f1c9096a14c1d50cf2b067f101b93b
+SHA256 (.footprint) = bf157dbaa813a75c664665570b04978b70ba9ad3a3abc3f8e134bb770d7df669
+SHA256 (samba-4.20.0.tar.gz) = 02672542510ac6e5d0c91c0c14d90ab4e6ec397c709e952c6da3a6e0b4d5a42f
+SHA256 (samba.rc) = 0ab5a29dd85d5107cea902c21dd8426d20c3bcb2ce28a5add10d572bb88adc63
+SHA256 (samba.pam) = c872a9efb2f7151e51e10fada4a75d69f5f5bd5afb1db29b64e8288c7cdc8b20
