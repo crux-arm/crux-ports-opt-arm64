@@ -44,7 +44,7 @@ f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:946447b9fa50499bbb639dfc66f6db0a:llvm/.footprint
 f:d094c0e19ee41cef52644a816fe61285:llvm/Pkgfile
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
-f:5d6773a17cf6c4de448b064ba4686aac:llvm/.signature
+f:3d8b1200871dffb7ea9bf0e82e3538e7:llvm/.signature
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
@@ -61,7 +61,7 @@ f:df59833063255b6ab2d69f31792bfe59:ruby/Pkgfile
 f:f8972dbcff8e917fca25bae3078355fb:ruby/.signature
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:77bc12d6380c9af377904d848343ff94:compiler-rt/Pkgfile
-f:3ef77c93cd269fc159c9c58b19d72a42:compiler-rt/.signature
+f:164ec955cf1f60ceaff2cd5442626922:compiler-rt/.signature
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
 f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
