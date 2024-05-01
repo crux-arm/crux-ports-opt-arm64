@@ -56,9 +56,8 @@ f:05cb81f36d3be473737ce51a095ea783:go/.signature
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:08a825a4fe42807c9f7aa26b7eb49632:cbindgen/Pkgfile
 f:e3582b4f524b824fe965777f6a725beb:cbindgen/.signature
-f:af47c2179124e604d75f41309cc0b637:ruby/.footprint
-f:df59833063255b6ab2d69f31792bfe59:ruby/Pkgfile
-f:f8972dbcff8e917fca25bae3078355fb:ruby/.signature
+f:f0218e62a465450b51b6cf7e5d51c82d:ruby/.footprint
+f:7ba31b4a160870bb6dd3f627200c04a7:ruby/Pkgfile
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:77bc12d6380c9af377904d848343ff94:compiler-rt/Pkgfile
 f:164ec955cf1f60ceaff2cd5442626922:compiler-rt/.signature
