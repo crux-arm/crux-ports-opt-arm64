@@ -58,6 +58,7 @@ f:08a825a4fe42807c9f7aa26b7eb49632:cbindgen/Pkgfile
 f:e3582b4f524b824fe965777f6a725beb:cbindgen/.signature
 f:f0218e62a465450b51b6cf7e5d51c82d:ruby/.footprint
 f:7ba31b4a160870bb6dd3f627200c04a7:ruby/Pkgfile
+f:39d62465017fb9861b4f7a4cd642da8c:ruby/.signature
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:77bc12d6380c9af377904d848343ff94:compiler-rt/Pkgfile
 f:164ec955cf1f60ceaff2cd5442626922:compiler-rt/.signature
