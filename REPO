@@ -33,9 +33,9 @@ d:jdk
 d:gpgme
 d:python3-markupsafe
 d:python3-cairo
-f:409a594f663af013dad16587fe9f3648:python3-gobject/.footprint
-f:85e3bf3a31ad2132173119ae408ca18a:python3-gobject/Pkgfile
-f:e7fdebbd2a4937ee0187a8f57ea77276:python3-gobject/.signature
+f:27ab7194aba933a7493694fda9c3f8d2:python3-gobject/.footprint
+f:041ef4d065e6dc2800720094f020b668:python3-gobject/Pkgfile
+f:45cc48e91e6f8283b90fc14aa2c7c7d0:python3-gobject/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
