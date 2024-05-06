@@ -70,12 +70,12 @@ f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:e417cb0840a885906bcfca9f3dbbd1fc:rust/0002-bootstrap-Change-bash-completion-dir.patch
-f:e028f5b308e55c10d0bd022ae8c257ae:rust/.footprint
+f:57d2edee21701c691c4025d0baa15743:rust/.footprint
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:7bdf4a4abd582478ce47b17cae53bb0c:rust/0003-compiler-Change-LLVM-targets.patch
-f:2da498c79f2f813697b8e58a2540867f:rust/Pkgfile
+f:c73b684ab36c5168291f1ca9c96bc50b:rust/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:6f13fbe96623ac673053098b911f6222:rust/.signature
+f:b5eac2ec6c0c6b5d2e19c0374b88896d:rust/.signature
 f:968d7afec16f7693b5e00daaf3871d5b:rust/0002-compiler-Change-LLVM-targets.patch
 f:dcfd680eda613a2ed3b17ead14ba54ad:rust/0001-bootstrap-Change-libexec-dir.patch
 f:2db8ab41638d26e25aace865f85df6a6:rust/0001-cargo-Change-libexec-dir.patch

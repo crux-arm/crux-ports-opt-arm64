@@ -64,10 +64,10 @@ build() {
 
 	cd "${name}c-$version-src"
 
-    patch -p1 -i $SRC/0001-bootstrap-Change-libexec-dir.patch
-    patch -p1 -i $SRC/0002-bootstrap-Change-bash-completion-dir.patch
-    patch -p1 -i $SRC/0003-compiler-Change-LLVM-targets.patch
-    patch -p1 -i $SRC/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
+	patch -p1 -i $SRC/0001-bootstrap-Change-libexec-dir.patch
+	patch -p1 -i $SRC/0002-bootstrap-Change-bash-completion-dir.patch
+	patch -p1 -i $SRC/0003-compiler-Change-LLVM-targets.patch
+	patch -p1 -i $SRC/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 
 cat <<- EOF > $SRC/config.toml
 	change-id = 121754
