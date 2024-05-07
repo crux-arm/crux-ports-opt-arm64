@@ -44,7 +44,7 @@ f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:1fc4ad169c60d4c660199cb9f9ea7830:llvm/.footprint
 f:46fa6dcf28b46eab27285495923c67cc:llvm/Pkgfile
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
-f:3d8b1200871dffb7ea9bf0e82e3538e7:llvm/.signature
+f:1d3be7608185c6500c6230a97d34b8cb:llvm/.signature
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
