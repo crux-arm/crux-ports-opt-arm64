@@ -61,7 +61,7 @@ f:7ba31b4a160870bb6dd3f627200c04a7:ruby/Pkgfile
 f:39d62465017fb9861b4f7a4cd642da8c:ruby/.signature
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:c93e5d1397f88262944eb4f603790974:compiler-rt/Pkgfile
-f:10925fff386f2f2787b8dc4c0cd4e81a:compiler-rt/.signature
+f:b419748b2c7ad7b637b6f8a1ed985499:compiler-rt/.signature
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
 f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
