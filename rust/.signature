@@ -1,12 +1,12 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMXbCxlPpKntvF6hg7KbIC21qXRM6ezqQN9US897Tqv+87uyrKjMk8AjBIsfh6bjl0jO0O/oOxgm/4FuCmvrnXQY=
-SHA256 (Pkgfile) = 8e071d380a6490d41a82cd135cceb985fdd49feb571e8bc8bd9dfb9b5ea4d8a3
-SHA256 (.footprint) = 0c764584046394cb6a5aaf7c8dec06853f14ead2c026a433ac91559cbe0bf562
-SHA256 (rustc-1.77.2-src.tar.xz) = 4d214c4189e4dd934d47e869fa5721b2c33dbbbdea21f2fc7fa6df3f38c1dea2
-SHA256 (rust-std-1.76.0-aarch64-unknown-linux-gnu.tar.xz) = c0c579d9321da855109a2b6c7d7c9e01549db37e8490f058cfdc0012bef394cd
-SHA256 (rustc-1.76.0-aarch64-unknown-linux-gnu.tar.xz) = a299b5053d2771c24e3d5787caa0317ea729618700acacf2eeb95e345a92529c
-SHA256 (cargo-1.76.0-aarch64-unknown-linux-gnu.tar.xz) = d0c54d824e64b7313a974409541ca3a157b3ed7299865786bd0c440b0e073091
-SHA256 (0001-bootstrap-Change-libexec-dir.patch) = 5a0c18e6eee732927f84dd8313622b9262121602a1c506af845961804bb1ee82
-SHA256 (0002-bootstrap-Change-bash-completion-dir.patch) = 7ee144ab2c7c717e45e0acefa65d37e42bae45c0b294b0bf5cd6500ce269a37d
-SHA256 (0003-compiler-Change-LLVM-targets.patch) = a1656fbe6458cef2587bb7b09c3e573b314e9e8f55a7a8371f45b975f23cb4e9
+RWRitF9a2DJqMaSRjm6IbaRiGBpPxeJdzdD+PLObWqah/fPJHRd1QuKrqbG/d7CrRKQV2lIwl9XTcd7mIpFsjk9JKXgZXr0vXAw=
+SHA256 (Pkgfile) = 339e9cc47eeaad802f3738bf1f63d8a14daaa7d4d870c0c7464e7859a22a6bad
+SHA256 (.footprint) = 1f349c926293e22a15f2b150a2edbe77d672db265487852091436e592fa21d8c
+SHA256 (rustc-1.78.0-src.tar.xz) = 8065824f0255faa3901db8206e6f9423f6f8c07cec28bc6f2797c6c948310ece
+SHA256 (rust-std-1.77.0-aarch64-unknown-linux-gnu.tar.xz) = b6c551baf0cc9a32582f2362379b596f33c1bc93ae520d5648e9138de1b4b90b
+SHA256 (rustc-1.77.0-aarch64-unknown-linux-gnu.tar.xz) = ca7caef0b4e32f769edf4d7d596d0da9c3d562dd8233bd9068d3ba6cfe8dfe48
+SHA256 (cargo-1.77.0-aarch64-unknown-linux-gnu.tar.xz) = 0833e133e2b98d840c5180a3dabc49c0de9895c54055dfee92fa94d2a12196d5
+SHA256 (0001-bootstrap-Change-libexec-dir.patch) = 3127ef3346430bd82dde03bfc3c8875cdfc00c62d98f27b3f798099df719dbb9
+SHA256 (0002-bootstrap-Change-bash-completion-dir.patch) = 49c8799720cae67e44d24c0dab484ecc596a2d74c8560504f4053f77864ce849
+SHA256 (0003-compiler-Change-LLVM-targets.patch) = 29068559ad29eaf62c7fb78e6ddabfad25857308b0194575eb12b937411b3063
 SHA256 (0004-compiler-Use-wasm-ld-for-wasm-targets.patch) = b5a6ee8942fff48a2165289a24039662945e89a65863d726469cb3bab88d3fb7
