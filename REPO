@@ -81,9 +81,9 @@ f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
 f:6b5e127e72010a9216267668e237ea0d:libidl/Pkgfile
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
-f:9a49ca6dd6d1cc93629d53e05a95280e:samba/.footprint
-f:1014fd071f0db0877f61238d88bdced1:samba/Pkgfile
-f:ed048251cfbcead01d2bca49f62d4423:samba/.signature
+f:bf7aa8141c3d570a5c0acb2c13dcd230:samba/.footprint
+f:74ef418c7937aac4c2da2597b4f63e7e:samba/Pkgfile
+f:5eb3f7de7e60982e07f2553a881f58c5:samba/.signature
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
