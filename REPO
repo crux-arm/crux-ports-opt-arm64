@@ -129,7 +129,7 @@ f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
-f:bc7d3c7d786c7950486d4a1496bc1489:qt6-base/.signature
+f:f4957938e99cd0595513c4c90ab8d624:qt6-base/.signature
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:4c3e5d546cdb06489d9b89f56d978d1b:qt6-base/Pkgfile
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
