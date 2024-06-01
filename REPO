@@ -154,9 +154,8 @@ f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:57fef288abe4b000725952d460004301:python/Pkgfile
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:5b7e8a119e09a1cbe747695617f6bc97:python/.footprint
-f:39d62465017fb9861b4f7a4cd642da8c:ruby/.signature
-f:7ba31b4a160870bb6dd3f627200c04a7:ruby/Pkgfile
-f:f0218e62a465450b51b6cf7e5d51c82d:ruby/.footprint
+f:8036fbe7edeac790a6cdd9277cfe515a:ruby/Pkgfile
+f:de4048efa0172439e29db2ee096a78d9:ruby/.footprint
 f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
