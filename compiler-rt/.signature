@@ -1,6 +1,6 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMQmhHfGLRxMPDmW0/U7egOSTySZTCp1hCLx4agW2j3o3Ei0VPNFvbUnpNG1o9TF8IefaK2je+JWOxaC/F6176QQ=
-SHA256 (Pkgfile) = 421ba0fef4fbcb26e0c57b09dbcdb193daa8e73de0cfc2f4a0542045343d284f
-SHA256 (compiler-rt-18.1.6.src.tar.xz) = f05f4e15a4524194c93303aa6027006a5182eccfe8f5c90491c2f1fbfcedb96b
-SHA256 (llvm-18.1.6.src.tar.xz) = c231d0a5445db2aafab855e052c247bdd9856ff9d7d9bffdd04e9f0bf8d5366f
-SHA256 (cmake-18.1.6.src.tar.xz) = a643261ed98ff76ab10f1a7039291fa841c292435ba1cfe11e235c2231b95cdb
+untrusted comment: verify with /etc/ports/core-arm64.pub
+RWSKslkvIwb+2YKmxU8fFr5zAM9VEnZZjbI3vXYYpAB/4tJeawD+03cUH4oOto0yRqtPA/pp8gT1caPUqCxXRTFga+S5G06L8Aw=
+SHA256 (Pkgfile) = 6bc0e75b256c385cfa072cc4abc7d79682ecb42fa79da1bdf2edda8451059f10
+SHA256 (compiler-rt-18.1.7.src.tar.xz) = 7df49e669b0e93d183f5c0fcf01a4b5bbeeeb90304afffbdd84d4871da6b6e98
+SHA256 (llvm-18.1.7.src.tar.xz) = 17ba3d57c3db185722c36e736a189b2110e8cb842cc9e53dcc74e938bdadb97e
+SHA256 (cmake-18.1.7.src.tar.xz) = f0b67599f51cddcdbe604c35b6de97f2d0a447e18b9c30df300c82bf1ee25bd7
