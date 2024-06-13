@@ -49,8 +49,8 @@ f:4e6cafafecac630f98a6ec758f0975f4:llvm/.signature
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
-f:dd77c3c21ec47ee323c0c6753c96a4ed:llvm/Pkgfile
-f:2f24708a1aaec261a83339864e72f5db:llvm/.footprint
+f:322e5c69d2a4248ad19fe516a26bb918:llvm/Pkgfile
+f:2d9f9f877b30014f0e03ad729dd9c511:llvm/.footprint
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:ccb72225d7fb78d26c8ddc3b429aba3b:python3-cairo/.signature
 f:77da50c3e4edf9fa958848d8b918c5bb:python3-cairo/Pkgfile
@@ -61,7 +61,7 @@ f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-condit
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
 f:cc032b9bd5d536a97dfef47a149cfe2e:compiler-rt/.signature
-f:ececb90653f05b56cec1afd40f256a88:compiler-rt/Pkgfile
+f:128cf0b51231b7d86d183fc1bdd78ba8:compiler-rt/Pkgfile
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:3b54f006d6fbfb4f73ecbb457d0b1dc0:libsdl/.signature
