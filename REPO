@@ -60,7 +60,7 @@ f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
-f:5748d2b869b73bbc21ed20829b91c3c8:compiler-rt/.signature
+f:e0601cbcaafcba359d188ca8d6fbffa9:compiler-rt/.signature
 f:128cf0b51231b7d86d183fc1bdd78ba8:compiler-rt/Pkgfile
 f:a124a90895a17e05975b3d6742f014c7:compiler-rt/.footprint
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
