@@ -138,7 +138,7 @@ f:eda0b77149ec4bcecfbcb66225e5e095:ldb/.signature
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:ad49639e4506c8b5644827c296ccad72:ldb/Pkgfile
 f:f432859a04a694d85da559c087db4fb8:ldb/.footprint
-f:a0248df4e3fbe318dcd6cbaeeebf6cf8:rust/.signature
+f:6019df3bf022d575cbe4d3bf80f805d0:rust/.signature
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:5b497725cb6d5b360d247f7127e358ac:rust/0003-compiler-Change-LLVM-targets.patch
 f:05f68f880b5661bb04f3a4bdec1a3433:rust/Pkgfile
