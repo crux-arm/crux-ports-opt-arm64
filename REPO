@@ -141,11 +141,11 @@ f:f432859a04a694d85da559c087db4fb8:ldb/.footprint
 f:a0248df4e3fbe318dcd6cbaeeebf6cf8:rust/.signature
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:5b497725cb6d5b360d247f7127e358ac:rust/0003-compiler-Change-LLVM-targets.patch
-f:b79efbbe44f04dda31b11e8aac23f3ff:rust/Pkgfile
+f:05f68f880b5661bb04f3a4bdec1a3433:rust/Pkgfile
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:2a996f39d68d57b5e1eebf44e83a6af5:rust/.footprint
+f:9e2ba082c01d07f7217e78c7f8eda166:rust/.footprint
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:08323c8fe8a3c55d4609ebd6cd0b41ee:python/CVE-2021-3177.patch
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
