@@ -137,7 +137,7 @@ f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:89b79f9bf000e701bd2cae769fac55ec:qt6-base/.footprint
-f:f4957938e99cd0595513c4c90ab8d624:qt6-base/.signature
+f:1936a773a6aa753834656b2639fde8e1:qt6-base/.signature
 f:47cdd37a26944f7509f91bb33dfab197:qt6-base/Pkgfile
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
