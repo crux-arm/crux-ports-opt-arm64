@@ -1,11 +1,11 @@
 # Description: A cross-platform application and UI framework
 # URL: https://www.qt.io/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: at-spi2-core brotli dbus double-conversion harfbuzz libb2 libinput libtiff libxkbcommon mesa vulkan-headers xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm
+# Depends on: at-spi2-core brotli double-conversion harfbuzz libb2 libinput libtiff libxkbcommon mesa vulkan-headers xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm
 # Optional: gtk3 libproxy mariadb md4c pipewire postgresql pulseaudio tslib unixodbc xdg-utils xmlstarlet
 
 name=qt6-base
-version=6.7.1
+version=6.7.2
 release=1
 source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtbase-everywhere-src-$version.tar.xz
   qt6-base-cflags.patch
