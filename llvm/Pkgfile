@@ -2,11 +2,11 @@
 # URL: https://llvm.org/
 # Maintainer: CRUX System Team, core-ports at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: cmake libffi libxml2 ninja python3-setuptools
+# Depends on: libxml2 ninja python3-setuptools
 # Optional: lld
 
 name=llvm
-version=18.1.7
+version=18.1.8
 release=1
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/$name-$version.src.tar.xz
     https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz
