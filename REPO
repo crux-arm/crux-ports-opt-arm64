@@ -43,7 +43,7 @@ f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
 f:ad49639e4506c8b5644827c296ccad72:ldb/Pkgfile
 f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
 f:d76151ebc4b8d5b2acc31022b13077b1:llvm/.footprint
-f:7fec32396868f3db464a8913e4524284:llvm/.signature
+f:a84dc6d1e7e62c83f2d3caeb9166e190:llvm/.signature
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:dbad484b2ceeec6f974f240daff8bbed:llvm/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
