@@ -119,9 +119,9 @@ f:82299d8ee3ddb85d9a20b21b662519c9:tdb/.footprint
 f:4807f080ff21e1a62a2c4e8f24610baf:tdb/.signature
 f:ab1c6cef412fa013816d9b3f27108b29:tdb/Pkgfile
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
-f:d5cc675fb8076ece545bf1d9467f345a:pango/.footprint
-f:1875540ea2b2710019bcfa0a07f8a370:pango/.signature
-f:d4d6f570f210ed632e587f8e5476734e:pango/Pkgfile
+f:9e07b60bd8119a9e49fd14a73d2faefd:pango/.footprint
+f:80825d52b8242a3af0d51d4cecd7fff4:pango/.signature
+f:93d16850bfc40f0d40db752532b40f6c:pango/Pkgfile
 f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:6b5e127e72010a9216267668e237ea0d:libidl/Pkgfile
