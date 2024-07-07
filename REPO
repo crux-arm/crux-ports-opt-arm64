@@ -112,9 +112,9 @@ f:5d48903f40d61a057d49f28a3275edb1:gcc-fortran/.footprint
 f:ba02aa5ae70327027111361fa2d8443a:gcc-fortran/.signature
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
-f:f67cf1dc11166ef08fc2cfe6c11451e4:python3-cairo/.footprint
-f:ccb72225d7fb78d26c8ddc3b429aba3b:python3-cairo/.signature
-f:77da50c3e4edf9fa958848d8b918c5bb:python3-cairo/Pkgfile
+f:ea1c49a6ffafad1ddd15ca1d8f51895f:python3-cairo/.footprint
+f:2c5e32081bbc74925d3d0b1e8694dc52:python3-cairo/.signature
+f:57249a5d1f2b5da8054bacff9a6a222a:python3-cairo/Pkgfile
 f:82299d8ee3ddb85d9a20b21b662519c9:tdb/.footprint
 f:4807f080ff21e1a62a2c4e8f24610baf:tdb/.signature
 f:ab1c6cef412fa013816d9b3f27108b29:tdb/Pkgfile
