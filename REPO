@@ -104,9 +104,9 @@ f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-di
 f:05f68f880b5661bb04f3a4bdec1a3433:rust/Pkgfile
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
-f:251cdabdfd94fb84449e02acf3e92e22:ruby/.footprint
-f:d415a3af51ca2617a37dcbc03c36ecfb:ruby/.signature
-f:f4808faff47f56f30ae7ce35692140e5:ruby/Pkgfile
+f:5928a56049a1530a85e5704fc3e741da:ruby/.footprint
+f:3a8011a6ab47f5218f0b66e2ea30c3ee:ruby/.signature
+f:5b632cc9fadab110b3f76b7c9d8d97f5:ruby/Pkgfile
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:5d48903f40d61a057d49f28a3275edb1:gcc-fortran/.footprint
 f:ba02aa5ae70327027111361fa2d8443a:gcc-fortran/.signature
