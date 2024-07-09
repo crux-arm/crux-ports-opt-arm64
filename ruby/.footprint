@@ -224,9 +224,9 @@ drwxr-xr-x	root/root	usr/include/ruby-3.3/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-3.3/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-3.3/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.3.3
-lrwxrwxrwx	root/root	usr/lib/libruby.so.3.3 -> libruby.so.3.3.3
--rwxr-xr-x	root/root	usr/lib/libruby.so.3.3.3
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.3.4
+lrwxrwxrwx	root/root	usr/lib/libruby.so.3.3 -> libruby.so.3.3.4
+-rwxr-xr-x	root/root	usr/lib/libruby.so.3.3.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-3.3.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -1680,9 +1680,16 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/exe/
 -rwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/exe/rdbg
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/Makefile
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/debug.c
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/debug.o
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/debug_version.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/extconf.h
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/extconf.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/iseq_collector.c
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/iseq_collector.o
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/ext/debug/mkmf.log
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/exts.mk
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/lib/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/lib/debug.rb
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/debug-1.9.1/lib/debug/
@@ -2128,24 +2135,37 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/exe/
 -rwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/exe/rbs
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/Makefile
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/constants.c
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/constants.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/constants.o
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/extconf.h
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/extconf.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/lexer.c
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/lexer.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/lexer.o
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/lexer.re
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/lexstate.c
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/lexstate.o
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/location.c
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/location.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/location.o
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/main.c
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/main.o
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/mkmf.log
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/parser.c
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/parser.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/parser.o
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/parserstate.c
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/parserstate.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/parserstate.o
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/rbs_extension.h
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/ruby_objs.c
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/ruby_objs.h
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/ruby_objs.o
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/unescape.c
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/ext/rbs_extension/unescape.o
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/exts.mk
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/goodcheck.yml
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/lib/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.3/gems/rbs-3.4.0/lib/rbs.rb
