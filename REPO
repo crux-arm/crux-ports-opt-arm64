@@ -166,9 +166,9 @@ f:57fef288abe4b000725952d460004301:python/Pkgfile
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
-f:bf7aa8141c3d570a5c0acb2c13dcd230:samba/.footprint
-f:5eb3f7de7e60982e07f2553a881f58c5:samba/.signature
-f:74ef418c7937aac4c2da2597b4f63e7e:samba/Pkgfile
+f:2449e45740e6486b2d0d789fc142789e:samba/.footprint
+f:8d2372160470d6fb86ff5276047bec41:samba/.signature
+f:08bd03020dc7b989be21da4009c242e4:samba/Pkgfile
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
