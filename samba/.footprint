@@ -517,6 +517,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/http_chunk.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/http_content.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/mdsearch.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/misc_dfs_widelink.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/ndrdump.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/netads_dns.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/blackbox/netads_json.py
