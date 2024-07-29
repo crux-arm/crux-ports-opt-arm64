@@ -76,7 +76,7 @@ f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
 f:eac216cf9001cad15135698633577251:rust/.footprint
-f:6019df3bf022d575cbe4d3bf80f805d0:rust/.signature
+f:8e479e1965be39fee05420a185667883:rust/.signature
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
