@@ -39,7 +39,7 @@ f:8e479e1965be39fee05420a185667883:rust/.signature
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
-f:76c84e0db51d6f1313a951b0dae10c6e:rust/Pkgfile
+f:d336dcbf2122b43dd81b5134b043a3a0:rust/Pkgfile
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:eac216cf9001cad15135698633577251:rust/.footprint
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
