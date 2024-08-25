@@ -154,7 +154,7 @@ f:47cdd37a26944f7509f91bb33dfab197:qt6-base/Pkgfile
 f:89b79f9bf000e701bd2cae769fac55ec:qt6-base/.footprint
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:09a98e6190d46b10f15b0f251782f217:jdk/.signature
-f:b088af8634061f60843916487e389912:jdk/Pkgfile
+f:8edc852cc2b3ffab542caf50c25c1993:jdk/Pkgfile
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
 f:406fffb95fd5f9189470bc35a789cbad:opus/.signature
 f:18ecd142fcca5c417c2ee22d534153e8:opus/Pkgfile
