@@ -32,5 +32,5 @@ build(){
 
     # revdep
     install -d $PKG/etc/revdep.d
-    printf '%s\n%s\n%s\n' /usr/lib/jdk/{lib/amd64,jre/lib/amd64{,/server}} > $PKG/etc/revdep.d/jdk
+    printf '%s\n%s\n%s\n' /usr/lib/jdk/{lib/aarch64,jre/lib/aarch64{,/server}} > $PKG/etc/revdep.d/jdk
 }
