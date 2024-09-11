@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMaONZq4+sag5qs6HTrSppWUaYcDdWsetH6knElqHyIxRbgC1sPlcjgYBkXjaUBJoNmV7qX5X1oqDkoIKKseOZAM=
+SHA256 (Pkgfile) = 4bb6560af7a03339525bd526dc31ddf4e6709569d51d8bb1b385590f1aa4d05a
+SHA256 (.footprint) = 0ae84c5b6c0e514c46f84a71965b6895a6328464ce15636c556fb9e2bc1044f4
+SHA256 (pyyaml-6.0.2.tar.gz) = d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e
