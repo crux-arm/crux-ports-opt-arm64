@@ -29,6 +29,7 @@ d:rust
 d:fftw
 d:python3-cairo
 d:go
+d:python3-pyyaml
 d:python
 d:libb2
 d:gobject-introspection
@@ -159,6 +160,9 @@ f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:05cb81f36d3be473737ce51a095ea783:go/.signature
 f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
 f:741f815feddcc7697f941b4f861642fc:go/.footprint
+f:b5e4c9bddffa1c37183d3fe6df6ca181:python3-pyyaml/.signature
+f:d203039a8628bff66a2cc3a2fab76bd9:python3-pyyaml/Pkgfile
+f:32811e769bdfba4ce284ea1c67bfb0db:python3-pyyaml/.footprint
 f:08323c8fe8a3c55d4609ebd6cd0b41ee:python/CVE-2021-3177.patch
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
