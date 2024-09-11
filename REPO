@@ -29,6 +29,7 @@ d:rust
 d:fftw
 d:python3-cairo
 d:go
+d:python3-pyyaml
 d:python
 d:libb2
 d:gobject-introspection
@@ -50,9 +51,9 @@ f:fa8903cc0abce2983123c81d2782b13f:grub2-efi/.signature
 f:e011520a02670ba6b22dcf3b28b9c971:grub2-efi/Pkgfile
 f:694933a1be5600c4d1d5e37c30c0e7bb:grub2-efi/.footprint
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2-efi/csum_seed.diff
-f:3a8011a6ab47f5218f0b66e2ea30c3ee:ruby/.signature
-f:5b632cc9fadab110b3f76b7c9d8d97f5:ruby/Pkgfile
-f:5928a56049a1530a85e5704fc3e741da:ruby/.footprint
+f:82fde1791f24712600bc124ec85c137c:ruby/.signature
+f:274fe5e8c9b0d2517226fdbaf4351a74:ruby/Pkgfile
+f:0fcc9da622623f4ef8e130a569a2af3b:ruby/.footprint
 f:1fb266113b1690f964c8685a148096f2:jdk/.signature
 f:8edc852cc2b3ffab542caf50c25c1993:jdk/Pkgfile
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
@@ -159,6 +160,9 @@ f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:05cb81f36d3be473737ce51a095ea783:go/.signature
 f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
 f:741f815feddcc7697f941b4f861642fc:go/.footprint
+f:b5e4c9bddffa1c37183d3fe6df6ca181:python3-pyyaml/.signature
+f:d203039a8628bff66a2cc3a2fab76bd9:python3-pyyaml/Pkgfile
+f:32811e769bdfba4ce284ea1c67bfb0db:python3-pyyaml/.footprint
 f:08323c8fe8a3c55d4609ebd6cd0b41ee:python/CVE-2021-3177.patch
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
