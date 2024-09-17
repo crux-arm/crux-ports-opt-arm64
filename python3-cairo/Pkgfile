@@ -5,13 +5,19 @@
 # Depends on: cairo
 
 name=python3-cairo
-version=1.26.1
+version=1.27.0
 release=1
 source=(https://github.com/pygobject/pycairo/releases/download/v$version/pycairo-$version.tar.gz)
 
 build() {
-  cd pycairo-$version
+  meson setup pycairo-$version build \
+    --prefix=/usr \
+    --buildtype=plain \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true \
+    -D python=/usr/bin/python3
 
-  /usr/bin/python3 setup.py build
-  /usr/bin/python3 setup.py install --skip-build --root=$PKG --optimize=1
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
 }
