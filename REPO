@@ -153,9 +153,9 @@ f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-di
 f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
 f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
 f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
-f:2c5e32081bbc74925d3d0b1e8694dc52:python3-cairo/.signature
-f:57249a5d1f2b5da8054bacff9a6a222a:python3-cairo/Pkgfile
-f:ea1c49a6ffafad1ddd15ca1d8f51895f:python3-cairo/.footprint
+f:6a65c095a7054eb17d073e919603f2fd:python3-cairo/.signature
+f:e781fae8454cea77f5d8d77ee3179c7a:python3-cairo/Pkgfile
+f:4c79c35e04ff459ed62cd17c92d98604:python3-cairo/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:05cb81f36d3be473737ce51a095ea783:go/.signature
 f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
