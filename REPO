@@ -101,10 +101,10 @@ f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
 f:e901c5b6b83bc582e0d816201faa8b5d:libsdl/.footprint
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
-f:6f749e613722585320d460930a138f08:samba/.signature
+f:efa1e8daaeb0c583b69683447dfa13bd:samba/.signature
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
-f:a9d2fa62605bbabd7cf7a391e262ba24:samba/Pkgfile
-f:2449e45740e6486b2d0d789fc142789e:samba/.footprint
+f:54621fd534c66f9d1f1272f8f6ddaf75:samba/Pkgfile
+f:d0c8fef7d8c27ccb8658ddc856e685bf:samba/.footprint
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:a84dc6d1e7e62c83f2d3caeb9166e190:llvm/.signature
