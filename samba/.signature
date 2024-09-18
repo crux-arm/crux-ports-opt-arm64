@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMXnxYwVTUvu8nvUVvxCb5Vo+en3KSfRO37qHvaIrAP2BP77mmA3LCsGNRAHpouCOmZ2pTtq0cl0vFXaR5RO9hgg=
-SHA256 (Pkgfile) = 5f1c6e9cd53dac659a1da597eb93d9375c793c1c6fdac822809b693af5923333
-SHA256 (.footprint) = d4e6a752274a51bf82f4e6d36f881fdf3b42a2e447da54c0b4872fb99fec81e6
-SHA256 (samba-4.20.4.tar.gz) = 3a92e97eaeb345b6b32232f503e14d34f03a7aa64c451fe8c258a11bbda908e5
+RWRitF9a2DJqMddRL60ZGxGcqsdC2PRohXVZEWlxSLk+ddXa43z+/InyFaXttclnj4jhbz+qL8Lv4fO6T8rNmi6fD7bOOwbiEAU=
+SHA256 (Pkgfile) = 3597ee95d14ba6a71d5ff235393c50c3f71d59c62f5066a91177722984c032f2
+SHA256 (.footprint) = b2599f56fc6d535b46d8efc43c8e986b33176f5b2e5ea570054ccb012f8a1d41
+SHA256 (samba-4.21.0.tar.gz) = 09bb56db4ce003cafdbebe9bad368c4f4ff1945f732d18077d52f36ab20cef88
 SHA256 (samba.rc) = 0ab5a29dd85d5107cea902c21dd8426d20c3bcb2ce28a5add10d572bb88adc63
 SHA256 (samba.pam) = c872a9efb2f7151e51e10fada4a75d69f5f5bd5afb1db29b64e8288c7cdc8b20
