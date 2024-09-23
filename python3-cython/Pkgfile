@@ -1,0 +1,22 @@
+# Description: C extensions for Python
+# URL: https://www.cython.org/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: python3-build python3-installer python3-wheel
+
+name=python3-cython
+version=3.0.11
+release=1
+source=(https://pypi.org/packages/source/c/cython/cython-$version.tar.gz)
+
+build() {
+  cd cython-$version
+
+  /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+  /usr/bin/python3 -m installer --compile-bytecode 2 --destdir=$PKG dist/*.whl
+
+  for f in cygdb cython cythonize; do
+    mv $PKG/usr/bin/$f $PKG/usr/bin/${f}3
+    ln -s ${f}3 $PKG/usr/bin/$f
+  done
+}
