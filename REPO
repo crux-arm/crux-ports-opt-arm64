@@ -101,7 +101,7 @@ f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:4dd0bfe3f018d050d3566385392aaf3f:qt6-base/.footprint
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:7716d0d3ce380984a8fa6d394dac1ed5:qt6-base/Pkgfile
-f:1936a773a6aa753834656b2639fde8e1:qt6-base/.signature
+f:9ca44073ca9f2682f1ccbd3653108d74:qt6-base/.signature
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
