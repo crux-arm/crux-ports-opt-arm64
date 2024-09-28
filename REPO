@@ -98,9 +98,9 @@ f:efa1e8daaeb0c583b69683447dfa13bd:samba/.signature
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
-f:89b79f9bf000e701bd2cae769fac55ec:qt6-base/.footprint
+f:4dd0bfe3f018d050d3566385392aaf3f:qt6-base/.footprint
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:47cdd37a26944f7509f91bb33dfab197:qt6-base/Pkgfile
+f:7716d0d3ce380984a8fa6d394dac1ed5:qt6-base/Pkgfile
 f:1936a773a6aa753834656b2639fde8e1:qt6-base/.signature
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
