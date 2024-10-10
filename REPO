@@ -37,7 +37,7 @@ d:grub2-efi
 d:startup-notification
 f:7985d4a5040be466ad391f4cb1e9abaa:qt6-base/.footprint
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:9ca44073ca9f2682f1ccbd3653108d74:qt6-base/.signature
+f:1056f0ef260a0a143d593774dfd87f55:qt6-base/.signature
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:a1d85273031640cd8c168700e548d021:qt6-base/Pkgfile
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
