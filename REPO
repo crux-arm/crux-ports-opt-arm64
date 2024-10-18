@@ -110,11 +110,10 @@ f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
 f:11ff2dd53efc2f31ad151013d99fbe8c:gpgme/.signature
 f:27314c9b174e33819e95ee53a6dff1ae:gpgme/Pkgfile
-f:d76151ebc4b8d5b2acc31022b13077b1:llvm/.footprint
+f:a62bdc05162230436721d0643fd19610:llvm/.footprint
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:a84dc6d1e7e62c83f2d3caeb9166e190:llvm/.signature
-f:dbad484b2ceeec6f974f240daff8bbed:llvm/Pkgfile
-f:b7a931c1bdd849882d3b1da696e2d14a:llvm/rust-feature-tables.patch
+f:4dd00c0ae40d0fc0e363113f1deb1dd9:llvm/Pkgfile
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:32811e769bdfba4ce284ea1c67bfb0db:python3-pyyaml/.footprint
