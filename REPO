@@ -134,9 +134,9 @@ f:79b858c311635a69ce53e7b416a5bae3:ldb/.footprint
 f:a5ef233558f19a40fd050ebcfab4ba55:ldb/.signature
 f:8cec2eca8dfab8fbb7c165f6c8920e94:ldb/Pkgfile
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
-f:c47c5908108ca284b2d9af6b374e2d54:python3-markupsafe/.footprint
-f:734c5d2f6f7e4e7e0774c199a94ec9f5:python3-markupsafe/.signature
-f:d5eb369ec18a598e46a0ed1f12ef2a2b:python3-markupsafe/Pkgfile
+f:f3566ee565da492a26dee3ec81db526b:python3-markupsafe/.footprint
+f:cf57128010fd6d6cc0266e0d43be3ebd:python3-markupsafe/.signature
+f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
 f:354f2b4cf4d98474691f3268bc3604c7:compiler-rt/.footprint
 f:31ee7fa905fbdfbb029a51dfdb15d4a0:compiler-rt/.signature
 f:5f07bad5e887f92816e651cfbe01127d:compiler-rt/Pkgfile
