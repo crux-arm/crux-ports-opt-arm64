@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMYV/YKHhDZurxr3Goq9/wMt3NJpSXyZVdlSTTsTb7ltVrgWiUry9PpgPd1FyF4gtw+ZSaxa5aMqFad0B/7uZ+gE=
-SHA256 (Pkgfile) = 5941c1b94e7fd17a54382ac95334a34259c5d16ec936bb7ac3af292dc40f49fa
-SHA256 (.footprint) = 76d47a81d324d39a132e3575255cabb31057e1c33cb6df62e8b15b25e8cca99d
-SHA256 (markupsafe-3.0.1.tar.gz) = 3e683ee4f5d0fa2dde4db77ed8dd8a876686e3fc417655c2ece9a90576905344
+RWRitF9a2DJqMYW4tSWbrvHa0HdMqq+hPfKVXa/H3uTB8y7Ls6pmMps7M2kjWjlFauiHXItBkgT2gRr3nNtO+d/E6S2tbemyqg4=
+SHA256 (Pkgfile) = b09cced51bb54cc007ddcbfc7a8704459236840b2006ad3a498914d1a650c959
+SHA256 (.footprint) = a93cbf4060f2c3966805e9221f18aef7391aa5441c379150d9818254d9296fdd
+SHA256 (markupsafe-3.0.2.tar.gz) = ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0
