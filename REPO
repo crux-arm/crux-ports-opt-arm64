@@ -110,10 +110,10 @@ f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
 f:11ff2dd53efc2f31ad151013d99fbe8c:gpgme/.signature
 f:27314c9b174e33819e95ee53a6dff1ae:gpgme/Pkgfile
-f:a62bdc05162230436721d0643fd19610:llvm/.footprint
+f:e534aa0242e9a10de9432e3e94c3b650:llvm/.footprint
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:9a82377243681a818d2c390930436f24:llvm/.signature
-f:4dd00c0ae40d0fc0e363113f1deb1dd9:llvm/Pkgfile
+f:be6948937c68cc20e1690b090ba3a89e:llvm/Pkgfile
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:32811e769bdfba4ce284ea1c67bfb0db:python3-pyyaml/.footprint
@@ -139,7 +139,7 @@ f:cf57128010fd6d6cc0266e0d43be3ebd:python3-markupsafe/.signature
 f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
 f:354f2b4cf4d98474691f3268bc3604c7:compiler-rt/.footprint
 f:31ee7fa905fbdfbb029a51dfdb15d4a0:compiler-rt/.signature
-f:5f07bad5e887f92816e651cfbe01127d:compiler-rt/Pkgfile
+f:98b0e2d11d568dce9aaa875e871f45cd:compiler-rt/Pkgfile
 f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
 f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
 f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
