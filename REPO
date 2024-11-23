@@ -67,9 +67,9 @@ f:810be6abaefd9ceddc6f473fa60b677c:tdb/.footprint
 f:fb2fba874601edd84888dcff03b65d56:tdb/.signature
 f:c380e553f2c24d1d19dba508862637e9:tdb/Pkgfile
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
-f:0fcc9da622623f4ef8e130a569a2af3b:ruby/.footprint
-f:82fde1791f24712600bc124ec85c137c:ruby/.signature
-f:274fe5e8c9b0d2517226fdbaf4351a74:ruby/Pkgfile
+f:9cc861de3d212e68566d462e8ddca2d5:ruby/.footprint
+f:a023179197c957c41d999bfec76dedf3:ruby/.signature
+f:ef961779fda4a2aee3ef8e3660f07f30:ruby/Pkgfile
 f:5b7e8a119e09a1cbe747695617f6bc97:python/.footprint
 f:08323c8fe8a3c55d4609ebd6cd0b41ee:python/CVE-2021-3177.patch
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
