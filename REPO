@@ -165,7 +165,7 @@ f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:9cf3d24c050725b3b1b8d4cef85519fa:rust/.footprint
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
-f:f2d114709627f37e0b953ffce905cee5:rust/.signature
+f:a81e9cc4364e16285adc526836257eca:rust/.signature
 f:ff9ed99f8d12a937359e904c44b7afc7:rust/Pkgfile
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
