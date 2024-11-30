@@ -6,9 +6,9 @@
 # Optional: ccache libgit2 lld polly sccache
 
 name=rust
-version=1.82.0
-_date=2024-09-05
-_rustc=1.81.0
+version=1.83.0
+_date=2024-10-17
+_rustc=1.82.0
 _cargo=$_rustc
 release=1
 
@@ -70,11 +70,13 @@ build() {
 	patch -p1 -i $SRC/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 
 cat <<- EOF > $SRC/config.toml
-	change-id = 129295
+	profile = "dist"
+	change-id = 131075
 
 	[llvm]
 	ninja = true
 	link-shared = true
+	download-ci-llvm = false
 	@POLLY@
 	@CCACHE@
 
