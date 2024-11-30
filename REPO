@@ -163,10 +163,10 @@ f:93d16850bfc40f0d40db752532b40f6c:pango/Pkgfile
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
-f:0ae8fe726b9899ec3b04566095d4ddf3:rust/.footprint
+f:9cf3d24c050725b3b1b8d4cef85519fa:rust/.footprint
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:f2d114709627f37e0b953ffce905cee5:rust/.signature
-f:b1aab2b1d4fabbaadb4deb8c822623bb:rust/Pkgfile
+f:ff9ed99f8d12a937359e904c44b7afc7:rust/Pkgfile
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
