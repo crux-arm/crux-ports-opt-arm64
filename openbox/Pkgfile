@@ -1,0 +1,26 @@
+# Description: Fast, lightweight, standards-compliant window manager
+# URL: http://openbox.org
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: libxml2 pango xorg-libxinerama xorg-libxrandr
+
+name=openbox
+version=3.6.1
+release=1
+source=(https://openbox.org/dist/openbox/openbox-$version.tar.gz)
+
+build() {
+  cd $name-$version
+
+  ./configure \
+    --build=aarch64-unknown-linux-gnu \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/openbox \
+    --disable-nls
+
+  make
+  make DESTDIR=$PKG install
+
+  mv $PKG/usr/share/doc/$name/*.xsd $PKG/usr/etc/xdg/$name
+  rm -rf $PKG/usr/share/doc
+}
