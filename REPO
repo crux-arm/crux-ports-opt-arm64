@@ -23,6 +23,7 @@ d:python3-cython
 d:docker-compose
 d:gcc-fortran
 d:ldb
+d:openbox
 d:python3-markupsafe
 d:compiler-rt
 d:fftw
@@ -134,6 +135,9 @@ f:79b858c311635a69ce53e7b416a5bae3:ldb/.footprint
 f:a5ef233558f19a40fd050ebcfab4ba55:ldb/.signature
 f:8cec2eca8dfab8fbb7c165f6c8920e94:ldb/Pkgfile
 f:07637207a5856282fd24b9376fe85cdb:ldb/ldb-man-pages.tar.xz
+f:375f49e9d531d43573f0523c8a04c19c:openbox/.footprint
+f:2bebe41a53f8cea0f0f93fa8b682642f:openbox/.signature
+f:edc808a8b4505077d5ae1a601ed86324:openbox/Pkgfile
 f:f3566ee565da492a26dee3ec81db526b:python3-markupsafe/.footprint
 f:cf57128010fd6d6cc0266e0d43be3ebd:python3-markupsafe/.signature
 f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
