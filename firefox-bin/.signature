@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/raspberrypi3-arm64.pub
-RWROOThsoDo5hPwlS1gULppM3PlAM6ZS6f0nFH03gqQHIkUyS1vEAodxRrve+K1hVU0lGDJuzwXCzoGVu34r4Z6j8See/2QPbwI=
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMf+REMVYH/s+5tuBXDU7LSPbH1MvItRyeqyBq8f7n7/GHQ/UHD7k7pIXAM2e744Xe2hBdifcB/d5gqrF77PpvAk=
 SHA256 (Pkgfile) = d2d4b7f2eb84d20d828bd8ae4fa2c90afb3884a5b13522edd7a766a309d069d6
 SHA256 (.footprint) = 14db59ae4315ee3faaa8a27bbed38484c7db4addd0b0c8c5c45d4406a5982aae
 SHA256 (firefox-135.0a1.en-US.linux-aarch64.tar.bz2) = c44c55d3b0d5ab2a266e13ca5080a20767ac042c30f21b8c25dc57c719af5dd0
