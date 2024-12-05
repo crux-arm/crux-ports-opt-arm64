@@ -31,6 +31,7 @@ d:grub2
 d:libidl
 d:jdk
 d:pango
+d:firefox-bin
 d:libdaemon
 d:rust
 d:tevent
@@ -164,6 +165,11 @@ f:8edc852cc2b3ffab542caf50c25c1993:jdk/Pkgfile
 f:9e07b60bd8119a9e49fd14a73d2faefd:pango/.footprint
 f:80825d52b8242a3af0d51d4cecd7fff4:pango/.signature
 f:93d16850bfc40f0d40db752532b40f6c:pango/Pkgfile
+f:91e1b30ec9fdef8a4735357e68b19ee9:firefox-bin/.footprint
+f:4d56cfa8c2ddaae8367a959787241a20:firefox-bin/.signature
+f:534130d48459680d185590c3454db552:firefox-bin/Pkgfile
+f:48c4e73fdcf740a9e455e42f61fc75d1:firefox-bin/firefox.desktop
+f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
