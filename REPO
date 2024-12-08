@@ -111,7 +111,7 @@ f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
 f:11ff2dd53efc2f31ad151013d99fbe8c:gpgme/.signature
-f:27314c9b174e33819e95ee53a6dff1ae:gpgme/Pkgfile
+f:0e926f9511dfee6b91e63ee65315e2b0:gpgme/Pkgfile
 f:2cf97e60df1e3d85daa62285bb1aea97:llvm/.footprint
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:b46b39613c047cc4e6c95f34b2ee3679:llvm/.signature
@@ -129,7 +129,7 @@ f:aae43387efae4750410bd73171b6299a:docker-compose/.signature
 f:81fc52d4d2100dea00e53e9a8d46d173:docker-compose/Pkgfile
 f:5d48903f40d61a057d49f28a3275edb1:gcc-fortran/.footprint
 f:ba02aa5ae70327027111361fa2d8443a:gcc-fortran/.signature
-f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
+f:b781a68e0cab234a2285df0c2edac096:gcc-fortran/Pkgfile
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:79b858c311635a69ce53e7b416a5bae3:ldb/.footprint
