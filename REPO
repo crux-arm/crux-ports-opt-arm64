@@ -80,7 +80,7 @@ f:b83c1b0519955f1815ad9219e3aa7c3f:python/pyconfig.h
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:6db6d0b54d180cb7a75d0fc769eac30f:go/.footprint
-f:05cb81f36d3be473737ce51a095ea783:go/.signature
+f:f8a621bfd033662a0d8210a4112c0cc3:go/.signature
 f:0688e926f99f60d289af69d09520b587:go/Pkgfile
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
