@@ -5,15 +5,17 @@
 # Depends on: go
 
 name=docker-compose
-version=2.15.1
+version=2.31.0
 release=1
 source=(https://github.com/docker/compose/archive/v$version/$name-$version.tar.gz)
 
 build() {
-  export CGO_CFLAGS="${CFLAGS}"
-  export CGO_CPPFLAGS="${CXXFLAGS}"
-  export CGO_CXXFLAGS="${CXXFLAGS}"
-  cd compose-$version
-  go build -trimpath -o ${name} ./cmd
-  install -Dm0755 ${name} ${PKG}/usr/bin/${name}
+    export CGO_CFLAGS="${CFLAGS}"
+    export CGO_CPPFLAGS="${CXXFLAGS}"
+    export CGO_CXXFLAGS="${CXXFLAGS}"
+    cd compose-$version
+    make VERSION=v$version
+    install -Dm0755 bin/build/${name} ${PKG}/usr/bin/${name}
+    install -dm0755 ${PKG}/usr/lib/docker/cli-plugins
+    ln -s /usr/bin/docker-compose ${PKG}/usr/lib/docker/cli-plugins/
 }
