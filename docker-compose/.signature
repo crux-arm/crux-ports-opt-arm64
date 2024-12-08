@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMcnskGt6Jj/M01gkqA1wbhqvgXGFe7zPYs+0F9q4JfmoyRdOvBhzZGZi+zzJ7v7G93z9Fw3mwqCw6MBK/0OCDgA=
-SHA256 (Pkgfile) = ee67507c2a5aae609462961e6c35f49ebe4d540c1ff0a4bf7170d0c858a02536
-SHA256 (.footprint) = 7154d1f66d9f29102103d3d93b9968c5c01ab4baa58ef7acec084fab6b6c2cb9
-SHA256 (docker-compose-2.15.1.tar.gz) = 8ace5441826c6f07f5aa12c1864f73d30a362703492d9ed4b2e2314d3b353b1b
+RWRitF9a2DJqMXZZbokbKd1hGl1H6xX3kMKwf9TLJqhEw13NJGcaaiFUJ8GAmRlMESC0PKpdS8qZOAqk3m4WSBXA6XI/Wu5hFQY=
+SHA256 (Pkgfile) = 2642fc16d71fa95d94db3f257310c3a96d8b9e4b6e9a191c76642d76a7a6f6d8
+SHA256 (.footprint) = ba1446d4c34513c3c11ed15f4ce8e6419704b4d7fac645e9bc0d0421db4e6adf
+SHA256 (docker-compose-2.31.0.tar.gz) = 2716c31c36860d2cbe5750122894c9bca430afa14a0da9a0a2c4c19a21146bd3
