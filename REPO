@@ -110,7 +110,7 @@ f:da8161a8f3114014b2b8b2a5371e32aa:samba/Pkgfile
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
 f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
-f:11ff2dd53efc2f31ad151013d99fbe8c:gpgme/.signature
+f:49b4359b1b32e0919816609fa2925220:gpgme/.signature
 f:0e926f9511dfee6b91e63ee65315e2b0:gpgme/Pkgfile
 f:2cf97e60df1e3d85daa62285bb1aea97:llvm/.footprint
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
