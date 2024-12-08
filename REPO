@@ -79,9 +79,9 @@ f:57fef288abe4b000725952d460004301:python/Pkgfile
 f:b83c1b0519955f1815ad9219e3aa7c3f:python/pyconfig.h
 f:59562d92ee153e7501f73be4ebd9e636:python/CVE-2020-26116.patch
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
-f:741f815feddcc7697f941b4f861642fc:go/.footprint
+f:6db6d0b54d180cb7a75d0fc769eac30f:go/.footprint
 f:05cb81f36d3be473737ce51a095ea783:go/.signature
-f:2b25b86f6d93d4640c2ccfe3fd890d73:go/Pkgfile
+f:0688e926f99f60d289af69d09520b587:go/Pkgfile
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
@@ -124,9 +124,9 @@ f:d203039a8628bff66a2cc3a2fab76bd9:python3-pyyaml/Pkgfile
 f:061a84d0a2c800ec43726e825780ffb3:python3-cython/.footprint
 f:b496704c63f18a81bf6545abd4fc29fb:python3-cython/.signature
 f:88f9870ad1da92ee2d63df5407b895eb:python3-cython/Pkgfile
-f:73663e3d93ff0a7352b25719042c4f83:docker-compose/.footprint
+f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
 f:94644c85f4f21d550bcf856b5838afbd:docker-compose/.signature
-f:769425de55e9bf46c385b520450380f3:docker-compose/Pkgfile
+f:81fc52d4d2100dea00e53e9a8d46d173:docker-compose/Pkgfile
 f:5d48903f40d61a057d49f28a3275edb1:gcc-fortran/.footprint
 f:ba02aa5ae70327027111361fa2d8443a:gcc-fortran/.signature
 f:41cd5a774d85d3a337fa76464ad58eb7:gcc-fortran/Pkgfile
