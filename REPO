@@ -47,7 +47,7 @@ f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
 f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
-f:e3582b4f524b824fe965777f6a725beb:cbindgen/.signature
+f:f0a2c4b0d4b08a0c7e098628c0404784:cbindgen/.signature
 f:d184513269f83888304f91075f528e69:cbindgen/Pkgfile
 f:27ab7194aba933a7493694fda9c3f8d2:python3-gobject/.footprint
 f:45cc48e91e6f8283b90fc14aa2c7c7d0:python3-gobject/.signature
