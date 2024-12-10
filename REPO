@@ -15,6 +15,7 @@ d:opus
 d:python3-cairo
 d:cdparanoia
 d:brotli
+d:firefox
 d:samba
 d:gpgme
 d:llvm
@@ -103,6 +104,13 @@ f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
+f:997d0c3564c57cd05bd24a86ce30fdaf:firefox/.footprint
+f:5967a4ed6d1f029d16d70beaa71246d8:firefox/README
+f:63298fc667a9ba67c138866359e4b99e:firefox/fix-target-detection.patch
+f:faeb4c05386e5f40e6be7469967c8d83:firefox/Pkgfile
+f:c9ccd47ae6a570100ebf31d51a0e7a1f:firefox/firefox.desktop
+f:022ca4e9eeac6d2090a0289ee01db9f4:firefox/icu-linebreak-classes.patch
+f:34bfc3b23f5c0b0fb44224fab1693e9f:firefox/node-stdout-nonblocking-wrapper
 f:a23cd8ba457d3ce651f8e1cf4115f91a:samba/.footprint
 f:cdf6fb34109f1709973bbeaed27542cb:samba/.signature
 f:da8161a8f3114014b2b8b2a5371e32aa:samba/Pkgfile
