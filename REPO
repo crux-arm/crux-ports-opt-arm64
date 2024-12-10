@@ -107,6 +107,7 @@ f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:997d0c3564c57cd05bd24a86ce30fdaf:firefox/.footprint
 f:5967a4ed6d1f029d16d70beaa71246d8:firefox/README
 f:63298fc667a9ba67c138866359e4b99e:firefox/fix-target-detection.patch
+f:f979d76df3c30789005dae784fe42695:firefox/.signature
 f:faeb4c05386e5f40e6be7469967c8d83:firefox/Pkgfile
 f:c9ccd47ae6a570100ebf31d51a0e7a1f:firefox/firefox.desktop
 f:022ca4e9eeac6d2090a0289ee01db9f4:firefox/icu-linebreak-classes.patch
