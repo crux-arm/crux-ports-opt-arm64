@@ -122,7 +122,7 @@ f:49b4359b1b32e0919816609fa2925220:gpgme/.signature
 f:0e926f9511dfee6b91e63ee65315e2b0:gpgme/Pkgfile
 f:fa9ed1691a28e5772fdca963ce5ac786:llvm/.footprint
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
-f:b46b39613c047cc4e6c95f34b2ee3679:llvm/.signature
+f:34ee7d3f951e87ee8fc3087c1cc7098c:llvm/.signature
 f:30b8ad5e38d25258011f486661dbae2f:llvm/Pkgfile
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
