@@ -2,6 +2,7 @@ d:compiler-rt
 d:python3-gobject
 d:rust
 d:tevent
+d:libcamera
 d:cbindgen
 d:python3-cairo
 d:startup-notification
@@ -56,6 +57,8 @@ f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:c475445a85ce72d0841823bbf00571d1:tevent/.footprint
 f:da2135e0cd1bab562cbc24df43304f14:tevent/Pkgfile
 f:ae5cdf7468aa4307267f313d8afa3ebe:tevent/.signature
+f:9f5787d83a1b4dbd64323e3d7ed17777:libcamera/.footprint
+f:a86809e357ee89cd46e4ee54a1d7facb:libcamera/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:d184513269f83888304f91075f528e69:cbindgen/Pkgfile
 f:f0a2c4b0d4b08a0c7e098628c0404784:cbindgen/.signature
@@ -193,7 +196,7 @@ f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
 f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
 f:fa98ab2963a711bc520c93e4fe5b8f14:pandoc-bin/Pkgfile
-f:b86c9065dbbbb421155eec435f2a1540:pandoc-bin/.signature
+f:bd7b8c23178bd365c1c0e0ec2ac850fd:pandoc-bin/.signature
 f:32811e769bdfba4ce284ea1c67bfb0db:python3-pyyaml/.footprint
 f:d203039a8628bff66a2cc3a2fab76bd9:python3-pyyaml/Pkgfile
 f:b5e4c9bddffa1c37183d3fe6df6ca181:python3-pyyaml/.signature
