@@ -1,11 +1,12 @@
 # Description: Conversion between markup formats, "Bin"-Edition
 # URL: https://pandoc.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: cmark
 # Optional: texlive
 
 name=pandoc-bin
-version=3.6
+version=3.6.1
 release=1
 source=(https://github.com/jgm/pandoc/releases/download/$version/pandoc-$version-linux-arm64.tar.gz
   https://github.com/jgm/pandoc/archive/$version/pandoc-$version.tar.gz)
