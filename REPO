@@ -157,9 +157,9 @@ f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
 f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
-f:9cc861de3d212e68566d462e8ddca2d5:ruby/.footprint
-f:ef961779fda4a2aee3ef8e3660f07f30:ruby/Pkgfile
-f:a023179197c957c41d999bfec76dedf3:ruby/.signature
+f:cdd77d705e7335eb5431b7e6fe8473e7:ruby/.footprint
+f:507da8aa6340b0db1ccd8d364a4a9b6f:ruby/Pkgfile
+f:94b6e5fb17b2564764039250cb6c064e:ruby/.signature
 f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
 f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
 f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
