@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/contrib.pub
+RWSagIOpLGJF3+FeM6fbUihGDaZvqqvpA803rgG0aJAiGmICc+iApH5Z2pUomClaLwJ/nw1b2DuJDwkrf5azj3xiV0sSOg2argo=
+SHA256 (Pkgfile) = 3a25f9fc1e1000f17c10eeb3c899db0929a08b4af1d958346a6938747fb70915
+SHA256 (.footprint) = 1c05b66d8f06dcaeabcc590e7831cf446547f0853d37c3e32fc34547d62f81d1
+SHA256 (ruamel.yaml.clib-0.2.12.tar.gz) = 6c8fbb13ec503f99a91901ab46e0b07ae7941cd527393187039aec586fdfd36f
