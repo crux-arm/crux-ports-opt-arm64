@@ -18,6 +18,7 @@ d:gpgme
 d:opus
 d:libtheora
 d:openbox
+d:python3-pyrsistent
 d:samba
 d:jdk
 d:grub2
@@ -118,6 +119,9 @@ f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
 f:375f49e9d531d43573f0523c8a04c19c:openbox/.footprint
 f:edc808a8b4505077d5ae1a601ed86324:openbox/Pkgfile
 f:2bebe41a53f8cea0f0f93fa8b682642f:openbox/.signature
+f:06c1b5ed085f40b5edb430764cce31b4:python3-pyrsistent/.footprint
+f:b4c1c56015b2b7fa85d91a8fc417b73a:python3-pyrsistent/Pkgfile
+f:7518f882a1603f0a0941ce870a9e3915:python3-pyrsistent/.signature
 f:a23cd8ba457d3ce651f8e1cf4115f91a:samba/.footprint
 f:da8161a8f3114014b2b8b2a5371e32aa:samba/Pkgfile
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
