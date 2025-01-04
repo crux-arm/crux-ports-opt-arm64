@@ -84,7 +84,7 @@ f:7dccabeb467417630dad74a8591d3c3c:distcc/python-3.9.patch
 f:9e83a687f716c25c734720e7c395acbe:distcc/pre-install
 f:011965f35225d273f5546e6ad963b6fe:distcc/.footprint
 f:aa4db7fd59fd3a2874fd9998bdee6a20:distcc/Pkgfile
-f:61ba07bf77857141710903db6a9b9b49:distcc/.signature
+f:e467e2cf2755e1eba3c5b0a005e637c7:distcc/.signature
 f:d192c5f01cfce15851756d61a1ce7773:distcc/README
 f:95024853df07840eb7fc71df29943ab7:distcc/distccd.service
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
