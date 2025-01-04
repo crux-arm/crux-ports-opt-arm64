@@ -1,0 +1,19 @@
+# Description: C version of reader, parser and emitter for ruamel.yaml derived from libyaml
+# URL: https://sourceforge.net/projects/ruamel-yaml-clib/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: python3-setuptools
+
+name=python3-ruamel-yaml-clib
+version=0.2.12
+release=1
+source=(https://files.pythonhosted.org/packages/source/r/ruamel.yaml.clib/ruamel.yaml.clib-$version.tar.gz)
+
+build() {
+  cd ruamel.yaml.clib-$version
+  /usr/bin/python3 setup.py build
+  RUAMEL_NO_PIP_INSTALL_CHECK=1 /usr/bin/python3 setup.py install \
+    --skip-build \
+    --root=$PKG \
+    --optimize=1
+}
