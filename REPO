@@ -9,6 +9,7 @@ d:startup-notification
 d:python3-cython
 d:libdaemon
 d:docker-compose
+d:distcc
 d:python
 d:tdb
 d:cdparanoia
@@ -78,6 +79,14 @@ f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
 f:81fc52d4d2100dea00e53e9a8d46d173:docker-compose/Pkgfile
 f:aae43387efae4750410bd73171b6299a:docker-compose/.signature
+f:7a03952cafbd281ec199637064b491f0:distcc/distccd.conf
+f:7dccabeb467417630dad74a8591d3c3c:distcc/python-3.9.patch
+f:9e83a687f716c25c734720e7c395acbe:distcc/pre-install
+f:011965f35225d273f5546e6ad963b6fe:distcc/.footprint
+f:aa4db7fd59fd3a2874fd9998bdee6a20:distcc/Pkgfile
+f:e467e2cf2755e1eba3c5b0a005e637c7:distcc/.signature
+f:d192c5f01cfce15851756d61a1ce7773:distcc/README
+f:95024853df07840eb7fc71df29943ab7:distcc/distccd.service
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:5b7e8a119e09a1cbe747695617f6bc97:python/.footprint
 f:57fef288abe4b000725952d460004301:python/Pkgfile
