@@ -10,6 +10,7 @@ d:python3-cython
 d:libdaemon
 d:docker-compose
 d:distcc
+d:python3-ruamel-yaml-clib
 d:python
 d:tdb
 d:cdparanoia
@@ -88,6 +89,9 @@ f:aa4db7fd59fd3a2874fd9998bdee6a20:distcc/Pkgfile
 f:e467e2cf2755e1eba3c5b0a005e637c7:distcc/.signature
 f:d192c5f01cfce15851756d61a1ce7773:distcc/README
 f:95024853df07840eb7fc71df29943ab7:distcc/distccd.service
+f:0d006c802d56c0684abcde2ca64b472c:python3-ruamel-yaml-clib/.footprint
+f:6829f8dee209fd88747b443fdb9e4c6a:python3-ruamel-yaml-clib/Pkgfile
+f:90f8b02e327bc24ed2570e2693750048:python3-ruamel-yaml-clib/.signature
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
 f:5b7e8a119e09a1cbe747695617f6bc97:python/.footprint
 f:57fef288abe4b000725952d460004301:python/Pkgfile
