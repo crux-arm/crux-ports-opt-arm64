@@ -203,11 +203,10 @@ f:6b5e127e72010a9216267668e237ea0d:libidl/Pkgfile
 f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:34bfc3b23f5c0b0fb44224fab1693e9f:firefox/node-stdout-nonblocking-wrapper
 f:997d0c3564c57cd05bd24a86ce30fdaf:firefox/.footprint
-f:faeb4c05386e5f40e6be7469967c8d83:firefox/Pkgfile
+f:2bdacc791e70f036921975280a7b7294:firefox/Pkgfile
 f:f979d76df3c30789005dae784fe42695:firefox/.signature
 f:63298fc667a9ba67c138866359e4b99e:firefox/fix-target-detection.patch
 f:5967a4ed6d1f029d16d70beaa71246d8:firefox/README
-f:022ca4e9eeac6d2090a0289ee01db9f4:firefox/icu-linebreak-classes.patch
 f:c9ccd47ae6a570100ebf31d51a0e7a1f:firefox/firefox.desktop
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
