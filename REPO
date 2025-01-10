@@ -54,7 +54,7 @@ f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:a45e04bf2fd13d0fdda32df2972dec1d:rust/.footprint
 f:0820d3f40009d81201e0cbd0c8ce1b3b:rust/Pkgfile
-f:a81e9cc4364e16285adc526836257eca:rust/.signature
+f:4dd11245a3a4dc7476f35272fadb0352:rust/.signature
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:c475445a85ce72d0841823bbf00571d1:tevent/.footprint
 f:da2135e0cd1bab562cbc24df43304f14:tevent/Pkgfile
