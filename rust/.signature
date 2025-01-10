@@ -1,12 +1,11 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMS3PvbLTF+rqw4O1RxjRbof16PIciUo+D7mr5t0Qmw3/StLaKzVvaXyEm25oJaozeEitXa2Y3po4mpO9WzDqYAE=
-SHA256 (Pkgfile) = 6366b536ad23996061a1eac5e27cb758b8919db71f09efe47fb01f36fb2e25a0
-SHA256 (.footprint) = 8d68ed09fa7b8f1ed35e5f94867268db35c21d66d1d0d4c5a0ca65de3fdc3472
-SHA256 (rustc-1.83.0-src.tar.xz) = 7b11d4242dab0921a7d54758ad3fe805153c979c144625fecde11735760f97df
-SHA256 (rust-std-1.82.0-aarch64-unknown-linux-gnu.tar.xz) = 1359ac1f3a123ae5da0ee9e47b98bb9e799578eefd9f347ff9bafd57a1d74a7f
-SHA256 (rustc-1.82.0-aarch64-unknown-linux-gnu.tar.xz) = 2958e667202819f6ba1ea88a2a36d7b6a49aad7e460b79ebbb5cf9221b96f599
-SHA256 (cargo-1.82.0-aarch64-unknown-linux-gnu.tar.xz) = 05c0d904a82cddb8a00b0bbdd276ad7e24dea62a7b6c380413ab1e5a4ed70a56
+RWRitF9a2DJqMZnB3O939WU+7YgE1P4f4m/OyTPbhITtkOd7EPGpLXFnRSDJm34A32T4En8VjK8bS+D0kCPNwFVn/g8KD0WDVgI=
+SHA256 (Pkgfile) = 93af9a26b32209284c7075af7fa4c3cb5659c514d13dfc1fb03671af6539cc8e
+SHA256 (.footprint) = 05c6f0b7ab4545c1875b9bdf63087885e1dc24f76c883c1750562ece4c233809
+SHA256 (rustc-1.84.0-src.tar.xz) = bc2c1639f26814c7b17a323992f1e08c3b01fe88cdff9a27d951987d886e00b3
+SHA256 (rust-std-1.83.0-aarch64-unknown-linux-gnu.tar.xz) = 8804f673809c5c3db11ba354b5cf9724aed68884771fa32af4b3472127a76028
+SHA256 (rustc-1.83.0-aarch64-unknown-linux-gnu.tar.xz) = aa5d075f9903682e5171f359948717d32911bed8c39e0395042e625652062ea9
+SHA256 (cargo-1.83.0-aarch64-unknown-linux-gnu.tar.xz) = 5b96aba48790acfacea60a6643a4f30d7edc13e9189ad36b41bbacdad13d49e1
 SHA256 (0001-bootstrap-Change-libexec-dir.patch) = 3127ef3346430bd82dde03bfc3c8875cdfc00c62d98f27b3f798099df719dbb9
 SHA256 (0002-bootstrap-Change-bash-completion-dir.patch) = 49c8799720cae67e44d24c0dab484ecc596a2d74c8560504f4053f77864ce849
-SHA256 (0003-compiler-Change-LLVM-targets.patch) = 29068559ad29eaf62c7fb78e6ddabfad25857308b0194575eb12b937411b3063
 SHA256 (0004-compiler-Use-wasm-ld-for-wasm-targets.patch) = b5a6ee8942fff48a2165289a24039662945e89a65863d726469cb3bab88d3fb7
