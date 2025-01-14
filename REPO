@@ -79,7 +79,7 @@ f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
 f:f293b5ad1f44ded622996c7ccc95b512:docker-compose/Pkgfile
-f:aae43387efae4750410bd73171b6299a:docker-compose/.signature
+f:82c586324cfb063c574debc89c3ed277:docker-compose/.signature
 f:7a03952cafbd281ec199637064b491f0:distcc/distccd.conf
 f:7dccabeb467417630dad74a8591d3c3c:distcc/python-3.9.patch
 f:9e83a687f716c25c734720e7c395acbe:distcc/pre-install
