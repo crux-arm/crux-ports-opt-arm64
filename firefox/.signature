@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMXOls6Kik9JNRMi3XgyK4/SMHJtRU/X+C5qt5ysmKkz3XZaVrQnU1QHQY2uUSfXudIKnnnR4lwEABOiv9wMQlAE=
-SHA256 (Pkgfile) = 79b92e0f71c45f1549939c079a33cffdaa4e177483b4459047d20460733efda2
+RWRitF9a2DJqMdLBBvEKHVlfT4ynHnMY6f9DZbC5zMSebznlrJhAscbpH1wt85FppenubuGefnODgbAmkkeRVf8nM4ro7UyTSAI=
+SHA256 (Pkgfile) = 9598199928c17c68b99aa2e7bd88a1274dac5376b88558e0f70747fb1372ed54
 SHA256 (.footprint) = 9988ce22d09979ad86de23385bb9423090063e52886dcd28b37d32e0c9852922
-SHA256 (firefox-134.0.source.tar.xz) = ca88068bd72784c10de16df62359b2dc354672a1a427b4fd6a5fcdb34c06457e
+SHA256 (firefox-134.0.1.source.tar.xz) = e3a1853ce70f0fc0007a40a5000d8c9ca7ddd42a4de7d1eb52b0b22fcc2265e5
 SHA256 (firefox.desktop) = a092fddc62bf5bff0c0f7891f59278463fa9b6ec24e9d811e49cd10b2282bdee
 SHA256 (fix-target-detection.patch) = 33199c6d64a2a775b4ede35aae84b95cef8476e8995a1d1b99eb65efb59008f4
 SHA256 (node-stdout-nonblocking-wrapper) = bb8c503015e49ed1b152225bdc56cf502cd831f35962d113dcbb9121967f3523
