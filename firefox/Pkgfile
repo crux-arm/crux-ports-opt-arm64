@@ -6,7 +6,7 @@
 # Optional: apulse jack pulseaudio pipewire sndio sccache lld wayland
 
 name=firefox
-version=134.0
+version=134.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/$name/releases/$version/source/$name-$version.source.tar.xz
   firefox.desktop
@@ -52,7 +52,7 @@ build() {
   ac_add_options --with-system-nspr
   ac_add_options --with-system-nss
   ac_add_options --with-system-pixman
-  ac_add_options --with-system-png
+  ac_add_options --without-system-png
   ac_add_options --with-system-webp
   ac_add_options --with-system-zlib
   ac_add_options --without-wasm-sandboxed-libraries
