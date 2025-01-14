@@ -44,7 +44,7 @@ d:python3-pyyaml
 d:fuse
 f:354f2b4cf4d98474691f3268bc3604c7:compiler-rt/.footprint
 f:5c298ee1e4ba4c451bc6681b41397158:compiler-rt/Pkgfile
-f:5800839f8c49997251bcd8cb613d6d09:compiler-rt/.signature
+f:c472c3f29ec99840bc8cd6fa86ad559d:compiler-rt/.signature
 f:27ab7194aba933a7493694fda9c3f8d2:python3-gobject/.footprint
 f:041ef4d065e6dc2800720094f020b668:python3-gobject/Pkgfile
 f:45cc48e91e6f8283b90fc14aa2c7c7d0:python3-gobject/.signature
