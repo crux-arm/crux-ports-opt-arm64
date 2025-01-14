@@ -78,7 +78,7 @@ f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
-f:81fc52d4d2100dea00e53e9a8d46d173:docker-compose/Pkgfile
+f:f293b5ad1f44ded622996c7ccc95b512:docker-compose/Pkgfile
 f:aae43387efae4750410bd73171b6299a:docker-compose/.signature
 f:7a03952cafbd281ec199637064b491f0:distcc/distccd.conf
 f:7dccabeb467417630dad74a8591d3c3c:distcc/python-3.9.patch
@@ -203,7 +203,7 @@ f:4dde973d677333a6dfc7f33e49a02e7e:libidl/.signature
 f:34bfc3b23f5c0b0fb44224fab1693e9f:firefox/node-stdout-nonblocking-wrapper
 f:997d0c3564c57cd05bd24a86ce30fdaf:firefox/.footprint
 f:cf184e41ab1dbbe91fb079e746a5836f:firefox/Pkgfile
-f:1b96babaeebce8faf1ee542b712a68bb:firefox/.signature
+f:9bdd81b9ca4bcc56edaf95f6c9a3fe72:firefox/.signature
 f:63298fc667a9ba67c138866359e4b99e:firefox/fix-target-detection.patch
 f:5967a4ed6d1f029d16d70beaa71246d8:firefox/README
 f:c9ccd47ae6a570100ebf31d51a0e7a1f:firefox/firefox.desktop
