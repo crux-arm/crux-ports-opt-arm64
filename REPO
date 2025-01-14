@@ -43,7 +43,7 @@ d:pandoc-bin
 d:python3-pyyaml
 d:fuse
 f:354f2b4cf4d98474691f3268bc3604c7:compiler-rt/.footprint
-f:a055f463baffe2ad4d1b7848b4c3c363:compiler-rt/Pkgfile
+f:5c298ee1e4ba4c451bc6681b41397158:compiler-rt/Pkgfile
 f:5800839f8c49997251bcd8cb613d6d09:compiler-rt/.signature
 f:27ab7194aba933a7493694fda9c3f8d2:python3-gobject/.footprint
 f:041ef4d065e6dc2800720094f020b668:python3-gobject/Pkgfile
@@ -186,8 +186,8 @@ f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
-f:fa9ed1691a28e5772fdca963ce5ac786:llvm/.footprint
-f:30b8ad5e38d25258011f486661dbae2f:llvm/Pkgfile
+f:81c11c1a3fe0db93297cf5fe7aa6084a:llvm/.footprint
+f:838124b013dd686df2889f594142165f:llvm/Pkgfile
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:34ee7d3f951e87ee8fc3087c1cc7098c:llvm/.signature
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
