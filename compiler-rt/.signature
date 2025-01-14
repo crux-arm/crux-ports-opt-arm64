@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMWk9ioNTQFE2UEnGh0PyVPZTT5G6Zv2rWhS42xFuOtpU2Gb4k7BVpwYyk4cvLnfNcE0L7otBskNSoOBRuizArQ0=
-SHA256 (Pkgfile) = e1cd148fc7c785d1b466980bd6f820affb2fcf75efa3bc034bdc79a1f1f84f23
+RWRitF9a2DJqMbJLLechfkpp4NXGbKgGC5iMKsklSHrzE0UyLXuemp2CIJG4XJnzaIUFHowehXity27mLn8HTqf2j1MdM9yjFQU=
+SHA256 (Pkgfile) = 072773e299b6d6b401981e79fbd6467578e5ab49e30c014d326c8476442faf41
 SHA256 (.footprint) = 4896cd6e8c17d58724907275c3fc48dd6ae93cd454f58f91b29bf1093035acf3
-SHA256 (compiler-rt-19.1.6.src.tar.xz) = 0d4f312e1419152282c267e6b6a1fa5914a7a0c753a5e926bee1c8c28e614ae4
-SHA256 (llvm-19.1.6.src.tar.xz) = ad1a3b125ff014ded290094088de40efb9193ce81a24278184230b7d401f8a3e
-SHA256 (cmake-19.1.6.src.tar.xz) = 9c7ec82d9a240dc2287b8de89d6881bb64ceea0dcd6ce133c34ef65bda22d99e
+SHA256 (compiler-rt-19.1.7.src.tar.xz) = c12b6e764202c615c1a3af9a13d477846878757ae0e29e5f8979215a6958fffc
+SHA256 (llvm-19.1.7.src.tar.xz) = 96f833c6ad99a3e8e1d9aca5f439b8fd2c7efdcf83b664e0af1c0712c5315910
+SHA256 (cmake-19.1.7.src.tar.xz) = 11c5a28f90053b0c43d0dec3d0ad579347fc277199c005206b963c19aae514e3
