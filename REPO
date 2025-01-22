@@ -63,7 +63,7 @@ f:9f5787d83a1b4dbd64323e3d7ed17777:libcamera/.footprint
 f:a86809e357ee89cd46e4ee54a1d7facb:libcamera/Pkgfile
 f:5794e6f0fabd7ac85ce1cfd253471f47:libcamera/.signature
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
-f:d184513269f83888304f91075f528e69:cbindgen/Pkgfile
+f:4581348ede0653dde94a79acb11ccaf6:cbindgen/Pkgfile
 f:f0a2c4b0d4b08a0c7e098628c0404784:cbindgen/.signature
 f:4c79c35e04ff459ed62cd17c92d98604:python3-cairo/.footprint
 f:e781fae8454cea77f5d8d77ee3179c7a:python3-cairo/Pkgfile
