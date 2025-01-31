@@ -102,7 +102,7 @@ f:c475445a85ce72d0841823bbf00571d1:tevent/.footprint
 f:da2135e0cd1bab562cbc24df43304f14:tevent/Pkgfile
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
-f:4dd11245a3a4dc7476f35272fadb0352:rust/.signature
+f:8b63245c3b613dc712ec2b41a1228965:rust/.signature
 f:a45e04bf2fd13d0fdda32df2972dec1d:rust/.footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
