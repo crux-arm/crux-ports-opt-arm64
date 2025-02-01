@@ -45,8 +45,8 @@ d:gpgme
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:c30a4d209bb8cac43376cb8e7dd21f27:qt6-base/.signature
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
-f:015e4c71293a2dfdcd9590361ad8b2df:qt6-base/.footprint
-f:ee0a856eb3773c98a03cff17fa90859e:qt6-base/Pkgfile
+f:95cc678b434b9f21d420e3592eed4080:qt6-base/.footprint
+f:339796d65619e99977ec8b2a54081d14:qt6-base/Pkgfile
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:a5ef233558f19a40fd050ebcfab4ba55:ldb/.signature
 f:79b858c311635a69ce53e7b416a5bae3:ldb/.footprint
