@@ -43,7 +43,7 @@ d:ruby
 d:python3-pyrsistent
 d:gpgme
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:c30a4d209bb8cac43376cb8e7dd21f27:qt6-base/.signature
+f:3e28492b8dcf6759825a03fbc6beaf4f:qt6-base/.signature
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:95cc678b434b9f21d420e3592eed4080:qt6-base/.footprint
 f:339796d65619e99977ec8b2a54081d14:qt6-base/Pkgfile
