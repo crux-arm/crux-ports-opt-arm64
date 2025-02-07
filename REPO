@@ -202,7 +202,7 @@ f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
-f:b47b9725368d38596345da83d1964978:go/.signature
+f:0c6a1350c6075430b3fcf991246b2943:go/.signature
 f:b4ce906cd1fc4388d51e3f7e73b182cf:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:d928ea551f9bea042f65f7cf8a39727d:go/Pkgfile
