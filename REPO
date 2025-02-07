@@ -203,9 +203,9 @@ f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:b47b9725368d38596345da83d1964978:go/.signature
-f:6db6d0b54d180cb7a75d0fc769eac30f:go/.footprint
+f:b4ce906cd1fc4388d51e3f7e73b182cf:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:7aa3fdb3c782a686fc8f1946d19dea7d:go/Pkgfile
+f:d928ea551f9bea042f65f7cf8a39727d:go/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:5508bf2f53e47fadfe4cda88d2530d5d:llvm/.signature
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
