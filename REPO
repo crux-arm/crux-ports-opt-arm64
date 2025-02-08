@@ -97,9 +97,9 @@ f:ca1a35d5c2b4467f2832f11719999100:talloc/.signature
 f:5048f74b924caf25f70be54e6d7f5fba:talloc/.footprint
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:4e8a6104445d5f3b93fada9226e013ac:talloc/Pkgfile
-f:ae5cdf7468aa4307267f313d8afa3ebe:tevent/.signature
-f:c475445a85ce72d0841823bbf00571d1:tevent/.footprint
-f:da2135e0cd1bab562cbc24df43304f14:tevent/Pkgfile
+f:9492cf3d742da952f7169fc577ea6d09:tevent/.signature
+f:d8a4e13d63b5600265ae82b97e77cf71:tevent/.footprint
+f:1ea4660f4986011d07b4ec39e8c4b711:tevent/Pkgfile
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
 f:8b63245c3b613dc712ec2b41a1228965:rust/.signature
