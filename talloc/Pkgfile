@@ -5,7 +5,7 @@
 # Depends on: python3
 
 name=talloc
-version=2.4.2
+version=2.4.3
 release=1
 source=(https://samba.org/ftp/$name/$name-$version.tar.gz
   $name-man-pages.tar.xz)

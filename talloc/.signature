@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMaD+LfxpU+LcgxTChGWmnSBNdclK3VVn9XU1a9Q9uCO5ozomN4KSsIxrG+AthGYszXwnXkww5ayU4HKh3Fe/WwU=
-SHA256 (Pkgfile) = e86abea2e40b10954ec68061cb0e1910bd3cc642184dddbb354eaadc42cb6047
-SHA256 (.footprint) = da81fdb8a69ce0c618e7b0ea5c82fc737aee2a6af1ab44df79014d569ec13f36
-SHA256 (talloc-2.4.2.tar.gz) = 85ecf9e465e20f98f9950a52e9a411e14320bc555fa257d87697b7e7a9b1d8a6
+RWRitF9a2DJqMas7+LMQAN+3iDQiHaed9t9ETW68sRM5SxCGPNqoXa2nPGYod3n/5Y0EJE+nW5NA3W2eomGTXnfX8bEP6xOszwA=
+SHA256 (Pkgfile) = 7059fac215ab97516f25ef6449d079fb92a7aeb563d9efbd38306d656089d96f
+SHA256 (.footprint) = 1443a7885500169413c3c215aa19ced635733e5d3c2abf0e5faec4a907011339
+SHA256 (talloc-2.4.3.tar.gz) = dc46c40b9f46bb34dd97fe41f548b0e8b247b77a918576733c528e83abd854dd
 SHA256 (talloc-man-pages.tar.xz) = ccaa229413cb28235c9e0bf819119c171730e4782fa176ff87605bdb88a7925a
