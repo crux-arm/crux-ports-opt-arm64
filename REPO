@@ -93,10 +93,10 @@ f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
 f:406fffb95fd5f9189470bc35a789cbad:opus/.signature
 f:6e98e39b1f0060f8f0e43146e896883d:opus/.footprint
 f:18ecd142fcca5c417c2ee22d534153e8:opus/Pkgfile
-f:cced607240f0c6f09075af51a0c9d7cc:talloc/.signature
-f:fa6102679c84c63317c927e4137a7f2c:talloc/.footprint
+f:ca1a35d5c2b4467f2832f11719999100:talloc/.signature
+f:5048f74b924caf25f70be54e6d7f5fba:talloc/.footprint
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
-f:21b4e6871a087a3a8da428e2b4dbbcbe:talloc/Pkgfile
+f:4e8a6104445d5f3b93fada9226e013ac:talloc/Pkgfile
 f:ae5cdf7468aa4307267f313d8afa3ebe:tevent/.signature
 f:c475445a85ce72d0841823bbf00571d1:tevent/.footprint
 f:da2135e0cd1bab562cbc24df43304f14:tevent/Pkgfile
