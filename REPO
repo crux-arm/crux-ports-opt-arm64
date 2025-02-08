@@ -117,9 +117,9 @@ f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
-f:fb2fba874601edd84888dcff03b65d56:tdb/.signature
-f:810be6abaefd9ceddc6f473fa60b677c:tdb/.footprint
-f:c380e553f2c24d1d19dba508862637e9:tdb/Pkgfile
+f:4e89fd0fe0fb021f0813027fad3d29e3:tdb/.signature
+f:f0e3e226859871df08265308249077e1:tdb/.footprint
+f:90a5de322951152d96ac7086ba234fa3:tdb/Pkgfile
 f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
 f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
 f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
