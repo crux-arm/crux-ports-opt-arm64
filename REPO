@@ -33,6 +33,7 @@ d:python3-pyyaml
 d:libsdl
 d:firefox
 d:fftw
+d:ncdu
 d:pandoc-bin
 d:python3-cairo
 d:python3-cython
@@ -189,6 +190,9 @@ f:63298fc667a9ba67c138866359e4b99e:firefox/fix-target-detection.patch
 f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
 f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
 f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
+f:3765586fe37e9002a781bae8f35a9bc6:ncdu/.footprint
+f:758abe301a645f8484ecc8a375fba1b5:ncdu/ncdu.1
+f:a322261b8a6507d973830c1ea91a23ed:ncdu/Pkgfile
 f:55aaa373404bd19ee896730ff34f304d:pandoc-bin/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
 f:911309e033645250ef0c26be3577d154:pandoc-bin/Pkgfile
