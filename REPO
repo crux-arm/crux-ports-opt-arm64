@@ -80,7 +80,7 @@ f:2bebe41a53f8cea0f0f93fa8b682642f:openbox/.signature
 f:edc808a8b4505077d5ae1a601ed86324:openbox/Pkgfile
 f:375f49e9d531d43573f0523c8a04c19c:openbox/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:0c6a1350c6075430b3fcf991246b2943:go/.signature
+f:68089e4149e541e4ae32d9dcaf5e0d2d:go/.signature
 f:ae292f76bd2f8d93206cc4854818c127:go/Pkgfile
 f:42dd3ddbceba5c4751f9a60d2a1c39b1:go/.footprint
 f:7a03952cafbd281ec199637064b491f0:distcc/distccd.conf
