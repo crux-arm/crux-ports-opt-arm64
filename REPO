@@ -160,9 +160,9 @@ f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:339796d65619e99977ec8b2a54081d14:qt6-base/Pkgfile
 f:95cc678b434b9f21d420e3592eed4080:qt6-base/.footprint
-f:94b6e5fb17b2564764039250cb6c064e:ruby/.signature
-f:507da8aa6340b0db1ccd8d364a4a9b6f:ruby/Pkgfile
-f:cdd77d705e7335eb5431b7e6fe8473e7:ruby/.footprint
+f:b4ddb6a2019dc89e04fa32151dc6e28d:ruby/.signature
+f:716c47256c82ef2ad38038b62b7f274e:ruby/Pkgfile
+f:10722a5b0a906fc1d63abf6283f83812:ruby/.footprint
 f:09ec062dc1c4abd884346ce6358d2320:python3-pyrsistent/.signature
 f:b4c1c56015b2b7fa85d91a8fc417b73a:python3-pyrsistent/Pkgfile
 f:06c1b5ed085f40b5edb430764cce31b4:python3-pyrsistent/.footprint
