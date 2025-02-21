@@ -86,6 +86,7 @@ cat <<- EOF > $SRC/config.toml
 	# when using rust code in cross-language LTO if libstd was built using ThinLTO.
 	# http://blog.llvm.org/2019/09/closing-gap-cross-language-lto-between.html
 	# https://github.com/rust-lang/rust/issues/54872
+	channel = "stable"
 	codegen-units-std = 1
 	debuginfo-level = 1
 	debuginfo-level-std = 2

@@ -24,11 +24,11 @@ drwxr-xr-x	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/bin/gcc-ld/
 -rwxr-xr-x	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/bin/rust-lld
 -rwxr-xr-x	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/bin/rust-objcopy
 drwxr-xr-x	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/
--rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-nightly_rt.asan.a
--rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-nightly_rt.hwasan.a
--rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-nightly_rt.lsan.a
--rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-nightly_rt.msan.a
--rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-nightly_rt.tsan.a
+-rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-stable_rt.asan.a
+-rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-stable_rt.hwasan.a
+-rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-stable_rt.lsan.a
+-rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-stable_rt.msan.a
+-rw-r--r--	root/root	usr/lib/rustlib/aarch64-unknown-linux-gnu/lib/librustc-stable_rt.tsan.a
 drwxr-xr-x	root/root	usr/lib/rustlib/etc/
 -rw-r--r--	root/root	usr/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
 -rw-r--r--	root/root	usr/lib/rustlib/etc/gdb_lookup.py
