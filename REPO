@@ -148,8 +148,8 @@ f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:8b63245c3b613dc712ec2b41a1228965:rust/.signature
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
-f:3cbe911a6a9123a4bb089b235c8e531f:rust/Pkgfile
-f:a45e04bf2fd13d0fdda32df2972dec1d:rust/.footprint
+f:88b9507564aae2d8a126b6d78b132175:rust/Pkgfile
+f:2e97dcc7f12ef935e29e08bb774845d7:rust/.footprint
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
 f:3ac77727ecf774ad41d2cc5bba7a0562:cbindgen/.signature
 f:4581348ede0653dde94a79acb11ccaf6:cbindgen/Pkgfile
