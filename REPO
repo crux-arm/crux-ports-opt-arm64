@@ -145,7 +145,7 @@ f:1ea4660f4986011d07b4ec39e8c4b711:tevent/Pkgfile
 f:d8a4e13d63b5600265ae82b97e77cf71:tevent/.footprint
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
-f:8b63245c3b613dc712ec2b41a1228965:rust/.signature
+f:c90b242e975a9e5305aa0415333cf548:rust/.signature
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:88b9507564aae2d8a126b6d78b132175:rust/Pkgfile
