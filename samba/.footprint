@@ -162,9 +162,9 @@ lrwxrwxrwx	root/root	usr/lib/libdcerpc-server-core.so.0 -> libdcerpc-server-core
 lrwxrwxrwx	root/root	usr/lib/libdcerpc.so -> libdcerpc.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libdcerpc.so.0 -> libdcerpc.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libdcerpc.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.10.0
-lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.10.0
--rwxr-xr-x	root/root	usr/lib/libldb.so.2.10.0
+lrwxrwxrwx	root/root	usr/lib/libldb.so -> libldb.so.2.11.0
+lrwxrwxrwx	root/root	usr/lib/libldb.so.2 -> libldb.so.2.11.0
+-rwxr-xr-x	root/root	usr/lib/libldb.so.2.11.0
 lrwxrwxrwx	root/root	usr/lib/libndr-krb5pac.so -> libndr-krb5pac.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libndr-krb5pac.so.0 -> libndr-krb5pac.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libndr-krb5pac.so.0.0.1
@@ -174,9 +174,9 @@ lrwxrwxrwx	root/root	usr/lib/libndr-nbt.so.0 -> libndr-nbt.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libndr-standard.so -> libndr-standard.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libndr-standard.so.0 -> libndr-standard.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libndr-standard.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/libndr.so -> libndr.so.5.0.0
-lrwxrwxrwx	root/root	usr/lib/libndr.so.5 -> libndr.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libndr.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libndr.so -> libndr.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libndr.so.6 -> libndr.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libndr.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/libnetapi.so -> libnetapi.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libnetapi.so.1 -> libnetapi.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libnetapi.so.1.0.0
@@ -677,6 +677,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/kpasswd_tests.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/lockout_tests.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/ms_kile_client_principal_lookup_tests.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/netlogon.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/nt_hash_tests.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/pac_align_tests.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/krb5/pkinit_tests.py
@@ -746,6 +747,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/samba/tests/ndr/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/py_credentials.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/registry.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/reparsepoints.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/rust.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/s3_net_join.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/s3idmapdb.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/samba/tests/s3param.py
