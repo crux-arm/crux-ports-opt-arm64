@@ -47,7 +47,7 @@ f:3b0d0dec429dbfbd0b045fae838e411d:python3-cython/.footprint
 f:43a797b934d9164730e8896c8aff5a54:python3-cython/.signature
 f:072eb0c5f675bfa463b0b6c063212032:python3-cython/Pkgfile
 f:2e97dcc7f12ef935e29e08bb774845d7:rust/.footprint
-f:c90b242e975a9e5305aa0415333cf548:rust/.signature
+f:2a3904afb637f4150705f63a53fbf755:rust/.signature
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
