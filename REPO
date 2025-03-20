@@ -53,7 +53,7 @@ f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
-f:88b9507564aae2d8a126b6d78b132175:rust/Pkgfile
+f:7c2372124faf2a218133e82843085ce2:rust/Pkgfile
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:5a4532a593277deaffb1e63b36c136b5:fuse/.signature
