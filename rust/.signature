@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMTfr4ilMVCi7pDvEBZ6a8ZxxG3Ypf1atzXDm/q/QpYqaZT1YILSJ/IIbPTnxE7+02ibYFVn5tXZxS0ToPw1lFw4=
-SHA256 (Pkgfile) = df252f012f0497d80f86deaf50f16d247637b89cb94092d154f61906906d24e2
+RWRitF9a2DJqMQFP7n8ZgNnw9LCXW/wwrhVEekcIUIdq0GtZFa9cmOJ7bEuCbg2ErdpfNlgpjtQjpwSJtzgJYfXFhOfkHFeVNQ8=
+SHA256 (Pkgfile) = 99e9227e8feab4d53f324d87e6fe0aaa1a99d62b3ad433a9a72bb79103f996a4
 SHA256 (.footprint) = 1741e8dfe5b865bbfa869bea44e1287e978c72071dae37d558feb9247203b381
-SHA256 (rustc-1.85.0-src.tar.xz) = d542c397217b5ba5bac7eb274f5ca62d031f61842c3ba4cc5328c709c38ea1e7
+SHA256 (rustc-1.85.1-src.tar.xz) = b1fbf809efe9f036939401e142631c201a53bcf43ec1696bd9f5290ba236a266
 SHA256 (rust-std-1.84.0-aarch64-unknown-linux-gnu.tar.xz) = 023f0b6153b23ac0e9686c2ab95bc393ee3e295b166bb36de3b4dfb53e3913e0
 SHA256 (rustc-1.84.0-aarch64-unknown-linux-gnu.tar.xz) = 9f5650aece53e083b933a57e5a8e0e2db4479f52ec897d5b6d0f77be6cd50498
 SHA256 (cargo-1.84.0-aarch64-unknown-linux-gnu.tar.xz) = 68d4ad239b6d1e810e7b8591636dc408cb2c1e89661329fed906febf9c0a9d98
