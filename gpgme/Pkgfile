@@ -6,7 +6,7 @@
 # Optional: qt5 qt6-base
 
 name=gpgme
-version=1.24.1
+version=1.24.2
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/$name/$name-$version.tar.bz2)
 
