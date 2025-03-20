@@ -212,7 +212,7 @@ f:406fffb95fd5f9189470bc35a789cbad:opus/.signature
 f:18ecd142fcca5c417c2ee22d534153e8:opus/Pkgfile
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
 f:82c586324cfb063c574debc89c3ed277:docker-compose/.signature
-f:f293b5ad1f44ded622996c7ccc95b512:docker-compose/Pkgfile
+f:52edf6680d81e9141360aec80804fba0:docker-compose/Pkgfile
 f:32811e769bdfba4ce284ea1c67bfb0db:python3-pyyaml/.footprint
 f:b5e4c9bddffa1c37183d3fe6df6ca181:python3-pyyaml/.signature
 f:d203039a8628bff66a2cc3a2fab76bd9:python3-pyyaml/Pkgfile
