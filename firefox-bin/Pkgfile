@@ -5,30 +5,30 @@
 # Depends on: gtk3 dbus-glib xorg-libxcomposite xorg-libxcursor
 
 name=firefox-bin
-version=135.0a1
+version=136.0.3
 release=1
-source=(https://download-installer.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-$version.en-US.linux-aarch64.tar.bz2 \
-  policies.json firefox.desktop)
+source=(http://ftp.mozilla.org/pub/firefox/releases/$version/linux-aarch64/en-US/firefox-$version.tar.xz \
+	policies.json firefox.desktop)
 
 build() {
-  cd firefox
-  install -d $PKG/usr/{lib,bin}
-  mv $SRC/firefox $PKG/usr/lib/firefox
-  ln -s /usr/lib/firefox/firefox $PKG/usr/bin/firefox
-  mkdir -p $PKG/usr/lib/firefox/lib
+	cd firefox
+	install -d $PKG/usr/{lib,bin}
+	mv $SRC/firefox $PKG/usr/lib/firefox
+	ln -s /usr/lib/firefox/firefox $PKG/usr/bin/firefox
+	mkdir -p $PKG/usr/lib/firefox/lib
 
-  mkdir -p $PKG/etc/revdep.d
-  echo "/usr/lib/firefox" > $PKG/etc/revdep.d/firefox-bin
+	mkdir -p $PKG/etc/revdep.d
+	echo "/usr/lib/firefox" > $PKG/etc/revdep.d/firefox-bin
 
-  # We don't want these 'features'
-  rm -r $PKG/usr/lib/firefox/browser/features
-  # Disable autoupdate
-  mkdir $PKG/usr/lib/firefox/distribution
+	#We don't want these 'features'
+	rm -r $PKG/usr/lib/firefox/browser/features
+	# Disable autoupdate
+	mkdir $PKG/usr/lib/firefox/distribution
 
-  install -m644 $SRC/policies.json $PKG/usr/lib/firefox/distribution/
+	install -m644 $SRC/policies.json $PKG/usr/lib/firefox/distribution/
 
-  install -m644 -D $SRC/firefox.desktop $PKG/usr/share/applications/firefox.desktop
-  install -m755 -d $PKG/usr/share/pixmaps
-  ln -s /usr/lib/firefox/browser/chrome/icons/default/default32.png \
-    $PKG/usr/share/pixmaps/firefox.png
+	install -m644 -D $SRC/firefox.desktop $PKG/usr/share/applications/firefox.desktop
+	install -m755 -d $PKG/usr/share/pixmaps
+	ln -s /usr/lib/firefox/browser/chrome/icons/default/default32.png \
+		$PKG/usr/share/pixmaps/firefox.png
 }
