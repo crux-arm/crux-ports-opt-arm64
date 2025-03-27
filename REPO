@@ -104,7 +104,7 @@ f:91e1b30ec9fdef8a4735357e68b19ee9:firefox-bin/.footprint
 f:03618eee38ca2579f6fd3c6167aaf639:firefox-bin/.signature
 f:48c4e73fdcf740a9e455e42f61fc75d1:firefox-bin/firefox.desktop
 f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
-f:534130d48459680d185590c3454db552:firefox-bin/Pkgfile
+f:847cae97be5a0c36c548d2f996a0b738:firefox-bin/Pkgfile
 f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
 f:23949708d3e37bfff7635384e6713906:gpgme/.signature
 f:2882eea7206447e387868d12474afe60:gpgme/Pkgfile
