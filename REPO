@@ -195,9 +195,9 @@ f:3765586fe37e9002a781bae8f35a9bc6:ncdu/.footprint
 f:27a5cca09a2f24ca51da7a409df03de8:ncdu/.signature
 f:758abe301a645f8484ecc8a375fba1b5:ncdu/ncdu.1
 f:a322261b8a6507d973830c1ea91a23ed:ncdu/Pkgfile
-f:4591619096a713a263fd7e57df3bbb49:libtheora/.footprint
-f:f39467e327f6d76185177b87fd8085b5:libtheora/.signature
-f:a260497bb6c6278d54c5f384774be239:libtheora/Pkgfile
+f:4a221ec06a0395ea023b7d3db4e486eb:libtheora/.footprint
+f:d4ba0701ddf727809333645c37e291d5:libtheora/.signature
+f:e1182f1364b821c952b4935001d9df63:libtheora/Pkgfile
 f:5d48903f40d61a057d49f28a3275edb1:gcc-fortran/.footprint
 f:70ec426bb2df4e75ec39e843844d70d4:gcc-fortran/.signature
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
