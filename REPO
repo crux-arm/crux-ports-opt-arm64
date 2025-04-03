@@ -66,7 +66,7 @@ f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
 f:958a8b097e7fd82a956cdcdc15123e12:qt6-base/.footprint
-f:5345132cc434aa1c0b71d7aea7d17345:qt6-base/.signature
+f:993565ba428b38a7035ceecdaba53322:qt6-base/.signature
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
