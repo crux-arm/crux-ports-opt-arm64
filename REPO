@@ -46,14 +46,14 @@ d:ldb
 f:3b0d0dec429dbfbd0b045fae838e411d:python3-cython/.footprint
 f:43a797b934d9164730e8896c8aff5a54:python3-cython/.signature
 f:072eb0c5f675bfa463b0b6c063212032:python3-cython/Pkgfile
-f:2e97dcc7f12ef935e29e08bb774845d7:rust/.footprint
+f:af262e5b515cf8ab48143b9eabeb84ef:rust/.footprint
 f:2a3904afb637f4150705f63a53fbf755:rust/.signature
 f:d5936e9857a824d276b0a45279879ddc:rust/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:3a302fda034a6cc7b1482250824b97f2:rust/0001-bootstrap-Change-libexec-dir.patch
-f:7c2372124faf2a218133e82843085ce2:rust/Pkgfile
+f:6523ad45e6758ce0f2c5ea5471b1b94e:rust/Pkgfile
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:5a4532a593277deaffb1e63b36c136b5:fuse/.signature
