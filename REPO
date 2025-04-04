@@ -118,9 +118,9 @@ f:5048f74b924caf25f70be54e6d7f5fba:talloc/.footprint
 f:ca1a35d5c2b4467f2832f11719999100:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:4e8a6104445d5f3b93fada9226e013ac:talloc/Pkgfile
-f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
-f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
-f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
+f:896a1436daece8eaf53ab82080234fcb:gobject-introspection/.footprint
+f:874eef142ea9433af9f30211fa513421:gobject-introspection/.signature
+f:878b2dcdd47135767831cb0f9bc1e8cf:gobject-introspection/Pkgfile
 f:997d0c3564c57cd05bd24a86ce30fdaf:firefox/.footprint
 f:ee953bcaece6ec5fc4714973ef382e04:firefox/.signature
 f:c9ccd47ae6a570100ebf31d51a0e7a1f:firefox/firefox.desktop
