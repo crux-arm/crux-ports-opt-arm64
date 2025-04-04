@@ -188,8 +188,8 @@ f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
-f:f3566ee565da492a26dee3ec81db526b:python3-markupsafe/.footprint
-f:cf57128010fd6d6cc0266e0d43be3ebd:python3-markupsafe/.signature
+f:cec65afbe23d132c436e10a29871dee0:python3-markupsafe/.footprint
+f:110abb453cb43c69e91ae5652101ac9a:python3-markupsafe/.signature
 f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
 f:3765586fe37e9002a781bae8f35a9bc6:ncdu/.footprint
 f:27a5cca09a2f24ca51da7a409df03de8:ncdu/.signature
