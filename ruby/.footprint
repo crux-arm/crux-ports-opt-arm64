@@ -225,9 +225,9 @@ drwxr-xr-x	root/root	usr/include/ruby-3.4/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-3.4/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-3.4/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.4.2
-lrwxrwxrwx	root/root	usr/lib/libruby.so.3.4 -> libruby.so.3.4.2
--rwxr-xr-x	root/root	usr/lib/libruby.so.3.4.2
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.4.3
+lrwxrwxrwx	root/root	usr/lib/libruby.so.3.4 -> libruby.so.3.4.3
+-rwxr-xr-x	root/root	usr/lib/libruby.so.3.4.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-3.4.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -378,7 +378,6 @@ drwxr-xr-x	root/root	usr/lib/ruby/3.4/bundler/cli/
 drwxr-xr-x	root/root	usr/lib/ruby/3.4/bundler/compact_index_client/
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/compact_index_client/cache.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/compact_index_client/cache_file.rb
--rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/compact_index_client/gem_parser.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/compact_index_client/parser.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/compact_index_client/updater.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/constants.rb
@@ -516,6 +515,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/3.4/bundler/resolver/
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/resolver/package.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/resolver/root.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/resolver/spec_group.rb
+-rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/resolver/strategy.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/retry.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/ruby_dsl.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/ruby_version.rb
@@ -643,6 +643,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/rubygems.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/solve_failure.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/static_package_source.rb
+-rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/strategy.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/term.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/version.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/bundler/vendor/pub_grub/lib/pub_grub/version_constraint.rb
@@ -1765,11 +1766,11 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bigdecimal-3.1.8/sample/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/bigdecimal-3.1.8/sample/linear.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/bigdecimal-3.1.8/sample/nlsolve.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/bigdecimal-3.1.8/sample/pi.rb
-drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.2/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.2/exe/
--rwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.2/exe/bundle
--rwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.2/exe/bundler
-drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/cgi-0.4.1/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.7/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.7/exe/
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.7/exe/bundle
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/bundler-2.6.7/exe/bundler
+drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/cgi-0.4.2/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/csv-3.3.2/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/csv-3.3.2/LICENSE.txt
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/csv-3.3.2/NEWS.md
@@ -3305,7 +3306,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/typeprof-0.30.1/lib/typeprof/lsp
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/typeprof-0.30.1/lib/typeprof/lsp/util.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/typeprof-0.30.1/lib/typeprof/version.rb
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/un-0.3.0/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/uri-1.0.2/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/uri-1.0.3/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/weakref-0.1.3/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/yaml-0.4.0/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/zlib-3.2.1/
@@ -3318,8 +3319,8 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/specifications/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/debug-1.10.0.gemspec
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/benchmark-0.4.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/bundler-2.6.2.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/cgi-0.4.1.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/bundler-2.6.7.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/cgi-0.4.2.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/date-3.4.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/delegate-0.4.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/did_you_mean-2.0.0.gemspec
@@ -3371,7 +3372,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/tmpdir-0.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/tsort-0.2.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/un-0.3.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/uri-1.0.2.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/uri-1.0.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/weakref-0.1.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/yaml-0.4.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/zlib-3.2.1.gemspec
