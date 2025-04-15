@@ -111,9 +111,9 @@ f:2882eea7206447e387868d12474afe60:gpgme/Pkgfile
 f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
 f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
-f:10722a5b0a906fc1d63abf6283f83812:ruby/.footprint
-f:b4ddb6a2019dc89e04fa32151dc6e28d:ruby/.signature
-f:716c47256c82ef2ad38038b62b7f274e:ruby/Pkgfile
+f:d6a8430fbf3625de2d35da3a2f879dec:ruby/.footprint
+f:4c034c601947f134f7729be712290799:ruby/.signature
+f:880edd11c323c4e38d6e99b0ccf95890:ruby/Pkgfile
 f:5048f74b924caf25f70be54e6d7f5fba:talloc/.footprint
 f:ca1a35d5c2b4467f2832f11719999100:talloc/.signature
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
