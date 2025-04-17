@@ -174,9 +174,9 @@ f:9d94caa7f2eef5163f11339cf59e5ed2:libsdl/libsdl-1.2.15-bs.patch
 f:ebff7a0aef0b79a0199e394ff9b212ab:libsdl/libsdl-1.2.x-libx11.patch
 f:519e6715c192d05ad942bc3c82340ea7:libsdl/Pkgfile
 f:5e45f316383e5c218e68efd13a136e51:libsdl/README
-f:4c79c35e04ff459ed62cd17c92d98604:python3-cairo/.footprint
-f:6a65c095a7054eb17d073e919603f2fd:python3-cairo/.signature
-f:e781fae8454cea77f5d8d77ee3179c7a:python3-cairo/Pkgfile
+f:ab2b03043c038320171b91f8ad62e6ed:python3-cairo/.footprint
+f:e74f4ff4988a59177e9517eb0029712a:python3-cairo/.signature
+f:8003e557e72a635b2f7a418899c714d5:python3-cairo/Pkgfile
 f:5b7e8a119e09a1cbe747695617f6bc97:python/.footprint
 f:b751afd34006a2dff63ebd66a6c80cf1:python/.signature
 f:ebbe2c197d4cf6fbce10a17e09d2a609:python/CVE-2019-20907.patch
