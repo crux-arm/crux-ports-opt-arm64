@@ -1,12 +1,12 @@
 # Description: A cross-platform application and UI framework
 # URL: https://www.qt.io/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: at-spi2-core brotli double-conversion harfbuzz libb2 libinput libtiff libxkbcommon mesa vulkan-headers xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm
-# Optional: gtk3 libproxy mariadb md4c pipewire postgresql pulseaudio tslib unixodbc xdg-utils xmlstarlet
+# Depends on: at-spi2-core harfbuzz libb2 libtiff libxkbcommon mesa xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm
+# Optional: brotli cups double-conversion gtk3 icu krb5 libinput libproxy mariadb md4c pipewire postgresql pulseaudio tslib unixodbc xdg-utils xmlstarlet vulkan-headers
 
 name=qt6-base
 version=6.9.0
-release=1
+release=2
 source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtbase-everywhere-src-$version.tar.xz
   qt6-base-cflags.patch
   qt6-base-nostrip.patch
@@ -15,9 +15,11 @@ source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submo
 build() {
   patch -d qtbase-everywhere-src-$version -p1 -i $SRC/qt6-base-cflags.patch
   patch -d qtbase-everywhere-src-$version -p1 -i $SRC/qt6-base-nostrip.patch
-  patch -d qtbase-everywhere-src-$version -p1 -i $SRC/qtbase-6.5.3-xkbcommon160.patch
 
-  prt-get isinst ccache && PKGMK_QT6+=' -D QT_USE_CCACHE=ON' && PATH="$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')"
+  if prt-get isinst ccache; then
+    PKGMK_QT6+=' -D QT_USE_CCACHE=ON'
+    PATH="$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')"
+  fi
 
   if [[ -e /usr/include/xkbcommon/xkbcommon-x11.h ]]; then
     PKGMK_QT6+=' -D QT_FEATURE_xcb=ON -D QT_FEATURE_xkbcommon_x11=ON'
@@ -31,6 +33,8 @@ want to install xorg/xkeyboard-config, rebuild opt/libxkbcommon and then
 build opt/qt6-base again.
 "
   fi
+
+  rm -r qtbase-everywhere-src-$version/src/3rdparty/{harfbuzz-ng,freetype,libjpeg,libpng,zlib}
 
   cmake -S qtbase-everywhere-src-$version -B build -G Ninja $PKGMK_QT6 \
     -D BUILD_SHARED_LIBS=ON \
@@ -55,8 +59,12 @@ build opt/qt6-base again.
     -D INSTALL_EXAMPLESDIR=share/doc/qt6/examples \
     -D QT_FEATURE_openssl_linked=ON \
     -D QT_FEATURE_system_sqlite=ON \
-    -D QT_FEATURE_vulkan=ON \
+    -D QT_UNITY_BUILD=ON \
+    -D QT_FEATURE_testlib=ON \
+    -D QT_INTERNAL_AVOID_OVERRIDING_SYNCQT_CONFIG=ON \
     -D QT_BUILD_TESTS_BY_DEFAULT=OFF \
+    -D QT_FEATURE_reduce_relocations=OFF \
+    -D QT_FEATURE_relocatable=OFF \
     -D QT_FEATURE_androiddeployqt=OFF \
     -D QT_FEATURE_rpath=OFF \
     -Wno-dev
@@ -68,6 +76,7 @@ build opt/qt6-base again.
 
   # Install useful symlinks
   cd $PKG
+  sed 's!../!!' -i $SRC/build/user_facing_tool_links.txt
   mkdir -p usr/bin
   while read -r _line; do
     ln -sv $_line
