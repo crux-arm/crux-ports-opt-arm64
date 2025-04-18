@@ -2,11 +2,11 @@
 # URL: https://www.samba.org
 # Maintainer: Juergen Daubert, jue at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: dbus gnutls linux-pam jansson p5-json p5-parse-yapp rpcsvc-proto tdb tevent popt
+# Depends on: dbus gnutls linux-pam jansson p5-json p5-parse-yapp rpcsvc-proto tdb tevent popt p5-json
 # Optional: brotli cups libidn2
 
 name=samba
-version=4.22.0
+version=4.22.1
 release=1
 source=(https://www.samba.org/samba/ftp/stable/$name-$version.tar.gz \
   samba.rc samba.pam)
