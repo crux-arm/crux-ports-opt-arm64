@@ -203,10 +203,10 @@ f:70ec426bb2df4e75ec39e843844d70d4:gcc-fortran/.signature
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:b781a68e0cab234a2285df0c2edac096:gcc-fortran/Pkgfile
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
-f:bf64f46c388973690ed0a12bae30a601:go/.footprint
-f:f192c84d300d9ca21024ebcf45a32946:go/.signature
+f:634f510f04c6e7ddbd0645ca597665ea:go/.footprint
+f:bd55182f594167f599b1aed7196794a1:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:86252ea29b5b673c3266b7c0a3e3a88b:go/Pkgfile
+f:ed2c0ecca55fdbd8582ab73c039d9d36:go/Pkgfile
 f:6e98e39b1f0060f8f0e43146e896883d:opus/.footprint
 f:406fffb95fd5f9189470bc35a789cbad:opus/.signature
 f:18ecd142fcca5c417c2ee22d534153e8:opus/Pkgfile
