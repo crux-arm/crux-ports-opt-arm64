@@ -108,7 +108,7 @@ f:89d9b34dc012ad9862476eb14a75239d:firefox-bin/Pkgfile
 f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
 f:23949708d3e37bfff7635384e6713906:gpgme/.signature
 f:2882eea7206447e387868d12474afe60:gpgme/Pkgfile
-f:12e9a968a2aa26dbdb79849fb3841882:brotli/.footprint
+f:01aa516bccfbd647378993c5bd686373:brotli/.footprint
 f:a531d2cbb16456c941c32b72cc40c778:brotli/.signature
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:d6a8430fbf3625de2d35da3a2f879dec:ruby/.footprint
