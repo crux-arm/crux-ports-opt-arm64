@@ -42,6 +42,7 @@ d:docker-compose
 d:python3-pyyaml
 d:fftw
 d:python3-pyrsistent
+d:libatasmart
 d:ldb
 f:3b0d0dec429dbfbd0b045fae838e411d:python3-cython/.footprint
 f:43a797b934d9164730e8896c8aff5a54:python3-cython/.signature
@@ -222,6 +223,8 @@ f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
 f:06c1b5ed085f40b5edb430764cce31b4:python3-pyrsistent/.footprint
 f:09ec062dc1c4abd884346ce6358d2320:python3-pyrsistent/.signature
 f:b4c1c56015b2b7fa85d91a8fc417b73a:python3-pyrsistent/Pkgfile
+f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
+f:ffb5fd4df8235d9e60f6220d70053116:libatasmart/Pkgfile
 f:3e3873905d3fa80fe39bbaaf845e3d97:ldb/.footprint
 f:0de4b8886547b0f290f88257e0f084cf:ldb/.signature
 f:6ac4a7b66c4f7d779ea26cce0af364bd:ldb/Pkgfile
