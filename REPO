@@ -77,7 +77,7 @@ f:354f2b4cf4d98474691f3268bc3604c7:compiler-rt/.footprint
 f:c472c3f29ec99840bc8cd6fa86ad559d:compiler-rt/.signature
 f:5c298ee1e4ba4c451bc6681b41397158:compiler-rt/Pkgfile
 f:d050f3674b502a56245e63ca865d24cc:python3-pyyaml/.footprint
-f:b5e4c9bddffa1c37183d3fe6df6ca181:python3-pyyaml/.signature
+f:da16a0da909db53bb04a1b94e7535f2d:python3-pyyaml/.signature
 f:d203039a8628bff66a2cc3a2fab76bd9:python3-pyyaml/Pkgfile
 f:375f49e9d531d43573f0523c8a04c19c:openbox/.footprint
 f:2bebe41a53f8cea0f0f93fa8b682642f:openbox/.signature
