@@ -55,7 +55,7 @@ f:041ef4d065e6dc2800720094f020b668:python3-gobject/Pkgfile
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
 f:249d4691abdda8b244d2b6f67016b312:docker-compose/.signature
 f:6fb02ba9971000ac5e91f863eb27912f:docker-compose/Pkgfile
-f:dc8d6d3f8de748cf24145e4fe4b0a972:gpgme/.footprint
+f:4b0454323d44c5fa6c14d6e622a4f446:gpgme/.footprint
 f:23949708d3e37bfff7635384e6713906:gpgme/.signature
 f:2882eea7206447e387868d12474afe60:gpgme/Pkgfile
 f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
