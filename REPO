@@ -132,7 +132,7 @@ f:7dccabeb467417630dad74a8591d3c3c:distcc/python-3.9.patch
 f:d192c5f01cfce15851756d61a1ce7773:distcc/README
 f:aa4db7fd59fd3a2874fd9998bdee6a20:distcc/Pkgfile
 f:acc8486cd8465f92925e3a7a33f428c3:python3-cython/.footprint
-f:43a797b934d9164730e8896c8aff5a54:python3-cython/.signature
+f:acbb311fe9c3ef5bb2b069043ed8d090:python3-cython/.signature
 f:072eb0c5f675bfa463b0b6c063212032:python3-cython/Pkgfile
 f:516776fe66e77b0a15bf6dee857d0c1f:qt6-base/qtbase-6.5.3-xkbcommon160.patch
 f:958a8b097e7fd82a956cdcdc15123e12:qt6-base/.footprint
