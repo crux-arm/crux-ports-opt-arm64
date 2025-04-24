@@ -119,10 +119,10 @@ f:8459e7425bf9eea9d482e53c5b5c91c9:grub2/grub.cfg.sample
 f:5a3844b636f4626f8334cf8b4ff3c34d:grub2/.signature
 f:2d0a24dc5ce4b8641aa90e04e2a27898:grub2/README
 f:a9cbb39afc69bfb3287cb4eeaa8048bf:grub2/Pkgfile
-f:bf64f46c388973690ed0a12bae30a601:go/.footprint
-f:f192c84d300d9ca21024ebcf45a32946:go/.signature
+f:aace1fcb95e39d1f6da1621219de50e9:go/.footprint
+f:4d71714d9105aee404aa2a93135b0e09:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:86252ea29b5b673c3266b7c0a3e3a88b:go/Pkgfile
+f:3a27a4d587847bfe95ddf8ea7f3ed0e8:go/Pkgfile
 f:9e83a687f716c25c734720e7c395acbe:distcc/pre-install
 f:011965f35225d273f5546e6ad963b6fe:distcc/.footprint
 f:7a03952cafbd281ec199637064b491f0:distcc/distccd.conf
