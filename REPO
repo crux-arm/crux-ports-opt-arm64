@@ -62,8 +62,8 @@ f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
 f:ec13e92fca48f9e402ce04f6c55560fd:fftw/.footprint
-f:18f7b4ed978fd00a1b88b0cf1aa73dbf:fftw/.signature
-f:260244ca3c55217a106aade17015a7ea:fftw/Pkgfile
+f:488014a581c5b1e9b457f1e5b19f69e5:fftw/.signature
+f:a6a22072aed34e39064e27e01e2d723d:fftw/Pkgfile
 f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
 f:5a4532a593277deaffb1e63b36c136b5:fuse/.signature
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
