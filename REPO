@@ -154,9 +154,9 @@ f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
-f:98cdf130e804c549d656fbdbedccca0a:python3-cython/Pkgfile
-f:f16c4a800078733b6e635c8aeeb70dac:python3-cython/.signature
-f:22f945dceb397251852a12f7bd370bb3:python3-cython/.footprint
+f:4642e149ce54cf00af3bc318d0c1b410:python3-cython/Pkgfile
+f:41f3e3e14fc724376834f19a0980f18d:python3-cython/.signature
+f:fa2b9d6c1cfd21db85c03dd84ec3ad61:python3-cython/.footprint
 f:edc808a8b4505077d5ae1a601ed86324:openbox/Pkgfile
 f:2bebe41a53f8cea0f0f93fa8b682642f:openbox/.signature
 f:375f49e9d531d43573f0523c8a04c19c:openbox/.footprint
