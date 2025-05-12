@@ -142,8 +142,8 @@ f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:dda1b7ccd99a7220eb272a77107dd650:llvm/.footprint
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
-f:89d9b34dc012ad9862476eb14a75239d:firefox-bin/Pkgfile
-f:dd6542b3786390ab4be180172399fefb:firefox-bin/.signature
+f:8009f4dd86d3ab5161b8e80ec07fc540:firefox-bin/Pkgfile
+f:5ddf45c6186b870360778b97e0c92b8c:firefox-bin/.signature
 f:6cfd8cb409b93671eda2362b3239a307:firefox-bin/.footprint
 f:48c4e73fdcf740a9e455e42f61fc75d1:firefox-bin/firefox.desktop
 f:8f7299475dad94f549617e33ca7388ee:fuse/Pkgfile
