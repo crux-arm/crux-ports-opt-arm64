@@ -13,7 +13,7 @@ build() {
   cd cython-$version
 
   /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
-  /usr/bin/python3 -m installer --compile-bytecode 2 --destdir=$PKG dist/*.whl
+  /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
 
   for f in cygdb cython cythonize; do
     mv $PKG/usr/bin/$f $PKG/usr/bin/${f}3
