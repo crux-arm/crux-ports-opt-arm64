@@ -137,9 +137,9 @@ f:43e08eb0137bd7ffafda6bf4c7a9b327:grub2-efi/extra_deps.lst
 f:694933a1be5600c4d1d5e37c30c0e7bb:grub2-efi/.footprint
 f:838124b013dd686df2889f594142165f:llvm/Pkgfile
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
-f:35f74a906550ccc9aee7d9f36feffe7b:llvm/.signature
+f:5d7d0b7bc552c8b05658759f6efb0450:llvm/.signature
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
-f:f0c0b7eeef6fb484b659250e584e5828:llvm/.footprint
+f:dda1b7ccd99a7220eb272a77107dd650:llvm/.footprint
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
 f:89d9b34dc012ad9862476eb14a75239d:firefox-bin/Pkgfile
