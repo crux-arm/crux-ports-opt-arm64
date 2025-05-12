@@ -30,7 +30,6 @@ d:python3-cython
 d:openbox
 d:gobject-introspection
 d:talloc
-d:ncdu
 d:compiler-rt
 d:grub2
 d:libsdl
@@ -166,10 +165,6 @@ f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:4e8a6104445d5f3b93fada9226e013ac:talloc/Pkgfile
 f:ca1a35d5c2b4467f2832f11719999100:talloc/.signature
 f:5048f74b924caf25f70be54e6d7f5fba:talloc/.footprint
-f:758abe301a645f8484ecc8a375fba1b5:ncdu/ncdu.1
-f:a322261b8a6507d973830c1ea91a23ed:ncdu/Pkgfile
-f:27a5cca09a2f24ca51da7a409df03de8:ncdu/.signature
-f:3765586fe37e9002a781bae8f35a9bc6:ncdu/.footprint
 f:5c298ee1e4ba4c451bc6681b41397158:compiler-rt/Pkgfile
 f:c472c3f29ec99840bc8cd6fa86ad559d:compiler-rt/.signature
 f:354f2b4cf4d98474691f3268bc3604c7:compiler-rt/.footprint
