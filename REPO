@@ -72,8 +72,8 @@ f:8edc852cc2b3ffab542caf50c25c1993:jdk/Pkgfile
 f:1fb266113b1690f964c8685a148096f2:jdk/.signature
 f:06be506a54ea419351e9536f124b97f2:jdk/.footprint
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
-f:39f6d8ea07db2a158dca5574bfa09c98:brotli/.signature
-f:01aa516bccfbd647378993c5bd686373:brotli/.footprint
+f:ee2085da983f972808ef879b3d86cc34:brotli/.signature
+f:0a7ecf3d4d91e42452b53ed9a40303dc:brotli/.footprint
 f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
 f:110abb453cb43c69e91ae5652101ac9a:python3-markupsafe/.signature
 f:cec65afbe23d132c436e10a29871dee0:python3-markupsafe/.footprint
