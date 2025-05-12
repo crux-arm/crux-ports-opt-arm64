@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMfzGw1GwyM2jh/OH0GXTsx9n8Toe4SU16oS7Htjpe+ivWRXjQUpxiS9c5WIfJV8mkdKsSXxz/kEUeezSwKu4QQ8=
-SHA256 (Pkgfile) = 1544537792b374862d3f90714f7244227cbcf2c20cef9bd0eb2a607f2e3595b4
-SHA256 (.footprint) = 28b3a45f7809ec9fe4cc3c0f4b48d291960afd02f9615e0d97c4cbdd1567ecec
-SHA256 (ncdu-2.7-linux-aarch64.tar.gz) = 4cb9d3a9e5929e766f3b13f9cb6933d08cd47578756f93c2994e22fa7604f3af
-SHA256 (ncdu.1) = b953716edcfdce5b99f521b284df3344b70d2c97e5099b60ddceadbd97f58a25
