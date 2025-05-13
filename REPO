@@ -190,10 +190,10 @@ f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:6fc5c5aa34d5aefd78a125627fc29a99:pandoc-bin/Pkgfile
 f:a15b1cdaf94d95f5de1b718b909da672:pandoc-bin/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
-f:ed2c0ecca55fdbd8582ab73c039d9d36:go/Pkgfile
-f:82246d35f95fee06aacf3718be95409f:go/.signature
+f:21f58d4703779058502808515649c9c7:go/Pkgfile
+f:10150eab1d033a7addb624dce9841785:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:aace1fcb95e39d1f6da1621219de50e9:go/.footprint
+f:6d142930033682de505f807f11702f3c:go/.footprint
 f:aa4db7fd59fd3a2874fd9998bdee6a20:distcc/Pkgfile
 f:95024853df07840eb7fc71df29943ab7:distcc/distccd.service
 f:e467e2cf2755e1eba3c5b0a005e637c7:distcc/.signature
