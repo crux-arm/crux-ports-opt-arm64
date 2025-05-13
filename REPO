@@ -78,8 +78,8 @@ f:cec65afbe23d132c436e10a29871dee0:python3-markupsafe/.footprint
 f:880edd11c323c4e38d6e99b0ccf95890:ruby/Pkgfile
 f:4c034c601947f134f7729be712290799:ruby/.signature
 f:d6a8430fbf3625de2d35da3a2f879dec:ruby/.footprint
-f:6fb02ba9971000ac5e91f863eb27912f:docker-compose/Pkgfile
-f:249d4691abdda8b244d2b6f67016b312:docker-compose/.signature
+f:c03b615ae0466c7e6a7bdc0571f3d267:docker-compose/Pkgfile
+f:20305111086e83993a7790165e18430c:docker-compose/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
 f:01956b9d425973216f86a808784d82a6:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:6523ad45e6758ce0f2c5ea5471b1b94e:rust/Pkgfile
