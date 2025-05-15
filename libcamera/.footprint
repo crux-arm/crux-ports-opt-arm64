@@ -2,14 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/cam
 -rwxr-xr-x	root/root	usr/bin/libcamerify
--rwxr-xr-x	root/root	usr/bin/qcam
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libcamera/
 drwxr-xr-x	root/root	usr/include/libcamera/libcamera/
 drwxr-xr-x	root/root	usr/include/libcamera/libcamera/base/
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/base/bound_method.h
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/base/class.h
--rw-r--r--	root/root	usr/include/libcamera/libcamera/base/compiler.h
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/base/flags.h
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/base/object.h
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/base/shared_fd.h
@@ -45,21 +43,13 @@ drwxr-xr-x	root/root	usr/include/libcamera/libcamera/ipa/
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/transform.h
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/version.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
--rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstlibcamera.so
-lrwxrwxrwx	root/root	usr/lib/libcamera-base.so -> libcamera-base.so.0.4
-lrwxrwxrwx	root/root	usr/lib/libcamera-base.so.0.4 -> libcamera-base.so.0.4.0
--rwxr-xr-x	root/root	usr/lib/libcamera-base.so.0.4.0
-lrwxrwxrwx	root/root	usr/lib/libcamera.so -> libcamera.so.0.4
-lrwxrwxrwx	root/root	usr/lib/libcamera.so.0.4 -> libcamera.so.0.4.0
--rwxr-xr-x	root/root	usr/lib/libcamera.so.0.4.0
+lrwxrwxrwx	root/root	usr/lib/libcamera-base.so -> libcamera-base.so.0.5
+lrwxrwxrwx	root/root	usr/lib/libcamera-base.so.0.5 -> libcamera-base.so.0.5.0
+-rwxr-xr-x	root/root	usr/lib/libcamera-base.so.0.5.0
+lrwxrwxrwx	root/root	usr/lib/libcamera.so -> libcamera.so.0.5
+lrwxrwxrwx	root/root	usr/lib/libcamera.so.0.5 -> libcamera.so.0.5.0
+-rwxr-xr-x	root/root	usr/lib/libcamera.so.0.5.0
 drwxr-xr-x	root/root	usr/lib/libcamera/
--rwxr-xr-x	root/root	usr/lib/libcamera/ipa_mali_c55.so
--rw-r--r--	root/root	usr/lib/libcamera/ipa_mali_c55.so.sign
--rwxr-xr-x	root/root	usr/lib/libcamera/ipa_rkisp1.so
--rw-r--r--	root/root	usr/lib/libcamera/ipa_rkisp1.so.sign
--rwxr-xr-x	root/root	usr/lib/libcamera/ipa_rpi_vc4.so
--rw-r--r--	root/root	usr/lib/libcamera/ipa_rpi_vc4.so.sign
 -rwxr-xr-x	root/root	usr/lib/libcamera/ipa_soft_simple.so
 -rw-r--r--	root/root	usr/lib/libcamera/ipa_soft_simple.so.sign
 -rwxr-xr-x	root/root	usr/lib/libcamera/mali-c55_ipa_proxy
@@ -73,47 +63,11 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/libcamera/
 drwxr-xr-x	root/root	usr/share/libcamera/ipa/
-drwxr-xr-x	root/root	usr/share/libcamera/ipa/mali-c55/
--rw-r--r--	root/root	usr/share/libcamera/ipa/mali-c55/imx415.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/mali-c55/uncalibrated.yaml
-drwxr-xr-x	root/root	usr/share/libcamera/ipa/rkisp1/
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/imx219.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/imx258.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/ov2685.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/ov4689.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/ov5640.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/ov5695.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/ov8858.yaml
--rw-r--r--	root/root	usr/share/libcamera/ipa/rkisp1/uncalibrated.yaml
-drwxr-xr-x	root/root	usr/share/libcamera/ipa/rpi/
-drwxr-xr-x	root/root	usr/share/libcamera/ipa/rpi/vc4/
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx219.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx219_noir.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx283.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx290.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx296.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx296_mono.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx327.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx378.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx462.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx477.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx477_noir.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx477_scientific.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx519.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx708.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx708_noir.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx708_wide.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/imx708_wide_noir.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/ov5647.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/ov5647_noir.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/ov64a40.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/ov7251_mono.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/ov9281_mono.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/se327m12.json
--rw-r--r--	root/root	usr/share/libcamera/ipa/rpi/vc4/uncalibrated.json
 drwxr-xr-x	root/root	usr/share/libcamera/ipa/simple/
 -rw-r--r--	root/root	usr/share/libcamera/ipa/simple/uncalibrated.yaml
 drwxr-xr-x	root/root	usr/share/libcamera/pipeline/
 drwxr-xr-x	root/root	usr/share/libcamera/pipeline/rpi/
+drwxr-xr-x	root/root	usr/share/libcamera/pipeline/rpi/pisp/
+-rw-r--r--	root/root	usr/share/libcamera/pipeline/rpi/pisp/example.yaml
 drwxr-xr-x	root/root	usr/share/libcamera/pipeline/rpi/vc4/
 -rw-r--r--	root/root	usr/share/libcamera/pipeline/rpi/vc4/example.yaml
