@@ -14,6 +14,7 @@ d:libdaemon
 d:libtheora
 d:distcc
 d:gobject-introspection
+d:libpisp
 d:samba
 d:rust
 d:llvm
@@ -110,6 +111,9 @@ f:e467e2cf2755e1eba3c5b0a005e637c7:distcc/.signature
 f:896a1436daece8eaf53ab82080234fcb:gobject-introspection/.footprint
 f:878b2dcdd47135767831cb0f9bc1e8cf:gobject-introspection/Pkgfile
 f:874eef142ea9433af9f30211fa513421:gobject-introspection/.signature
+f:7127d11da47d2718696015c926211021:libpisp/.footprint
+f:0f6e4960780a9b417a3a29385c7c288b:libpisp/Pkgfile
+f:9e683cb8b3ef83f95da421cddad44a1d:libpisp/.signature
 f:961c9757617da1f9d38b22c3c79be520:samba/.footprint
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
@@ -156,9 +160,9 @@ f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:c367f22a3646cfd5a290ea72423ab9e7:gcc-fortran/Pkgfile
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:5b3b68fe9b45197983651175e68aed15:gcc-fortran/.signature
-f:9f5787d83a1b4dbd64323e3d7ed17777:libcamera/.footprint
-f:a86809e357ee89cd46e4ee54a1d7facb:libcamera/Pkgfile
-f:5794e6f0fabd7ac85ce1cfd253471f47:libcamera/.signature
+f:3b1c2acaf080d4e1c5e915cc3dd8f9fc:libcamera/.footprint
+f:4249ae0667d8dca315effafc5a7a79c9:libcamera/Pkgfile
+f:6781c3947feeacbfb799e79a3df20430:libcamera/.signature
 f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:3284222a5461d20ca8dfe68048156468:cdparanoia/Pkgfile
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
