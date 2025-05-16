@@ -85,10 +85,10 @@ f:5a3844b636f4626f8334cf8b4ff3c34d:grub2/.signature
 f:3e3873905d3fa80fe39bbaaf845e3d97:ldb/.footprint
 f:6ac4a7b66c4f7d779ea26cce0af364bd:ldb/Pkgfile
 f:0de4b8886547b0f290f88257e0f084cf:ldb/.signature
-f:634f510f04c6e7ddbd0645ca597665ea:go/.footprint
+f:8f82d772d9a80ef6ef741dd4c4d80b90:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:ed2c0ecca55fdbd8582ab73c039d9d36:go/Pkgfile
-f:bd55182f594167f599b1aed7196794a1:go/.signature
+f:21f58d4703779058502808515649c9c7:go/Pkgfile
+f:6c085381709f888fcd065fba86af1fe8:go/.signature
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
