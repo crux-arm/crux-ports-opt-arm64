@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMZzq4gMMHJiNJNr0W2N37o7uTYhp5dv4T8sVFWWUIFbNeg66pQ9oNbVlNYqZUssc2Fc4EK+GYffpBYHmBw34ZQY=
+SHA256 (Pkgfile) = fca00aecff13a450f734143859d0d6f8aae42ba2e6d5af176c4c74c0765ea411
+SHA256 (.footprint) = ba7a47c097590b2255e9e72cef422c4e5a4180e34eb0b99f6f8323de4a949502
+SHA256 (libatasmart-0.19.tar.xz) = 61f0ea345f63d28ab2ff0dc352c22271661b66bf09642db3a4049ac9dbdb0f8d

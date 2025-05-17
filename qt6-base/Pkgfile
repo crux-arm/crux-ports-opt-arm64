@@ -1,8 +1,8 @@
 # Description: A cross-platform application and UI framework
 # URL: https://www.qt.io/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: at-spi2-core brotli double-conversion harfbuzz libb2 libinput libtiff libxkbcommon mesa vulkan-headers xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm
-# Optional: gtk3 libproxy mariadb md4c pipewire postgresql pulseaudio tslib unixodbc xdg-utils xmlstarlet
+# Depends on: at-spi2-core harfbuzz libb2 libtiff libxkbcommon mesa xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm
+# Optional: brotli cups double-conversion gtk3 icu krb5 libinput libproxy mariadb md4c pipewire postgresql pulseaudio tslib unixodbc xdg-utils xmlstarlet vulkan-headers
 
 name=qt6-base
 version=6.9.0
@@ -61,8 +61,8 @@ build opt/qt6-base again.
     -D QT_UNITY_BUILD=ON \
     -D QT_FEATURE_testlib=ON \
     -D QT_INTERNAL_AVOID_OVERRIDING_SYNCQT_CONFIG=ON \
-    -D QT_FEATURE_vulkan=ON \
     -D QT_BUILD_TESTS_BY_DEFAULT=OFF \
+    -D QT_FEATURE_reduce_relocations=OFF \
     -D QT_FEATURE_relocatable=OFF \
     -D QT_FEATURE_androiddeployqt=OFF \
     -D QT_FEATURE_rpath=OFF \

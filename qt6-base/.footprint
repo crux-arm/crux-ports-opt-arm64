@@ -1049,7 +1049,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qastchandler_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qbackingstoredefaultcompositor_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qbackingstorerhisupport_p.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qbasicvulkanplatforminstance_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qbezier_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qblendfunctions_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qblittable_p.h
@@ -1181,7 +1180,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qrhi_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qrhigles2_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qrhinull_p.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qrhivulkan_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qscreen_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qsessionmanager_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qshader_p.h
@@ -1225,10 +1223,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qundostack_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qunixeventdispatcher_qpa_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qvectorpath_p.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qvulkandefaultinstance_p.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qvulkanfunctions_p.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qvulkaninstance_p.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qvulkanwindow_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qwindow_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qxbmhandler_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/private/qxdgnotificationproxy_p.h
@@ -1269,7 +1263,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qplatformtheme_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qplatformthemefactory_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qplatformthemeplugin.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qplatformvulkaninstance.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qplatformwindow.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qplatformwindow_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/qpa/qwindowsysteminterface.h
@@ -1492,14 +1485,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/rhi/
 -rw-r--r--	root/root	usr/include/qt6/QtGui/QVector2D
 -rw-r--r--	root/root	usr/include/qt6/QtGui/QVector3D
 -rw-r--r--	root/root	usr/include/qt6/QtGui/QVector4D
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanDeviceFunctions
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanExtension
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanFunctions
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanInfoVector
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanInstance
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanLayer
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanWindow
--rw-r--r--	root/root	usr/include/qt6/QtGui/QVulkanWindowRenderer
 -rw-r--r--	root/root	usr/include/qt6/QtGui/QWhatsThisClickedEvent
 -rw-r--r--	root/root	usr/include/qt6/QtGui/QWheelEvent
 -rw-r--r--	root/root	usr/include/qt6/QtGui/QWidgetList
@@ -1629,9 +1614,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtGui/6.9.0/QtGui/rhi/
 -rw-r--r--	root/root	usr/include/qt6/QtGui/qvector3d.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/qvector4d.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/qvectornd.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/qvulkanfunctions.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/qvulkaninstance.h
--rw-r--r--	root/root	usr/include/qt6/QtGui/qvulkanwindow.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/qwindow.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/qwindowdefs.h
 -rw-r--r--	root/root	usr/include/qt6/QtGui/socket_interface.h
@@ -1653,10 +1635,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private
 -rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qfdcontainer_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qkeyboardmap_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qkeycodeaction_p.h
--rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qlibinputhandler_p.h
--rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qlibinputkeyboard_p.h
--rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qlibinputpointer_p.h
--rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qlibinputtouch_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qoutputmapping_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtInputSupport/6.9.0/QtInputSupport/private/qtouchfilter_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtInputSupport/QtInputSupport
@@ -1892,7 +1870,6 @@ drwxr-xr-x	root/root	usr/include/qt6/QtOpenGL/6.9.0/QtOpenGL/private/
 -rw-r--r--	root/root	usr/include/qt6/QtOpenGL/6.9.0/QtOpenGL/private/qopengltextureuploader_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtOpenGL/6.9.0/QtOpenGL/private/qopenglversionfunctions_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtOpenGL/6.9.0/QtOpenGL/private/qopenglvertexarrayobject_p.h
--rw-r--r--	root/root	usr/include/qt6/QtOpenGL/6.9.0/QtOpenGL/private/qvkconvenience_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtOpenGL/QOpenGLBuffer
 -rw-r--r--	root/root	usr/include/qt6/QtOpenGL/QOpenGLDebugLogger
 -rw-r--r--	root/root	usr/include/qt6/QtOpenGL/QOpenGLDebugMessage
@@ -3141,12 +3118,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/Qt6Gui/
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfigVersionImpl.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfigVersionImpl.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfigVersion.cmake
@@ -3177,12 +3148,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/Qt6Gui/
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfigVersionImpl.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfigVersionImpl.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfigVersion.cmake
@@ -4221,7 +4186,6 @@ drwxr-xr-x	root/root	usr/lib/qt6/plugins/generic/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/generic/libqevdevmouseplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/generic/libqevdevtabletplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/generic/libqevdevtouchplugin.so
--rwxr-xr-x	root/root	usr/lib/qt6/plugins/generic/libqlibinputplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/generic/libqtuiotouchplugin.so
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/imageformats/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/imageformats/libqgif.so
@@ -4239,7 +4203,6 @@ drwxr-xr-x	root/root	usr/lib/qt6/plugins/platforms/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/platforms/libqminimal.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/platforms/libqminimalegl.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/platforms/libqoffscreen.so
--rwxr-xr-x	root/root	usr/lib/qt6/plugins/platforms/libqvkkhrdisplay.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/platforms/libqvnc.so
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/platformthemes/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/platformthemes/libqxdgdesktopportal.so

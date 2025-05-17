@@ -41,7 +41,7 @@ F77=gfortran
   
   # compiling long double precision library
   ./configure \
-  $config \
+    $config \
     --enable-long-double
   
   make

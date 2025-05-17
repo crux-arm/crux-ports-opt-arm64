@@ -5,7 +5,7 @@
 # Depends on: go
 
 name=docker-compose
-version=2.36.0
+version=2.35.1
 release=1
 source=(https://github.com/docker/compose/archive/v$version/$name-$version.tar.gz)
 
