@@ -154,8 +154,8 @@ f:edd64e52a9da5416c70405af57d44c5f:ruby/.footprint
 f:1efb23cd1fd2635ca52a65c60aca454d:ruby/Pkgfile
 f:abed1cd9bff795afdbe461fed7e4832f:ruby/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
-f:6fb02ba9971000ac5e91f863eb27912f:docker-compose/Pkgfile
-f:249d4691abdda8b244d2b6f67016b312:docker-compose/.signature
+f:c03b615ae0466c7e6a7bdc0571f3d267:docker-compose/Pkgfile
+f:20305111086e83993a7790165e18430c:docker-compose/.signature
 f:a2a97599324dddf47cb87b7e915be70b:gcc-fortran/.footprint
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
 f:c367f22a3646cfd5a290ea72423ab9e7:gcc-fortran/Pkgfile
