@@ -11,6 +11,7 @@ source=(https://files.pythonhosted.org/packages/source/r/ruamel.yaml.clib/ruamel
 
 build() {
   cd ruamel.yaml.clib-$version
+  CFLAGS+=' -Wno-error=incompatible-pointer-types' \
   /usr/bin/python3 setup.py build
   RUAMEL_NO_PIP_INSTALL_CHECK=1 /usr/bin/python3 setup.py install \
     --skip-build \
