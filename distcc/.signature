@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMW/cfAcnVZlnJnp8C2AMMyUmaoIIymS6dhKOnlhwyMO9403WHd42P9zkMwo2Qm4HSM11Z78s+fN4sVWMiRJ0pwM=
+RWRitF9a2DJqMcpGgWJJYtcOxAyc64C3WSQ0Zc/8Fc/XzQ2zA7Z+/WaHJffFEuZOSiMJNfF7INggyiVbBvPmpsVraKUcoGLdCwI=
 SHA256 (Pkgfile) = 33fbc67b1615c75ebcd69333d00c5176dd5c10d6c6506ea532153083a1ad2abb
-SHA256 (.footprint) = 036bf290f5c28fc50370e0c9a1e17216c390cd1d3d49dcb729445542a89a330d
+SHA256 (.footprint) = dc4e99416b583e620432130b91d100256bbfde36ae85926ee2936bea2fca536f
 SHA256 (distcc-3.4.tar.gz) = 2b99edda9dad9dbf283933a02eace6de7423fe5650daa4a728c950e5cd37bd7d
 SHA256 (python-3.9.patch) = 77beae8527b1865109f58322594f96ca16f6cf78a2687a3341f34162f5dde1ba
 SHA256 (distccd.service) = 1c43037686f5cd9d244903a5cb1c7905905e0271313a0d95e742d4b4aae1ad24
