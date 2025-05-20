@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMZxgPTSBPR4yLOCq/iscECxNdr+0/WfOFHqUbNtH2siLrMmzLW5X3ztHC3Ia+O2rnyDIcR9B657zeMekXS5W+g8=
+SHA256 (Pkgfile) = f05ea0ec1a1443ebd1bfaf4c39f9a096beca5fc9340f111e41309e033926d1b7
+SHA256 (.footprint) = 37c20dd6d3bc2db4a4619e7f0b01d8ea91767ba6a1a5a3e1085f47bf074efd03
+SHA256 (startup-notification-0.12.tar.gz) = 3c391f7e930c583095045cd2d10eb73a64f085c7fde9d260f2652c7cb3cfbe4a

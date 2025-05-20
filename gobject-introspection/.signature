@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMWS2G3ZLXodZdq2+ubDENb8zCXwiRdxMZpHhPFtBZ+Dxuyc1ThelmjGBmro9PP4BghburOPd9tgOoNfXzkr0Tgs=
-SHA256 (Pkgfile) = 19a82edd2cf5022c859713f1813adf19e8b72f1641b8e1f5d3ff5ee7dded84f7
-SHA256 (.footprint) = 02491f01552ffae06b6ffca6daad80a06033bf806c212cad94372aa4ff2f720d
-SHA256 (gobject-introspection-1.72.0.tar.xz) = 02fe8e590861d88f83060dd39cda5ccaa60b2da1d21d0f95499301b186beaabc
-SHA256 (gobject-introspection-1.70.0-meson-0.61.patch) = fa02cbdf0472025e50ab607762db1558c0ecc82ee6eccbdc4c183bbc670215b1
+RWRitF9a2DJqMXqLMODVZB4rT0p4cLcmdMKuM91NvZwgJkqsJmwNLCZyJ4H0PCXOCRBGl78MQuS5tmhoMhcm4QOZiAmF+AOcWwU=
+SHA256 (Pkgfile) = ed9b33b55b3de5e419651636f82c3197c4824b6fdfbc5e65cf27b2e45ffdcaf9
+SHA256 (.footprint) = bd385527cf7786a693198fd6b883bae1d698a0bd0b431f5331b15f448d623439
+SHA256 (gobject-introspection-1.84.0.tar.xz) = 945b57da7ec262e5c266b89e091d14be800cc424277d82a02872b7d794a84779

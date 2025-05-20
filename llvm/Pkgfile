@@ -1,38 +1,57 @@
 # Description: LLVM compiler backend
-# URL: http://llvm.org/
-# Maintainer: Thomas Penteker, tek at serverop dot de
+# URL: https://llvm.org/
+# Maintainer: CRUX System Team, core-ports at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: cmake libffi libxml2 ninja python3-setuptools
+# Depends on: libxml2 ninja python3-setuptools
 # Optional: lld
 
 name=llvm
-version=14.0.6
+version=20.1.5
 release=1
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/$name-$version.src.tar.xz
-  llvm-config.h)
+    https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz
+    https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/third-party-$version.src.tar.xz
+    install-prefix.patch
+    llvm-config.h)
 
 build() {
+  cp -r $SRC/cmake-$version.src/Modules/* $name-$version.src/cmake/modules/.
+  mv $SRC/cmake-$version.src/ $SRC/cmake
+  mv $SRC/third-party-$version.src/ $SRC/third-party
+
+  grep -rl '#!.*python' | xargs sed -i '1s/python$/python3/'
+
+  patch -Np2 -d $name-$version.src -i $SRC/install-prefix.patch
+
   cmake -S $name-$version.src -B build -G Ninja \
     -D CMAKE_INSTALL_PREFIX=/usr \
     -D CMAKE_BUILD_TYPE=Release \
     -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
     -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
-    -D LLVM_TARGETS_TO_BUILD='AArch64' \
+    -D LLVM_BINUTILS_INCDIR=/usr/include \
     -D LLVM_BUILD_LLVM_DYLIB=ON \
     -D LLVM_LINK_LLVM_DYLIB=ON \
     -D LLVM_PARALLEL_COMPILE_JOBS="${JOBS:-1}" \
+    -D LLVM_BUILD_RUNTIME=ON \
+    -D LLVM_BUILD_EXTERNAL_COMPILER_RT=ON \
     -D LLVM_INCLUDE_EXAMPLES=OFF \
     -D LLVM_INCLUDE_TESTS=OFF \
     -D LLVM_ENABLE_FFI=ON \
     -D LLVM_ENABLE_RTTI=ON \
     -D LLVM_ENABLE_OCAMLDOC=OFF \
-    -D LLVM_INSTALL_UTILS=1 \
+    -D LLVM_INCLUDE_UTILS=ON \
+    -D LLVM_INSTALL_UTILS=ON \
+    -D LLVM_UTILS_INSTALL_DIR=/usr/bin \
     -D LLVM_ENABLE_LIBCXX=OFF \
     -D LLVM_ENABLE_LLD="$(prt-get isinst lld >/dev/null && echo ON || echo OFF)" \
     -D LLVM_OPTIMIZED_TABLEGEN=ON \
     -D LLVM_INCLUDE_BENCHMARKS=OFF \
+    -D LLVM_APPEND_VC_REV=OFF \
     -Wno-dev
 
+  NINJA_STATUS="[1/2][%f/%t %es] " \
+  cmake --build build --target LLVM
+  NINJA_STATUS="[2/2][%f/%t %es] " \
   cmake --build build
   DESTDIR=$PKG cmake --install build
 

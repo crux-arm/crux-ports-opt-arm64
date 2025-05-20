@@ -5,7 +5,7 @@
 # Depends on: python3
 
 name=talloc
-version=2.3.4
+version=2.4.3
 release=1
 source=(https://samba.org/ftp/$name/$name-$version.tar.gz
   $name-man-pages.tar.xz)
@@ -18,7 +18,7 @@ build() {
     --bundled-libraries=NONE \
     --enable-talloc-compat1
 
-  make
+  make -j1
   make DESTDIR=$PKG install
 
   install -d $PKG/usr/share/man/man3

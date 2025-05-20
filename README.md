@@ -4,7 +4,7 @@ CRUX-ARM aarch64 ports overlay for CRUX opt collection
 
 To use these ports, download the `opt-arm64.httpup` file to `/etc/ports`:
 ```
-$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-opt-arm64/3.6/opt-arm64.httpup
+$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-opt-arm64/3.7/opt-arm64.httpup
 $ sudo ports -u opt-arm64
 ```
 

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMbkZGSOnef6Gu7uGhzah7J31cnXA467cREOJCBnUxtGkvduv3gb8rmgfWUwS+PXYbnq+S3yrWYi8aRZprtGdRwk=
+SHA256 (Pkgfile) = 3f6664b600a11791ba96ffbe47f5c901070b2b480775bc628c45745921a53b57
+SHA256 (.footprint) = d129d9bdfea6f7dae3e8922973806351338e8b987d45081c89c6ea36af585940
+SHA256 (fftw-3.3.10.tar.gz) = 56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467

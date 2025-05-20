@@ -1,0 +1,67 @@
+# Description: A tool to distribute compilations
+# URL: https://github.com/distcc/distcc
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Optional: avahi gtk3 krb5 popt
+
+name=distcc
+version=3.4
+release=4
+source=(https://github.com/distcc/distcc/releases/download/v$version/$name-$version.tar.gz
+  python-3.9.patch
+  distccd.service
+  distccd.conf)
+
+build() {
+  cd $name-$version
+
+  patch -Np1 -i $SRC/python-3.9.patch
+
+  prt-get isinst avahi && PKGMK_DISTCC+=' --with-avahi'
+  prt-get isinst gtk3 || PKGMK_DISTCC+=' --without-gtk'
+  prt-get isinst krb5 && PKGMK_DISTCC+=' --with-auth'
+  prt-get isinst popt || PKGMK_DISTCC+=' --with-included-popt'
+
+  export CFLAGS+=' -fno-strict-aliasing'
+  export CPPFLAGS="$CFLAGS"
+
+  ./autogen.sh
+
+  ./configure ${PKGMK_DISTCC} \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --runstatedir=/run \
+    --enable-rfc2553 \
+    --without-gnome \
+    --disable-Werror
+
+  make INCLUDESERVER_PYTHON=/usr/bin/python3
+  make DESTDIR=$PKG \
+    INCLUDESERVER_PYTHON=/usr/bin/python3 \
+    GZIP_BIN=false \
+    install
+
+  # distccd should be in sbin
+  mv $PKG/usr/bin/distccd $PKG/usr/sbin/distccd
+
+  # install service
+  install -m 0755 -D $SRC/distccd.service $PKG/etc/rc.d/distccd
+
+  # create the masquerade directory
+  install -d $PKG/usr/lib/distcc
+  cd $PKG/usr/lib/distcc
+  for c in cc c++ gcc g++ cpp; do
+    ln -s ../../bin/distcc $c
+  done
+  cd -
+
+  # install config file
+  install -D -m 0644 $SRC/distccd.conf $PKG/etc/distccd.conf
+
+  # cleanup
+  rm -r $PKG/usr/share/doc $PKG/etc/distcc $PKG/etc/default
+  rm $PKG/usr/sbin/update-distcc-symlinks
+
+  /usr/bin/python3 -m compileall -d $SRC/$name-$version $PKG
+  /usr/bin/python3 -O -m compileall -d $SRC/$name-$version $PKG
+  /usr/bin/python3 -OO -m compileall -d $SRC/$name-$version $PKG
+}

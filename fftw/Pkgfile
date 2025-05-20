@@ -1,0 +1,53 @@
+# Description: C subroutine library for computing discrete Fourier transform.
+# URL: https://www.fftw.org/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: gcc-fortran
+
+name=fftw
+version=3.3.10
+release=2
+source=(http://www.fftw.org/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  local config="
+F77=gfortran
+--prefix=/usr
+--enable-threads
+--with-gnu-ld
+--enable-shared
+--enable-openmp"
+
+  # use upstream default CFLAGS while keeping our -march/-mtune
+  CFLAGS+=" -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math"
+  
+  # compiling single precision library
+  ./configure \
+    $config \
+    --enable-single
+  
+  make
+  make DESTDIR=$PKG install
+  make clean
+  
+  # compiling double precision library
+  ./configure \
+    $config
+  
+  make
+  make DESTDIR=$PKG install
+  make clean
+  
+  # compiling long double precision library
+  ./configure \
+    $config \
+    --enable-long-double
+  
+  make
+  make DESTDIR=$PKG install
+  make clean
+  
+  # clean up
+  rm -r $PKG/usr/share/info
+}

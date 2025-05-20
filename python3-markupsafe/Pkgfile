@@ -1,19 +1,19 @@
 # Description: Implements a XML/HTML/XHTML Markup safe string for Python.
 # URL: http://pypi.python.org/pypi/MarkupSafe
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Maintainer: Danny Rawlins, crux at romster dot me
 # Depends on: python3-setuptools
 
 name=python3-markupsafe
-version=2.1.1
+version=3.0.2
 release=1
-source=(https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-$version.tar.gz)
+source=(https://pypi.io/packages/source/m/markupsafe/markupsafe-$version.tar.gz)
 
 build() {
-	cd MarkupSafe-$version
+  cd markupsafe-$version
 
-	/usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py build
 
-	/usr/bin/python3 setup.py install --prefix=/usr \
-		--root=$PKG --optimize=1
+  /usr/bin/python3 setup.py install --prefix=/usr \
+    --root=$PKG --optimize=1
 }

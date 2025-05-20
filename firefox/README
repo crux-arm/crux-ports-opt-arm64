@@ -1,3 +1,2 @@
-For html5 video and h.264 support you will need to install the additional port:
-
-ffmpeg
+If you compile firefox frequently, consider installing ccache and sccache,
+so that later updates can use the artifacts left over from previous builds.
