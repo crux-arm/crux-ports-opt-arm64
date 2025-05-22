@@ -1,0 +1,35 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libpisp/
+drwxr-xr-x	root/root	usr/include/libpisp/backend/
+-rw-r--r--	root/root	usr/include/libpisp/backend/backend.hpp
+-rw-r--r--	root/root	usr/include/libpisp/backend/pisp_be_config.h
+drwxr-xr-x	root/root	usr/include/libpisp/backend/tiling/
+-rw-r--r--	root/root	usr/include/libpisp/backend/tiling/pisp_tiling.hpp
+-rw-r--r--	root/root	usr/include/libpisp/backend/tiling/types.hpp
+drwxr-xr-x	root/root	usr/include/libpisp/common/
+-rw-r--r--	root/root	usr/include/libpisp/common/logging.hpp
+-rw-r--r--	root/root	usr/include/libpisp/common/pisp_common.h
+-rw-r--r--	root/root	usr/include/libpisp/common/shm_mutex.hpp
+-rw-r--r--	root/root	usr/include/libpisp/common/utils.hpp
+-rw-r--r--	root/root	usr/include/libpisp/common/version.hpp
+drwxr-xr-x	root/root	usr/include/libpisp/frontend/
+-rw-r--r--	root/root	usr/include/libpisp/frontend/frontend.hpp
+-rw-r--r--	root/root	usr/include/libpisp/frontend/pisp_fe_config.h
+-rw-r--r--	root/root	usr/include/libpisp/frontend/pisp_statistics.h
+drwxr-xr-x	root/root	usr/include/libpisp/helpers/
+-rw-r--r--	root/root	usr/include/libpisp/helpers/backend_device.hpp
+-rw-r--r--	root/root	usr/include/libpisp/helpers/device_fd.hpp
+-rw-r--r--	root/root	usr/include/libpisp/helpers/media_device.hpp
+-rw-r--r--	root/root	usr/include/libpisp/helpers/v4l2_device.hpp
+drwxr-xr-x	root/root	usr/include/libpisp/variants/
+-rw-r--r--	root/root	usr/include/libpisp/variants/variant.hpp
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libpisp.so -> libpisp.so.1
+lrwxrwxrwx	root/root	usr/lib/libpisp.so.1 -> libpisp.so.1.2.1
+-rwxr-xr-x	root/root	usr/lib/libpisp.so.1.2.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libpisp.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/libpisp/
+-rw-r--r--	root/root	usr/share/libpisp/backend_default_config.json

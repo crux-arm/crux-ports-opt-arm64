@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMYXpUzEoVRx48MXcmlsX8NG4Ty8InKcY5e8CCZRh5pXneK2nTc53Tu6NHY4YsZPn6lzz7gNQJfIwFdkG1Rw9zwc=
+SHA256 (Pkgfile) = cee4112192f243d968c9a43032d902469c8cea2a7b29f939b14292497124963c
+SHA256 (.footprint) = 3e7875a372ce36ee9632db6b7a8355f2f3d2fe1f20d9038359cbbc45282b0bbb
+SHA256 (libpisp-1.2.1.tar.xz) = 01757b453a9d2fe99f4e884a13ee39647584dc45c25376cad05531c0e4eaf623
