@@ -14,6 +14,7 @@ d:libdaemon
 d:libtheora
 d:distcc
 d:gobject-introspection
+d:libpisp
 d:samba
 d:rust
 d:llvm
@@ -112,6 +113,9 @@ f:e467e2cf2755e1eba3c5b0a005e637c7:distcc/.signature
 f:adb9d4d68babc6a87a2b639ee31e2a65:gobject-introspection/.footprint
 f:8bd8adc7b85e558073b7180f6ba2dba3:gobject-introspection/Pkgfile
 f:75b7846a7f44f7a08ce0dfc8d939fd76:gobject-introspection/.signature
+f:7127d11da47d2718696015c926211021:libpisp/.footprint
+f:0f6e4960780a9b417a3a29385c7c288b:libpisp/Pkgfile
+f:9e683cb8b3ef83f95da421cddad44a1d:libpisp/.signature
 f:eec7cb7970c1393a3f4132342d4e104b:samba/.footprint
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
