@@ -151,8 +151,8 @@ f:90a5de322951152d96ac7086ba234fa3:tdb/Pkgfile
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:4e89fd0fe0fb021f0813027fad3d29e3:tdb/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
-f:688c408de16142919f088a43e02fe1bf:pandoc-bin/Pkgfile
-f:293f30498a8193f70d4fa1e89004e7eb:pandoc-bin/.signature
+f:f08ff85646fee4a9ceacdfa7df0fb533:pandoc-bin/Pkgfile
+f:75c2817887bc0d00b547677972543557:pandoc-bin/.signature
 f:d6a8430fbf3625de2d35da3a2f879dec:ruby/.footprint
 f:880edd11c323c4e38d6e99b0ccf95890:ruby/Pkgfile
 f:4c034c601947f134f7729be712290799:ruby/.signature
