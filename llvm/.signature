@@ -1,9 +1,9 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMQd8q4UczgdECq6VGLZQq0b0TcEri9B2oSGWBiG1R4HFvF9nFBBdhWyyR/4XBQtye0bn7QJDlnq0rvxZR7/PggY=
-SHA256 (Pkgfile) = eb26091953cdebfac6a323ce8e5300a84284d47df848a99716c1aa17fe8a6a89
+RWRitF9a2DJqMaWYQ0/v5IbtBEeARCy8bPZJ8f348LDM7kztcHMqpvRIhVwv3mnGZGGANdm3TYHIchYLfkT6Eu3HOFgrKLVOkAU=
+SHA256 (Pkgfile) = 190beda7de11c36480df56c0e3971c608ddd87a0683846e50725e083df2f3ee4
 SHA256 (.footprint) = e44bcc6d432972f4ee91530ca33b67d1f7d46cbe2b262b0960e6568b2d0e8201
-SHA256 (llvm-20.1.5.src.tar.xz) = 9a9a80ca4c0d902531f2b43e9e4d6c36b57cdd5702430e0b54567bf273bd32c1
-SHA256 (cmake-20.1.5.src.tar.xz) = 1b5abaa2686c6c0e1f394113d0b2e026ff3cb9e11b6a2294c4f3883f1b02c89c
-SHA256 (third-party-20.1.5.src.tar.xz) = 8667f47185bee07f7c7988ead7161b0d9e41a1a01d5d7afd8f325c607641470c
+SHA256 (llvm-20.1.6.src.tar.xz) = f09e304ca98bb809f492ec34f94f587361b4b0d06ed783fb3a41e7fb218e47a1
+SHA256 (cmake-20.1.6.src.tar.xz) = b4b3efa5d5b01b3f211f1ba326bb6f0c318331f828202d332c95b7f30fca5f8c
+SHA256 (third-party-20.1.6.src.tar.xz) = 33530189d31b2396b76a7ebac8f938747b3619154cc37015cef9dea29292f7e2
 SHA256 (install-prefix.patch) = 2649b61a459eb6d8a9aca38ab411aec27eeae57fe82e32d135db4ccb353c9dda
 SHA256 (llvm-config.h) = cd292314d46c1ae02d10735244eb0a16e11adec4bed6d017132886d0b62f63dd
