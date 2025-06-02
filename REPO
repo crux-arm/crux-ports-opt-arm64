@@ -151,9 +151,9 @@ f:fa8903cc0abce2983123c81d2782b13f:grub2-efi/.signature
 f:43e08eb0137bd7ffafda6bf4c7a9b327:grub2-efi/extra_deps.lst
 f:694933a1be5600c4d1d5e37c30c0e7bb:grub2-efi/.footprint
 f:e011520a02670ba6b22dcf3b28b9c971:grub2-efi/Pkgfile
-f:20305111086e83993a7790165e18430c:docker-compose/.signature
+f:9de20ad72387d16d8e8c5f36ac7c4ff4:docker-compose/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
-f:c03b615ae0466c7e6a7bdc0571f3d267:docker-compose/Pkgfile
+f:b36064caf8e8ed8fdae9cd791032c0ae:docker-compose/Pkgfile
 f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:6632fda8e64722e8bd343cac05fe3210:cdparanoia/.footprint
 f:aa57d4e1b897fdf12f1e7fbb4747ec43:cdparanoia/cdparanoia-10.2-gcc43.patch
