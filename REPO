@@ -104,10 +104,10 @@ f:961c9757617da1f9d38b22c3c79be520:samba/.footprint
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
 f:a3a4fe3facda675c87e7affd29d9722a:samba/Pkgfile
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
-f:5b3b68fe9b45197983651175e68aed15:gcc-fortran/.signature
+f:53cdeb01c05b66333cd2bf3367c64ff4:gcc-fortran/.signature
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
-f:a2a97599324dddf47cb87b7e915be70b:gcc-fortran/.footprint
-f:c367f22a3646cfd5a290ea72423ab9e7:gcc-fortran/Pkgfile
+f:a2ed811fd5247909a2add173e152b42e:gcc-fortran/.footprint
+f:848d42167fc2df320146d6591bf7dc7f:gcc-fortran/Pkgfile
 f:83199c84a2db67848d110005a31218c8:python3-pyyaml/.signature
 f:85b1230402da15288e2fbd6cf2face8f:python3-pyyaml/.footprint
 f:205fbb4599512d6887cdb71144465649:python3-pyyaml/Pkgfile
