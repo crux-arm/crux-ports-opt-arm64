@@ -52,9 +52,9 @@ f:8d601b3272e4ac56bf3498a6f808af77:talloc/.signature
 f:e13c25fb49e0cdfd083f99205e7dbd9d:talloc/.footprint
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
 f:4e8a6104445d5f3b93fada9226e013ac:talloc/Pkgfile
-f:3ac77727ecf774ad41d2cc5bba7a0562:cbindgen/.signature
+f:ffc42fac421d5210ebb79885de1aabc1:cbindgen/.signature
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
-f:4581348ede0653dde94a79acb11ccaf6:cbindgen/Pkgfile
+f:1f8c7ed57de439f169c086cde9f9989c:cbindgen/Pkgfile
 f:8459e7425bf9eea9d482e53c5b5c91c9:grub2/grub.cfg.sample
 f:2d0a24dc5ce4b8641aa90e04e2a27898:grub2/README
 f:bf4ac2f1ee74359bd689fe6bee82f2e9:grub2/csum_seed.diff
