@@ -187,9 +187,9 @@ f:406beda9baee73abe0b449c5c7194c84:qt6-base/.signature
 f:0ca0608fc8ee9e39029dd610d85b0ebf:qt6-base/.footprint
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
 f:874d8c61398f8a9307f29422b317e7a2:qt6-base/Pkgfile
-f:293f30498a8193f70d4fa1e89004e7eb:pandoc-bin/.signature
+f:1a147f20de987fdf2f9695c9e5ba1e33:pandoc-bin/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
-f:688c408de16142919f088a43e02fe1bf:pandoc-bin/Pkgfile
+f:d1906f78c86dfa21a7a51af95faba3ec:pandoc-bin/Pkgfile
 f:110abb453cb43c69e91ae5652101ac9a:python3-markupsafe/.signature
 f:cec65afbe23d132c436e10a29871dee0:python3-markupsafe/.footprint
 f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
