@@ -114,9 +114,9 @@ f:205fbb4599512d6887cdb71144465649:python3-pyyaml/Pkgfile
 f:a7a65fd2bbeea5680dfb7f86f30e5dfc:startup-notification/.signature
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:67ff6bc0bc8058910b3ab29f6ea15e60:startup-notification/Pkgfile
-f:04b2356b6cabcbeeb9f6bf120e17df3c:libcamera/.signature
-f:8c23407c31ffca018ce0221c9f029702:libcamera/.footprint
-f:052a1db415e0245c94723b81e3830bf5:libcamera/Pkgfile
+f:7671925391e0432ac3cd4102cbc39c81:libcamera/.signature
+f:37761bd69804943e15e5d410273cf39f:libcamera/.footprint
+f:ac0da9c2d4aa6c9268d53a48ee50068e:libcamera/Pkgfile
 f:2bebe41a53f8cea0f0f93fa8b682642f:openbox/.signature
 f:375f49e9d531d43573f0523c8a04c19c:openbox/.footprint
 f:edc808a8b4505077d5ae1a601ed86324:openbox/Pkgfile
