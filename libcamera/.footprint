@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/cam
 -rwxr-xr-x	root/root	usr/bin/libcamerify
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libcamera/
@@ -43,14 +44,15 @@ drwxr-xr-x	root/root	usr/include/libcamera/libcamera/ipa/
 -rw-r--r--	root/root	usr/include/libcamera/libcamera/version.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libcamera-base.so -> libcamera-base.so.0.5
-lrwxrwxrwx	root/root	usr/lib/libcamera-base.so.0.5 -> libcamera-base.so.0.5.0
--rwxr-xr-x	root/root	usr/lib/libcamera-base.so.0.5.0
+lrwxrwxrwx	root/root	usr/lib/libcamera-base.so.0.5 -> libcamera-base.so.0.5.1
+-rwxr-xr-x	root/root	usr/lib/libcamera-base.so.0.5.1
 lrwxrwxrwx	root/root	usr/lib/libcamera.so -> libcamera.so.0.5
-lrwxrwxrwx	root/root	usr/lib/libcamera.so.0.5 -> libcamera.so.0.5.0
--rwxr-xr-x	root/root	usr/lib/libcamera.so.0.5.0
+lrwxrwxrwx	root/root	usr/lib/libcamera.so.0.5 -> libcamera.so.0.5.1
+-rwxr-xr-x	root/root	usr/lib/libcamera.so.0.5.1
 drwxr-xr-x	root/root	usr/lib/libcamera/
--rwxr-xr-x	root/root	usr/lib/libcamera/ipa_soft_simple.so
--rw-r--r--	root/root	usr/lib/libcamera/ipa_soft_simple.so.sign
+drwxr-xr-x	root/root	usr/lib/libcamera/ipa/
+-rwxr-xr-x	root/root	usr/lib/libcamera/ipa/ipa_soft_simple.so
+-rw-r--r--	root/root	usr/lib/libcamera/ipa/ipa_soft_simple.so.sign
 -rwxr-xr-x	root/root	usr/lib/libcamera/mali-c55_ipa_proxy
 -rwxr-xr-x	root/root	usr/lib/libcamera/raspberrypi_ipa_proxy
 -rwxr-xr-x	root/root	usr/lib/libcamera/rkisp1_ipa_proxy
