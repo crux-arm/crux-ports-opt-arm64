@@ -183,10 +183,10 @@ f:a76d9606200e865de547bf741a1a05fa:libdaemon/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:a9cc62e411d46b1c1ebaf54d02f07aa4:libdaemon/Pkgfile
 f:bfc114bfc210c5b5996941f7e186f8b3:qt6-base/qt6-base-cflags.patch
-f:406beda9baee73abe0b449c5c7194c84:qt6-base/.signature
-f:0ca0608fc8ee9e39029dd610d85b0ebf:qt6-base/.footprint
+f:2261d63247c7476d9a07f2349a330219:qt6-base/.signature
+f:81f1029f9de5f7cbab8b8db6c93498c3:qt6-base/.footprint
 f:56462f1c05a4d5c4d06cb40258101b0a:qt6-base/qt6-base-nostrip.patch
-f:874d8c61398f8a9307f29422b317e7a2:qt6-base/Pkgfile
+f:f46e20af9336b9df41b68d9ae4bd80d3:qt6-base/Pkgfile
 f:1a147f20de987fdf2f9695c9e5ba1e33:pandoc-bin/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
 f:d1906f78c86dfa21a7a51af95faba3ec:pandoc-bin/Pkgfile
