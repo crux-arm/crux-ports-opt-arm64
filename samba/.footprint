@@ -1151,6 +1151,9 @@ drwxr-xr-x	root/root	usr/share/man/man8/
 -rw-r--r--	root/root	usr/share/man/man8/winbind_krb5_localauth.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/winbind_krb5_locator.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/winbindd.8.gz
+drwxr-xr-x	root/root	usr/share/samba/
+drwxr-xr-x	root/root	usr/share/samba/mdssvc/
+-rw-r--r--	root/root	usr/share/samba/mdssvc/elasticsearch_mappings.json
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/cache/
 drwxr-xr-x	root/root	var/cache/samba/
