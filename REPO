@@ -196,10 +196,10 @@ f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
 f:d4ba0701ddf727809333645c37e291d5:libtheora/.signature
 f:4a221ec06a0395ea023b7d3db4e486eb:libtheora/.footprint
 f:e1182f1364b821c952b4935001d9df63:libtheora/Pkgfile
-f:10150eab1d033a7addb624dce9841785:go/.signature
-f:6d142930033682de505f807f11702f3c:go/.footprint
+f:a01c8e5fab65e80f2a44ee484f1ee885:go/.signature
+f:52a8770342243adf03c8c7bf1c238db4:go/.footprint
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
-f:21f58d4703779058502808515649c9c7:go/Pkgfile
+f:f46ab517592c2ba14efc4282c4745d2d:go/Pkgfile
 f:9890a16e558ad9afd53ab9ca5f299914:python3-pyrsistent/.signature
 f:6caedb0eb3d33733433347efe218b386:python3-pyrsistent/.footprint
 f:b4c1c56015b2b7fa85d91a8fc417b73a:python3-pyrsistent/Pkgfile
