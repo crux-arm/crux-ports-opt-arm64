@@ -99,10 +99,10 @@ f:c99614bb850b5fcb2a07b02f76b4bdf5:tevent/.signature
 f:8cc1bf3fe0f3e44f2cd090a6feaa65d4:tevent/.footprint
 f:1ea4660f4986011d07b4ec39e8c4b711:tevent/Pkgfile
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
-f:f2b44e25c5dd0ab782ff3a138d16884b:samba/.signature
-f:961c9757617da1f9d38b22c3c79be520:samba/.footprint
+f:5680dc8b893261b02a3d94e021a895f2:samba/.signature
+f:08506bcf4bcf739483b2ac2f598e5c1e:samba/.footprint
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
-f:a3a4fe3facda675c87e7affd29d9722a:samba/Pkgfile
+f:c4c0e267a56b6d4e7d3f66dc4413a3fc:samba/Pkgfile
 f:61a057afa31006764b957a483ba90b9d:gcc-fortran/gcc-4.7.3-multilib-dirs.patch
 f:53cdeb01c05b66333cd2bf3367c64ff4:gcc-fortran/.signature
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
