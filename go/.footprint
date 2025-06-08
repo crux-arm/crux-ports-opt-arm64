@@ -62,6 +62,7 @@ drwxr-xr-x	root/root	usr/lib/go/lib/
 drwxr-xr-x	root/root	usr/lib/go/lib/fips140/
 -rw-r--r--	root/root	usr/lib/go/lib/fips140/Makefile
 -rw-r--r--	root/root	usr/lib/go/lib/fips140/fips140.sum
+-rw-r--r--	root/root	usr/lib/go/lib/fips140/inprocess.txt
 -rw-r--r--	root/root	usr/lib/go/lib/fips140/v1.0.0.zip
 drwxr-xr-x	root/root	usr/lib/go/lib/time/
 -rw-r--r--	root/root	usr/lib/go/lib/time/mkzip.go
@@ -3978,6 +3979,9 @@ drwxr-xr-x	root/root	usr/lib/go/src/cmd/link/testdata/linkname/p/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/linkname/p/p.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/linkname/push.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/linkname/sched.go
+drwxr-xr-x	root/root	usr/lib/go/src/cmd/link/testdata/linkname/textvar/
+-rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/linkname/textvar/asm.s
+-rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/linkname/textvar/main.go
 drwxr-xr-x	root/root	usr/lib/go/src/cmd/link/testdata/pe-binutils/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/pe-binutils/main.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/link/testdata/pe-binutils/rsrc_386.syso
@@ -8128,7 +8132,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/runtime/maps/
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/export_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/fuzz_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/group.go
--rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/map.go
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/runtime/maps/map.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/map_swiss_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/map_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/runtime.go
@@ -8240,7 +8244,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/unix/
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fallocate_freebsd_386.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fallocate_freebsd_64bit.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fallocate_freebsd_arm.go
--rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_js.go
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_js.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_unix.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_wasip1.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/getrandom.go
@@ -8300,7 +8304,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/windows/registry/
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/mksyscall.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/registry_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/syscall.go
--rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/value.go
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/windows/registry/value.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/zsyscall_windows.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/reparse_windows.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/security_windows.go
@@ -8873,7 +8877,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/zstd/
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/fse_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/fuzz_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/huff.go
--rw-r--r--	root/root	usr/lib/go/src/internal/zstd/literals.go
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/zstd/literals.go
 drwxr-xr-x	root/root	usr/lib/go/src/internal/zstd/testdata/
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/testdata/1890a371.gettysburg.txt-100x.zst
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/testdata/f2a8e35c.helloworld-11000x.zst
@@ -9042,7 +9046,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/math/big/
 -rw-r--r--	root/root	usr/lib/go/src/math/big/int_test.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/intconv.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/intconv_test.go
--rw-r--r--	root/root	usr/lib/go/src/math/big/intmarsh.go
+-rwxr-xr-x	root/root	usr/lib/go/src/math/big/intmarsh.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/intmarsh_test.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/link_test.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/nat.go
