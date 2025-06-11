@@ -45,9 +45,9 @@ d:fftw
 d:fuse
 d:aom
 d:libidl
-f:a3345446577d9ba308482d793a8c4226:python3-cython/.signature
-f:8a61fbc0d2c7c68fb50020aaf86d216d:python3-cython/.footprint
-f:b3904df34ad56df6c21ad425e6affc0f:python3-cython/Pkgfile
+f:0de2bcc08e22f3d85a335855b5cb0686:python3-cython/.signature
+f:9b3b786eedc60e410955de15b58ad64b:python3-cython/.footprint
+f:a04ad9d4b310542bcdcbe33e6c006fd5:python3-cython/Pkgfile
 f:8d601b3272e4ac56bf3498a6f808af77:talloc/.signature
 f:e13c25fb49e0cdfd083f99205e7dbd9d:talloc/.footprint
 f:365edd7d92b98bb9790ed0eeb3c4d2b3:talloc/talloc-man-pages.tar.xz
