@@ -17,7 +17,6 @@ d:fftw
 d:qt6-base
 d:fuse
 d:libtheora
-d:gpgme
 d:pandoc-bin
 d:libb2
 d:libcamera
@@ -122,9 +121,6 @@ f:bb754a710dbf01c2ec1e74c563fa875f:fuse/.signature
 f:e1182f1364b821c952b4935001d9df63:libtheora/Pkgfile
 f:4a221ec06a0395ea023b7d3db4e486eb:libtheora/.footprint
 f:d4ba0701ddf727809333645c37e291d5:libtheora/.signature
-f:8ebe30db9a212aa93d88c3d39c2d72ab:gpgme/Pkgfile
-f:bcc06a3fe68e5c85cb69333c80bbe69c:gpgme/.footprint
-f:f5372f92524b9583777fd5d3d2c21b72:gpgme/.signature
 f:d1906f78c86dfa21a7a51af95faba3ec:pandoc-bin/Pkgfile
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
 f:1a147f20de987fdf2f9695c9e5ba1e33:pandoc-bin/.signature
