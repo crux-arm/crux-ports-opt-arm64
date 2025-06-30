@@ -160,9 +160,9 @@ f:352c1ecf4983d18790323f566cf96fe6:tevent/.signature
 f:18ecd142fcca5c417c2ee22d534153e8:opus/Pkgfile
 f:6e98e39b1f0060f8f0e43146e896883d:opus/.footprint
 f:406fffb95fd5f9189470bc35a789cbad:opus/.signature
-f:498b2d743962664cbf99b3c241709cf1:docker-compose/Pkgfile
+f:72ae6bc4c0e4ef2676f4428de63c7336:docker-compose/Pkgfile
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
-f:60592e0b751bcf03f1a54660be067989:docker-compose/.signature
+f:76abaf993ede75bc0ed1a8a09d9f662a:docker-compose/.signature
 f:a6626e11f186f8a2b9ded87a4eb96d60:gobject-introspection/Pkgfile
 f:896a1436daece8eaf53ab82080234fcb:gobject-introspection/.footprint
 f:333b48376057d031edb4d790d35bd94c:gobject-introspection/.signature
