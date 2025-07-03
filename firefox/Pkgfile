@@ -1,12 +1,11 @@
 # Description: The Mozilla Firefox browser with Alsa support
 # URL: https://www.mozilla.com/firefox/
 # Maintainer: John McQuah, jmcquah at disroot dot org
-# Arch Maintainer: CRUX-ARM System Team, at crux-arm devel dot nu
-# Depends on: alsa-lib aom autoconf-2.13 brotli cbindgen clang dav1d dbus-glib ffmpeg graphite2 libevent libnotify libvpx libwebp libxkbcommon nodejs nss unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
-# Optional: apulse jack pulseaudio pipewire sndio sccache lld wayland
+# Depends on: alsa-lib aom autoconf-2.13 brotli cbindgen dav1d dbus-glib ffmpeg graphite2 libevent libnotify libvpx libwebp libxkbcommon nodejs nss unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip dav1d graphite2 libnotify
+# Optional: apulse pulseaudio pipewire sndio sccache icu lld wayland
 
 name=firefox
-version=138.0.4
+version=140.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/$name/releases/$version/source/$name-$version.source.tar.xz
   firefox.desktop
@@ -27,11 +26,11 @@ build() {
     exit 1
   fi
 
-  prt-get isinst sccache 2>/dev/null && export RUSTC_WRAPPER='/usr/bin/sccache'
+  prt-get isinst sccache >/dev/null && export RUSTC_WRAPPER='/usr/bin/sccache'
   mkdir -p "$PKGMK_SOURCE_DIR/rust"
   export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
-  export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
+  export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=none
   export MOZBUILD_STATE_PATH=${PWD}/mozbuild
 
   cat > .mozconfig << EOF
@@ -48,6 +47,7 @@ build() {
   ac_add_options --enable-optimize
   ac_add_options --with-system-ffi
   ac_add_options --with-system-jpeg
+  ac_add_options --with-system-libevent
   ac_add_options --with-system-libvpx
   ac_add_options --with-system-nspr
   ac_add_options --with-system-nss
@@ -59,13 +59,15 @@ build() {
   ac_add_options --disable-tests
   ac_add_options --disable-vtune
   ac_add_options --disable-updater
-  ac_add_options --disable-jemalloc
   ac_add_options --disable-elf-hack
   ac_add_options --disable-callgrind
+  ac_add_options --disable-backgroundtasks
+  ac_add_options --disable-default-browser-agent
   ac_add_options --disable-profiling
   ac_add_options --disable-necko-wifi
   ac_add_options --disable-crashreporter
   ac_add_options --disable-accessibility
+  ac_add_options --disable-webspeech
   ac_add_options --disable-debug
   ac_add_options --disable-debug-symbols
   ac_add_options --disable-parental-controls
@@ -73,16 +75,22 @@ build() {
 EOF
 
   # use system icu only if new enough
-  local ICU_VER=$(prt-get printf "%v" --filter=icu)
-  if (( ${ICU_VER%.*} >= 76 )); then
+  local ICU_VER="$(prt-get current icu)"
+  [[ "$ICU_VER" =~ "not installed" ]] || (( ${ICU_VER%.*} < 76 )) || \
     echo 'ac_add_options --with-system-icu' >> .mozconfig
+
+  # disable jemalloc on systems without glibc 
+  local LIBC=$(</var/lib/pkg/db awk -v RS="" -v FS="\n" '/\nusr\/lib\/libc.so\n/ { print $1 }')
+  if [ "$LIBC" = glibc ]; then
+     echo "ac_add_options --enable-jemalloc" >> .mozconfig
+  else
+     echo "ac_add_options --disable-jemalloc" >> .mozconfig
   fi
 
   # audio
   PKGMK_FFAUDIO="alsa"
-  [ -e /usr/lib/libpulse.so -o -e /usr/lib/apulse/libpulse.so ] && PKGMK_FFAUDIO+=",pulseaudio"
-  [ -e /usr/lib/libjack.so ] && PKGMK_FFAUDIO+=",jack"
-  [ -e /usr/lib/libsndio.so ] && PKGMK_FFAUDIO+=",sndio"
+  [ -e /usr/lib/pkgconfig/libpulse.pc ] && PKGMK_FFAUDIO+=",pulseaudio"
+  [ -e /usr/lib/pkgconfig/sndio.pc ] && PKGMK_FFAUDIO+=",sndio"
   echo "ac_add_options --enable-audio-backends=${PKGMK_FFAUDIO}" >> .mozconfig
 
   if prt-get isinst wayland xorg-server >/dev/null ; then
@@ -102,27 +110,20 @@ EOF
   export CXXFLAGS="$CXXFLAGS -w"
   export LDFLAGS="$LDFLAGS -Wl,-rpath=/usr/lib/firefox,--enable-new-dtags"
 
-  if prt-get isinst lld >/dev/null; then
+  if prt-get isinst clang lld >/dev/null; then
       echo 'ac_add_options --enable-linker=lld' >> .mozconfig
-      export LDFLAGS+=" -Wl,--thinlto-jobs=$((JOBS / 2))"
+      export LDFLAGS+=",--thinlto-jobs=$((JOBS / 2))"
+      export CC=clang CXX=clang++
   else
       echo 'ac_add_options --enable-linker=bfd' >> .mozconfig
+      export CC=gcc CXX=g++
   fi
 
-  export CC=clang CXX=clang++ AR=llvm-ar NM=llvm-nm RANLIB=llvm-ranlib RUSTFLAGS="-C opt-level=2 $RUSTFLAGS"
+  export AR=llvm-ar NM=llvm-nm RANLIB=llvm-ranlib RUSTFLAGS="-C opt-level=2 $RUSTFLAGS"
   export MOZ_MAKE_FLAGS="-j ${JOBS-1}"
 
   # Disable notification when build system has finished
   export MOZ_NOSPAM=1
-
-  # Specify the Python environment to use
-  #export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
-  export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=pip
-  export PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS=mach
-  mkdir -p $SRC/bin
-  ln -s /usr/bin/pip3 $SRC/bin/pip
-  ln -s /usr/bin/python3 $SRC/bin/python
-  export PATH="$SRC/bin:$PATH"
 
   # python/mach/mach/mixin/process.py fails to detect SHELL
   export SHELL='/bin/bash'
@@ -130,7 +131,9 @@ EOF
   ./mach build
   DESTDIR=$PKG ./mach install
 
-  rm $PKG/usr/lib/firefox/removed-files
+  # Remove crap
+  rm -rf $PKG/usr/lib/firefox/browser/features
+  rm -f $PKG/usr/lib/firefox/removed-files
 
   install -D -m 0644 $SRC/firefox.desktop $PKG/usr/share/applications/firefox.desktop
 
@@ -138,6 +141,6 @@ EOF
   echo "/usr/lib/firefox" > $PKG/etc/revdep.d/firefox
 
   mkdir -p $PKG/usr/share/pixmaps
-  ln -s /usr/lib/firefox/browser/chrome/icons/default/default128.png \
+  ln -sf /usr/lib/firefox/browser/chrome/icons/default/default128.png \
           $PKG/usr/share/pixmaps/firefox.png
 }
