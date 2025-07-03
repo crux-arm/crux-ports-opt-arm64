@@ -81,12 +81,12 @@ f:6ac4a7b66c4f7d779ea26cce0af364bd:ldb/Pkgfile
 f:b2cbd0d32033eae377173cce12552626:ldb/.footprint
 f:71b06bc54607dcdc88cd8082faa1eb91:ldb/.signature
 f:8b40ae985a8a1c57ea89491339fa0bdd:rust/0003-bootstrap-Use-lld-mode-only-for-host-linked-targets.patch
-f:513414129fe5796bbeb60c99e796fafc:rust/Pkgfile
+f:edd59c346b6063b3b1b35784b1d59637:rust/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:c98813e99d9adeecc1708f78df8041da:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
 f:005e1606cfde5e3a7702b4a7668240bd:rust/.footprint
-f:037e156f845e76b6b6ce8d6939c3115e:rust/.signature
+f:bb0e714fd8702b97fb593f29b037b55d:rust/.signature
 f:258ab9a01a7c755ed2cd7c84489fd2f0:rust/0001-bootstrap-Change-libexec-dir.patch
 f:848d42167fc2df320146d6591bf7dc7f:gcc-fortran/Pkgfile
 f:7c9128522053af79791bcfdd55834c2a:gcc-fortran/gcc-nocheck-fixincludes.patch
