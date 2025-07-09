@@ -57,11 +57,11 @@ f:222ed7516f08b5e8029ab627db32875a:libatasmart/.signature
 f:5c19cb9043f632432a04d5b6410e1645:python3-markupsafe/Pkgfile
 f:cec65afbe23d132c436e10a29871dee0:python3-markupsafe/.footprint
 f:110abb453cb43c69e91ae5652101ac9a:python3-markupsafe/.signature
-f:d73ce6696551f444b2039266c78172f7:llvm/Pkgfile
+f:33ec9986207e46751d696828c174aebe:llvm/Pkgfile
 f:7cd92bbad4c8b4723749955f0619c66d:llvm/llvm-config.h
 f:2c6bf25a88ae1b977652ecca17c46bea:llvm/README
 f:aa4f893a0725aa2a898eb3325945cb87:llvm/.footprint
-f:ce3c6f8956027159f016a2e2afa83937:llvm/.signature
+f:012377bfa333eb3bb325c313a35c87eb:llvm/.signature
 f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:97c397a3e6fd7406aa20e5fcb7ef53b3:python3-gobject/Pkgfile
 f:d34ef4b9a41d1694cb2d0a41774d9347:python3-gobject/.footprint
@@ -199,9 +199,9 @@ f:57aa4a8aad5c6d04af9a0e2f76558544:cdparanoia/.signature
 f:b4c1c56015b2b7fa85d91a8fc417b73a:python3-pyrsistent/Pkgfile
 f:6caedb0eb3d33733433347efe218b386:python3-pyrsistent/.footprint
 f:9890a16e558ad9afd53ab9ca5f299914:python3-pyrsistent/.signature
-f:96a9f8b23a1ee9937b1c3335d84fd1ad:compiler-rt/Pkgfile
+f:e6fa14a3969ad996dad6c2d0fecd4a65:compiler-rt/Pkgfile
 f:31060f871b9717ca9998e5c74ffc7b04:compiler-rt/.footprint
-f:430e05eff19cb554239d3af4c7586462:compiler-rt/.signature
+f:aea3200ef1916733db2623d3677081ac:compiler-rt/.signature
 f:63298fc667a9ba67c138866359e4b99e:firefox/fix-target-detection.patch
 f:3ef33f24fd231408c5a8e484c942259c:firefox/Pkgfile
 f:5967a4ed6d1f029d16d70beaa71246d8:firefox/README
