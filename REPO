@@ -60,11 +60,11 @@ f:48c4e73fdcf740a9e455e42f61fc75d1:firefox-bin/firefox.desktop
 f:4a221ec06a0395ea023b7d3db4e486eb:libtheora/.footprint
 f:e1182f1364b821c952b4935001d9df63:libtheora/Pkgfile
 f:d4ba0701ddf727809333645c37e291d5:libtheora/.signature
-f:08506bcf4bcf739483b2ac2f598e5c1e:samba/.footprint
-f:c4c0e267a56b6d4e7d3f66dc4413a3fc:samba/Pkgfile
+f:961c9757617da1f9d38b22c3c79be520:samba/.footprint
+f:a729412eaf3f264986b4508ba89fa582:samba/Pkgfile
 f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
 f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
-f:5680dc8b893261b02a3d94e021a895f2:samba/.signature
+f:75db8b0b4d5405ccc3bb6a143c82df5a:samba/.signature
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:d7eec8d17f1bf23d362c8acfe6d3440e:tdb/.footprint
 f:90a5de322951152d96ac7086ba234fa3:tdb/Pkgfile
