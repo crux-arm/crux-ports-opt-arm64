@@ -17,7 +17,7 @@ build() {
     -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
     -D BUILD_SHARED_LIBS=1 \
     -D ENABLE_TESTS=0 \
-  	-DENABLE_NEON=$(usex cpu_flags_arm_neon ON OFF) \
+    -DENABLE_NEON=$(usex cpu_flags_arm_neon ON OFF) \
     -DENABLE_ARM_CRC32=$(usex cpu_flags_arm_crc32 ON OFF) \
     -DENABLE_NEON_DOTPROD=OFF \
     -DENABLE_NEON_I8MM=OFF \
