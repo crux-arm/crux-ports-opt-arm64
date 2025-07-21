@@ -143,9 +143,9 @@ f:5967a4ed6d1f029d16d70beaa71246d8:firefox/README
 f:ef056b8e47af199642b3925c6facfe8a:firefox/.signature
 f:34bfc3b23f5c0b0fb44224fab1693e9f:firefox/node-stdout-nonblocking-wrapper
 f:c9ccd47ae6a570100ebf31d51a0e7a1f:firefox/firefox.desktop
-f:52a8770342243adf03c8c7bf1c238db4:go/.footprint
-f:f46ab517592c2ba14efc4282c4745d2d:go/Pkgfile
-f:a01c8e5fab65e80f2a44ee484f1ee885:go/.signature
+f:3418aeb2eecd763754b99521ded27942:go/.footprint
+f:9c0124f6b3fbb8d778d6bbed556f7679:go/Pkgfile
+f:7b5466b9b8b8406da424c66b648c0bd9:go/.signature
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
 f:ffb5fd4df8235d9e60f6220d70053116:libatasmart/Pkgfile
