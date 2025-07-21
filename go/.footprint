@@ -811,6 +811,12 @@ drwxr-xr-x	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global3_fail.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global4_fail.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global5.go
+drwxr-xr-x	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm/
+-rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm/asm.s
+-rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm/main.go
+drwxr-xr-x	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm2_fail/
+-rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm2_fail/asm.s
+-rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm2_fail/main.go
 drwxr-xr-x	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_linkerx/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_linkerx/main.go
 drwxr-xr-x	root/root	usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_linkerx/p/
@@ -3203,6 +3209,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/cmd/go/testdata/script/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_match_only_subtests_parallel.txt
 -rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_match_only_tests.txt
 -rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_minus_n.txt
+-rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_multivcs.txt
 -rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_n_cover_std.txt
 -rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_no_run_example.txt
 -rw-r--r--	root/root	usr/lib/go/src/cmd/go/testdata/script/test_no_tests.txt
@@ -8119,7 +8126,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/runtime/atomic/
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/doc.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/stubs.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/sys_linux_arm.s
--rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/sys_nonlinux_arm.s
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/runtime/atomic/sys_nonlinux_arm.s
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/types.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/types_64bit.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/atomic/unaligned.go
@@ -8132,7 +8139,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/runtime/maps/
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/export_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/fuzz_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/group.go
--rwxr-xr-x	root/root	usr/lib/go/src/internal/runtime/maps/map.go
+-rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/map.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/map_swiss_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/map_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/runtime/maps/runtime.go
@@ -8244,7 +8251,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/unix/
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fallocate_freebsd_386.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fallocate_freebsd_64bit.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fallocate_freebsd_arm.go
--rwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_js.go
+-rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_js.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_unix.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/fcntl_wasip1.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/unix/getrandom.go
@@ -8304,7 +8311,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/windows/registry/
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/mksyscall.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/registry_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/syscall.go
--rwxr-xr-x	root/root	usr/lib/go/src/internal/syscall/windows/registry/value.go
+-rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/value.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/registry/zsyscall_windows.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/reparse_windows.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/syscall/windows/security_windows.go
@@ -8362,12 +8369,12 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/trace/event/go122/
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/generation.go
 drwxr-xr-x	root/root	usr/lib/go/src/internal/trace/internal/
 drwxr-xr-x	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/
--rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/order.go
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/order.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/parser.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/parser_test.go
 drwxr-xr-x	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/fmt_1_21_pprof_good
--rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/http_1_19_good
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/http_1_19_good
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/http_1_21_good
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/stress_1_11_good
 -rw-r--r--	root/root	usr/lib/go/src/internal/trace/internal/oldtrace/testdata/stress_1_19_good
@@ -8794,7 +8801,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/
 -rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue59956.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue59958.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue60346.go
--rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue60377.go
+-rwxr-xr-x	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue60377.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue60434.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue60460.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/types/testdata/fixedbugs/issue60500.go
@@ -8877,7 +8884,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/internal/zstd/
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/fse_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/fuzz_test.go
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/huff.go
--rwxr-xr-x	root/root	usr/lib/go/src/internal/zstd/literals.go
+-rw-r--r--	root/root	usr/lib/go/src/internal/zstd/literals.go
 drwxr-xr-x	root/root	usr/lib/go/src/internal/zstd/testdata/
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/testdata/1890a371.gettysburg.txt-100x.zst
 -rw-r--r--	root/root	usr/lib/go/src/internal/zstd/testdata/f2a8e35c.helloworld-11000x.zst
@@ -9015,7 +9022,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/math/big/
 -rw-r--r--	root/root	usr/lib/go/src/math/big/arith_arm64.s
 -rw-r--r--	root/root	usr/lib/go/src/math/big/arith_decl.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/arith_decl_pure.go
--rw-r--r--	root/root	usr/lib/go/src/math/big/arith_decl_s390x.go
+-rwxr-xr-x	root/root	usr/lib/go/src/math/big/arith_decl_s390x.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/arith_loong64.s
 -rw-r--r--	root/root	usr/lib/go/src/math/big/arith_mips64x.s
 -rw-r--r--	root/root	usr/lib/go/src/math/big/arith_mipsx.s
@@ -9046,7 +9053,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/math/big/
 -rw-r--r--	root/root	usr/lib/go/src/math/big/int_test.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/intconv.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/intconv_test.go
--rwxr-xr-x	root/root	usr/lib/go/src/math/big/intmarsh.go
+-rw-r--r--	root/root	usr/lib/go/src/math/big/intmarsh.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/intmarsh_test.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/link_test.go
 -rw-r--r--	root/root	usr/lib/go/src/math/big/nat.go
@@ -14643,6 +14650,8 @@ drwxr-xr-x	root/root	usr/lib/go/test/fixedbugs/issue7023.dir/
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue7316.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue7346.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue7366.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue73748a.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue73748b.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue7405.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue7419.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue7525.go
