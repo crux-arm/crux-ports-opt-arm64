@@ -79,8 +79,8 @@ f:7127d11da47d2718696015c926211021:libpisp/.footprint
 f:0f6e4960780a9b417a3a29385c7c288b:libpisp/Pkgfile
 f:9e683cb8b3ef83f95da421cddad44a1d:libpisp/.signature
 f:9f5fb284e018640c4d1b27c9e949ba4e:aom/.footprint
-f:c5ab203c8381bcf82eb98e91f175602b:aom/Pkgfile
-f:425d0b45df41479b4fd14e018ae1d469:aom/.signature
+f:2bf2b7cf8b469b849cc1574c174c5ef2:aom/Pkgfile
+f:b68702c30336f374062955408e83f0c2:aom/.signature
 f:bc43705a6e638ca54611b6d782c8987d:pandoc-bin/.footprint
 f:d1906f78c86dfa21a7a51af95faba3ec:pandoc-bin/Pkgfile
 f:1a147f20de987fdf2f9695c9e5ba1e33:pandoc-bin/.signature
