@@ -73,8 +73,8 @@ f:0a7ecf3d4d91e42452b53ed9a40303dc:brotli/.footprint
 f:5bf34cf474c656455500bb0ada761788:brotli/Pkgfile
 f:ee2085da983f972808ef879b3d86cc34:brotli/.signature
 f:31060f871b9717ca9998e5c74ffc7b04:compiler-rt/.footprint
-f:e6fa14a3969ad996dad6c2d0fecd4a65:compiler-rt/Pkgfile
-f:aea3200ef1916733db2623d3677081ac:compiler-rt/.signature
+f:78b1e9a64ccf7e90b8119773e49e77c5:compiler-rt/Pkgfile
+f:6ee64dc1c35efb260abb83c541a4250f:compiler-rt/.signature
 f:7127d11da47d2718696015c926211021:libpisp/.footprint
 f:0f6e4960780a9b417a3a29385c7c288b:libpisp/Pkgfile
 f:9e683cb8b3ef83f95da421cddad44a1d:libpisp/.signature
