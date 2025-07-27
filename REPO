@@ -184,8 +184,8 @@ f:7288769c14ee3209d4afa9ab8f0048a3:libb2/.footprint
 f:8d0403232eafd0168bd031f2084ef1f4:libb2/Pkgfile
 f:4f9a6dea65ee1bc5a286ad628dccdd09:libb2/.signature
 f:da68e9ef5ac386f65d784cd285e1f74a:docker-compose/.footprint
-f:72ae6bc4c0e4ef2676f4428de63c7336:docker-compose/Pkgfile
-f:76abaf993ede75bc0ed1a8a09d9f662a:docker-compose/.signature
+f:1a15f61aa2ecffc98f6031ed7c7ae978:docker-compose/Pkgfile
+f:db80917235a80a35d0accd23feb85a19:docker-compose/.signature
 f:85b1230402da15288e2fbd6cf2face8f:python3-pyyaml/.footprint
 f:205fbb4599512d6887cdb71144465649:python3-pyyaml/Pkgfile
 f:83199c84a2db67848d110005a31218c8:python3-pyyaml/.signature
