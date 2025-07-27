@@ -198,10 +198,10 @@ f:0de2bcc08e22f3d85a335855b5cb0686:python3-cython/.signature
 f:d34ef4b9a41d1694cb2d0a41774d9347:python3-gobject/.footprint
 f:97c397a3e6fd7406aa20e5fcb7ef53b3:python3-gobject/Pkgfile
 f:bc6354ff0ad2b1a0683450b80ef57b91:python3-gobject/.signature
-f:d6c4d755839f90d7577d861a425ced96:fuse/.footprint
-f:a59be8d7276c8ff313aa108970f12a5c:fuse/Pkgfile
+f:1ddae659796511a8ab4c283dbcd34753:fuse/.footprint
+f:f0ceaac5d583729c9ce4703f9aaed4bb:fuse/Pkgfile
 f:4c4984402962b9b61506c1b2b2d542ce:fuse/914871b20a901e3e1e981c92bc42b1c93b7ab81b.patch
-f:bb754a710dbf01c2ec1e74c563fa875f:fuse/.signature
+f:d093e14b2a958cccd3ba3b19ac0bb001:fuse/.signature
 f:3bd63711298f0d01d342271d7b4f23bb:fuse/fuse2-0007-util-ulockmgr_server.c-conditionally-define-closefro.patch
 f:694933a1be5600c4d1d5e37c30c0e7bb:grub2-efi/.footprint
 f:43e08eb0137bd7ffafda6bf4c7a9b327:grub2-efi/extra_deps.lst
