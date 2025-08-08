@@ -44,12 +44,12 @@ d:openbox
 d:gobject-introspection
 d:grub2
 d:qt6-base
-f:005e1606cfde5e3a7702b4a7668240bd:rust/.footprint
+f:7693d9ee7b308a5a9bba23c09c60cc57:rust/.footprint
 f:258ab9a01a7c755ed2cd7c84489fd2f0:rust/0001-bootstrap-Change-libexec-dir.patch
-f:edd59c346b6063b3b1b35784b1d59637:rust/Pkgfile
+f:4b102ffa910e5f074e26113c9dd10b7e:rust/Pkgfile
 f:8b40ae985a8a1c57ea89491339fa0bdd:rust/0003-bootstrap-Use-lld-mode-only-for-host-linked-targets.patch
 f:aec1d1c628fd738e72fb772ddf204118:rust/maintainer_clean_footprint
-f:bb0e714fd8702b97fb593f29b037b55d:rust/.signature
+f:fd32010ce5d9ff13922c2b1b93c6a562:rust/.signature
 f:c98813e99d9adeecc1708f78df8041da:rust/0002-bootstrap-Change-bash-completion-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:6969317bef20e11e44e2a628f855c03a:firefox-bin/.footprint
